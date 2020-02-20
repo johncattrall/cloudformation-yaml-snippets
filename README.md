@@ -1,5 +1,5 @@
 # cloudformation-yaml-snippets
-YASnippets for CloudFormation for usage in Spacemacs or Emacs
+CloudFormation YASnippets for use with Spacemacs or Emacs
 
 ## Usage instructions
 Clone or copy snippets into 
