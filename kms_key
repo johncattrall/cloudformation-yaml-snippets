@@ -1,0 +1,14 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Description: ''
+  EnableKeyRotation: true
+  Enabled: true
+  KeyPolicy: {}
+  KeyUsage: ''
+  PendingWindowInDays: 0
+  Tags:
+    - Key: ''
+      Value: ''
+Type: AWS::KMS::Key

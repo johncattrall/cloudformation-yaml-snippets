@@ -1,0 +1,33 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  AllowedOAuthFlows:
+    - ''
+  AllowedOAuthFlowsUserPoolClient: true
+  AllowedOAuthScopes:
+    - ''
+  AnalyticsConfiguration:
+    ApplicationId: ''
+    ExternalId: ''
+    RoleArn: ''
+    UserDataShared: true
+  CallbackURLs:
+    - ''
+  ClientName: ''
+  DefaultRedirectURI: ''
+  ExplicitAuthFlows:
+    - ''
+  GenerateSecret: true
+  LogoutURLs:
+    - ''
+  PreventUserExistenceErrors: ''
+  ReadAttributes:
+    - ''
+  RefreshTokenValidity: 0
+  SupportedIdentityProviders:
+    - ''
+  UserPoolId: ''
+  WriteAttributes:
+    - ''
+Type: AWS::Cognito::UserPoolClient

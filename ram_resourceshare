@@ -1,0 +1,14 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  AllowExternalPrincipals: true
+  Name: ''
+  Principals:
+    - ''
+  ResourceArns:
+    - ''
+  Tags:
+    - Key: ''
+      Value: ''
+Type: AWS::RAM::ResourceShare

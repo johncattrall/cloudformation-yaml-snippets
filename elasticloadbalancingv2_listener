@@ -1,0 +1,49 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Certificates:
+    - CertificateArn: ''
+  DefaultActions:
+    - AuthenticateCognitoConfig:
+        AuthenticationRequestExtraParams:
+          Key: ''
+        OnUnauthenticatedRequest: ''
+        Scope: ''
+        SessionCookieName: ''
+        SessionTimeout: 0
+        UserPoolArn: ''
+        UserPoolClientId: ''
+        UserPoolDomain: ''
+      AuthenticateOidcConfig:
+        AuthenticationRequestExtraParams:
+          Key: ''
+        AuthorizationEndpoint: ''
+        ClientId: ''
+        ClientSecret: ''
+        Issuer: ''
+        OnUnauthenticatedRequest: ''
+        Scope: ''
+        SessionCookieName: ''
+        SessionTimeout: 0
+        TokenEndpoint: ''
+        UserInfoEndpoint: ''
+      FixedResponseConfig:
+        ContentType: ''
+        MessageBody: ''
+        StatusCode: ''
+      Order: 0
+      RedirectConfig:
+        Host: ''
+        Path: ''
+        Port: ''
+        Protocol: ''
+        Query: ''
+        StatusCode: ''
+      TargetGroupArn: ''
+      Type: ''
+  LoadBalancerArn: ''
+  Port: 0
+  Protocol: ''
+  SslPolicy: ''
+Type: AWS::ElasticLoadBalancingV2::Listener

@@ -1,0 +1,23 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  AccessLogSettings:
+    DestinationArn: ''
+    Format: ''
+  ApiId: ''
+  AutoDeploy: true
+  ClientCertificateId: ''
+  DefaultRouteSettings:
+    DataTraceEnabled: true
+    DetailedMetricsEnabled: true
+    LoggingLevel: ''
+    ThrottlingBurstLimit: 0
+    ThrottlingRateLimit: 0
+  DeploymentId: ''
+  Description: ''
+  RouteSettings: {}
+  StageName: ''
+  StageVariables: {}
+  Tags: {}
+Type: AWS::ApiGatewayV2::Stage

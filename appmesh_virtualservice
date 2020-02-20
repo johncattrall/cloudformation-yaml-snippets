@@ -1,0 +1,16 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  MeshName: ''
+  Spec:
+    Provider:
+      VirtualNode:
+        VirtualNodeName: ''
+      VirtualRouter:
+        VirtualRouterName: ''
+  Tags:
+    - Key: ''
+      Value: ''
+  VirtualServiceName: ''
+Type: AWS::AppMesh::VirtualService

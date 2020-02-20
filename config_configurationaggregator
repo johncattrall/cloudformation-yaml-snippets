@@ -1,0 +1,17 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  AccountAggregationSources:
+    - AccountIds:
+        - ''
+      AllAwsRegions: true
+      AwsRegions:
+        - ''
+  ConfigurationAggregatorName: ''
+  OrganizationAggregationSource:
+    AllAwsRegions: true
+    AwsRegions:
+      - ''
+    RoleArn: ''
+Type: AWS::Config::ConfigurationAggregator

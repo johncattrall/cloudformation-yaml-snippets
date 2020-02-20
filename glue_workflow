@@ -1,0 +1,9 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  DefaultRunProperties: {}
+  Description: ''
+  Name: ''
+  Tags: {}
+Type: AWS::Glue::Workflow

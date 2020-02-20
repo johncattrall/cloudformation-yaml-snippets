@@ -1,0 +1,13 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  InitialVersion:
+    Devices:
+      - CertificateArn: ''
+        Id: ''
+        SyncShadow: true
+        ThingArn: ''
+  Name: ''
+  Tags: {}
+Type: AWS::Greengrass::DeviceDefinition

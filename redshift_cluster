@@ -1,0 +1,41 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  AllowVersionUpgrade: true
+  AutomatedSnapshotRetentionPeriod: 0
+  AvailabilityZone: ''
+  ClusterIdentifier: ''
+  ClusterParameterGroupName: ''
+  ClusterSecurityGroups:
+    - ''
+  ClusterSubnetGroupName: ''
+  ClusterType: ''
+  ClusterVersion: ''
+  DBName: ''
+  ElasticIp: ''
+  Encrypted: true
+  HsmClientCertificateIdentifier: ''
+  HsmConfigurationIdentifier: ''
+  IamRoles:
+    - ''
+  KmsKeyId: ''
+  LoggingProperties:
+    BucketName: ''
+    S3KeyPrefix: ''
+  MasterUserPassword: ''
+  MasterUsername: ''
+  NodeType: ''
+  NumberOfNodes: 0
+  OwnerAccount: ''
+  Port: 0
+  PreferredMaintenanceWindow: ''
+  PubliclyAccessible: true
+  SnapshotClusterIdentifier: ''
+  SnapshotIdentifier: ''
+  Tags:
+    - Key: ''
+      Value: ''
+  VpcSecurityGroupIds:
+    - ''
+Type: AWS::Redshift::Cluster

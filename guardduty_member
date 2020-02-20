@@ -1,0 +1,11 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  DetectorId: ''
+  DisableEmailNotification: true
+  Email: ''
+  MemberId: ''
+  Message: ''
+  Status: ''
+Type: AWS::GuardDuty::Member

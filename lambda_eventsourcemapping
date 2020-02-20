@@ -1,0 +1,18 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  BatchSize: 0
+  BisectBatchOnFunctionError: true
+  DestinationConfig:
+    OnFailure:
+      Destination: ''
+  Enabled: true
+  EventSourceArn: ''
+  FunctionName: ''
+  MaximumBatchingWindowInSeconds: 0
+  MaximumRecordAgeInSeconds: 0
+  MaximumRetryAttempts: 0
+  ParallelizationFactor: 0
+  StartingPosition: ''
+Type: AWS::Lambda::EventSourceMapping

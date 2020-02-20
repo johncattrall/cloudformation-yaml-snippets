@@ -1,0 +1,11 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Description: ''
+  Name: ''
+  RoutingStrategy:
+    FleetId: ''
+    Message: ''
+    Type: ''
+Type: AWS::GameLift::Alias

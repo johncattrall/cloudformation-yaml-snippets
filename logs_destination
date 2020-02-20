@@ -1,0 +1,9 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  DestinationName: ''
+  DestinationPolicy: ''
+  RoleArn: ''
+  TargetArn: ''
+Type: AWS::Logs::Destination

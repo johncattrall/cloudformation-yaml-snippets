@@ -1,0 +1,132 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  DetectorModelDefinition:
+    InitialStateName: ''
+    States:
+      - OnEnter:
+          Events:
+            - Actions:
+                - ClearTimer:
+                    TimerName: ''
+                  Firehose:
+                    DeliveryStreamName: ''
+                    Separator: ''
+                  IotEvents:
+                    InputName: ''
+                  IotTopicPublish:
+                    MqttTopic: ''
+                  Lambda:
+                    FunctionArn: ''
+                  ResetTimer:
+                    TimerName: ''
+                  SetTimer:
+                    Seconds: 0
+                    TimerName: ''
+                  SetVariable:
+                    Value: ''
+                    VariableName: ''
+                  Sns:
+                    TargetArn: ''
+                  Sqs:
+                    QueueUrl: ''
+                    UseBase64: true
+              Condition: ''
+              EventName: ''
+        OnExit:
+          Events:
+            - Actions:
+                - ClearTimer:
+                    TimerName: ''
+                  Firehose:
+                    DeliveryStreamName: ''
+                    Separator: ''
+                  IotEvents:
+                    InputName: ''
+                  IotTopicPublish:
+                    MqttTopic: ''
+                  Lambda:
+                    FunctionArn: ''
+                  ResetTimer:
+                    TimerName: ''
+                  SetTimer:
+                    Seconds: 0
+                    TimerName: ''
+                  SetVariable:
+                    Value: ''
+                    VariableName: ''
+                  Sns:
+                    TargetArn: ''
+                  Sqs:
+                    QueueUrl: ''
+                    UseBase64: true
+              Condition: ''
+              EventName: ''
+        OnInput:
+          Events:
+            - Actions:
+                - ClearTimer:
+                    TimerName: ''
+                  Firehose:
+                    DeliveryStreamName: ''
+                    Separator: ''
+                  IotEvents:
+                    InputName: ''
+                  IotTopicPublish:
+                    MqttTopic: ''
+                  Lambda:
+                    FunctionArn: ''
+                  ResetTimer:
+                    TimerName: ''
+                  SetTimer:
+                    Seconds: 0
+                    TimerName: ''
+                  SetVariable:
+                    Value: ''
+                    VariableName: ''
+                  Sns:
+                    TargetArn: ''
+                  Sqs:
+                    QueueUrl: ''
+                    UseBase64: true
+              Condition: ''
+              EventName: ''
+          TransitionEvents:
+            - Actions:
+                - ClearTimer:
+                    TimerName: ''
+                  Firehose:
+                    DeliveryStreamName: ''
+                    Separator: ''
+                  IotEvents:
+                    InputName: ''
+                  IotTopicPublish:
+                    MqttTopic: ''
+                  Lambda:
+                    FunctionArn: ''
+                  ResetTimer:
+                    TimerName: ''
+                  SetTimer:
+                    Seconds: 0
+                    TimerName: ''
+                  SetVariable:
+                    Value: ''
+                    VariableName: ''
+                  Sns:
+                    TargetArn: ''
+                  Sqs:
+                    QueueUrl: ''
+                    UseBase64: true
+              Condition: ''
+              EventName: ''
+              NextState: ''
+        StateName: ''
+  DetectorModelDescription: ''
+  DetectorModelName: ''
+  Key: ''
+  RoleArn: ''
+  Tags:
+    - Key: ''
+      Value: ''
+Type: AWS::IoTEvents::DetectorModel

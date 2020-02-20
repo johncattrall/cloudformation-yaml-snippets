@@ -1,0 +1,36 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  ApplicationCode: ''
+  ApplicationDescription: ''
+  ApplicationName: ''
+  Inputs:
+    - InputParallelism:
+        Count: 0
+      InputProcessingConfiguration:
+        InputLambdaProcessor:
+          ResourceARN: ''
+          RoleARN: ''
+      InputSchema:
+        RecordColumns:
+          - Mapping: ''
+            Name: ''
+            SqlType: ''
+        RecordEncoding: ''
+        RecordFormat:
+          MappingParameters:
+            CSVMappingParameters:
+              RecordColumnDelimiter: ''
+              RecordRowDelimiter: ''
+            JSONMappingParameters:
+              RecordRowPath: ''
+          RecordFormatType: ''
+      KinesisFirehoseInput:
+        ResourceARN: ''
+        RoleARN: ''
+      KinesisStreamsInput:
+        ResourceARN: ''
+        RoleARN: ''
+      NamePrefix: ''
+Type: AWS::KinesisAnalytics::Application

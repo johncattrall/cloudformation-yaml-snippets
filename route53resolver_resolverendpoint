@@ -1,0 +1,15 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Direction: ''
+  IpAddresses:
+    - Ip: ''
+      SubnetId: ''
+  Name: ''
+  SecurityGroupIds:
+    - ''
+  Tags:
+    - Key: ''
+      Value: ''
+Type: AWS::Route53Resolver::ResolverEndpoint

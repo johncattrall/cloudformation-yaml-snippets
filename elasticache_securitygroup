@@ -1,0 +1,6 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Description: ''
+Type: AWS::ElastiCache::SecurityGroup

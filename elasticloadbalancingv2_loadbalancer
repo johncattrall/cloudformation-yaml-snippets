@@ -1,0 +1,22 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  IpAddressType: ''
+  LoadBalancerAttributes:
+    - Key: ''
+      Value: ''
+  Name: ''
+  Scheme: ''
+  SecurityGroups:
+    - ''
+  SubnetMappings:
+    - AllocationId: ''
+      SubnetId: ''
+  Subnets:
+    - ''
+  Tags:
+    - Key: ''
+      Value: ''
+  Type: ''
+Type: AWS::ElasticLoadBalancingV2::LoadBalancer

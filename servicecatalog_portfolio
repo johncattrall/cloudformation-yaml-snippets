@@ -1,0 +1,12 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  AcceptLanguage: ''
+  Description: ''
+  DisplayName: ''
+  ProviderName: ''
+  Tags:
+    - Key: ''
+      Value: ''
+Type: AWS::ServiceCatalog::Portfolio

@@ -1,0 +1,20 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  AvailabilityZone: ''
+  EbsOptimized: true
+  EndDate: ''
+  EndDateType: ''
+  EphemeralStorage: true
+  InstanceCount: 0
+  InstanceMatchCriteria: ''
+  InstancePlatform: ''
+  InstanceType: ''
+  TagSpecifications:
+    - ResourceType: ''
+      Tags:
+        - Key: ''
+          Value: ''
+  Tenancy: ''
+Type: AWS::EC2::CapacityReservation

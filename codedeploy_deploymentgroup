@@ -1,0 +1,67 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  AlarmConfiguration:
+    Alarms:
+      - Name: ''
+    Enabled: true
+    IgnorePollAlarmFailure: true
+  ApplicationName: ''
+  AutoRollbackConfiguration:
+    Enabled: true
+    Events:
+      - ''
+  AutoScalingGroups:
+    - ''
+  Deployment:
+    Description: ''
+    IgnoreApplicationStopFailures: true
+    Revision:
+      GitHubLocation:
+        CommitId: ''
+        Repository: ''
+      RevisionType: ''
+      S3Location:
+        Bucket: ''
+        BundleType: ''
+        ETag: ''
+        Key: ''
+        Version: ''
+  DeploymentConfigName: ''
+  DeploymentGroupName: ''
+  DeploymentStyle:
+    DeploymentOption: ''
+    DeploymentType: ''
+  Ec2TagFilters:
+    - Key: ''
+      Type: ''
+      Value: ''
+  Ec2TagSet:
+    Ec2TagSetList:
+      - Ec2TagGroup:
+          - Key: ''
+            Type: ''
+            Value: ''
+  LoadBalancerInfo:
+    ElbInfoList:
+      - Name: ''
+    TargetGroupInfoList:
+      - Name: ''
+  OnPremisesInstanceTagFilters:
+    - Key: ''
+      Type: ''
+      Value: ''
+  OnPremisesTagSet:
+    OnPremisesTagSetList:
+      - OnPremisesTagGroup:
+          - Key: ''
+            Type: ''
+            Value: ''
+  ServiceRoleArn: ''
+  TriggerConfigurations:
+    - TriggerEvents:
+        - ''
+      TriggerName: ''
+      TriggerTargetArn: ''
+Type: AWS::CodeDeploy::DeploymentGroup

@@ -1,0 +1,9 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  AssociatedDevices: {}
+  Attributes: {}
+  PlacementName: ''
+  ProjectName: ''
+Type: AWS::IoT1Click::Placement

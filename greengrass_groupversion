@@ -1,0 +1,13 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  ConnectorDefinitionVersionArn: ''
+  CoreDefinitionVersionArn: ''
+  DeviceDefinitionVersionArn: ''
+  FunctionDefinitionVersionArn: ''
+  GroupId: ''
+  LoggerDefinitionVersionArn: ''
+  ResourceDefinitionVersionArn: ''
+  SubscriptionDefinitionVersionArn: ''
+Type: AWS::Greengrass::GroupVersion

@@ -1,0 +1,26 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Activate: true
+  Description: ''
+  Name: ''
+  ParameterObjects:
+    - Attributes:
+        - Key: ''
+          StringValue: ''
+      Id: ''
+  ParameterValues:
+    - Id: ''
+      StringValue: ''
+  PipelineObjects:
+    - Fields:
+        - Key: ''
+          RefValue: ''
+          StringValue: ''
+      Id: ''
+      Name: ''
+  PipelineTags:
+    - Key: ''
+      Value: ''
+Type: AWS::DataPipeline::Pipeline

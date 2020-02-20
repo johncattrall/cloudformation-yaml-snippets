@@ -1,0 +1,48 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  AccessPolicies: {}
+  AdvancedOptions:
+    Key: ''
+  CognitoOptions:
+    Enabled: true
+    IdentityPoolId: ''
+    RoleArn: ''
+    UserPoolId: ''
+  DomainName: ''
+  EBSOptions:
+    EBSEnabled: true
+    Iops: 0
+    VolumeSize: 0
+    VolumeType: ''
+  ElasticsearchClusterConfig:
+    DedicatedMasterCount: 0
+    DedicatedMasterEnabled: true
+    DedicatedMasterType: ''
+    InstanceCount: 0
+    InstanceType: ''
+    ZoneAwarenessConfig:
+      AvailabilityZoneCount: 0
+    ZoneAwarenessEnabled: true
+  ElasticsearchVersion: ''
+  EncryptionAtRestOptions:
+    Enabled: true
+    KmsKeyId: ''
+  LogPublishingOptions:
+    Key:
+      CloudWatchLogsLogGroupArn: ''
+      Enabled: true
+  NodeToNodeEncryptionOptions:
+    Enabled: true
+  SnapshotOptions:
+    AutomatedSnapshotStartHour: 0
+  Tags:
+    - Key: ''
+      Value: ''
+  VPCOptions:
+    SecurityGroupIds:
+      - ''
+    SubnetIds:
+      - ''
+Type: AWS::Elasticsearch::Domain

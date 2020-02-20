@@ -1,0 +1,9 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Description: ''
+  Tags:
+    - Key: ''
+      Value: ''
+Type: AWS::Redshift::ClusterSecurityGroup

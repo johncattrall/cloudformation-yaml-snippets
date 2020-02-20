@@ -1,0 +1,17 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  EndpointConfigName: ''
+  KmsKeyId: ''
+  ProductionVariants:
+    - AcceleratorType: ''
+      InitialInstanceCount: 0
+      InitialVariantWeight: 0
+      InstanceType: ''
+      ModelName: ''
+      VariantName: ''
+  Tags:
+    - Key: ''
+      Value: ''
+Type: AWS::SageMaker::EndpointConfig

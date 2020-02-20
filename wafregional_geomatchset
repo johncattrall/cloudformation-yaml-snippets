@@ -1,0 +1,9 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  GeoMatchConstraints:
+    - Type: ''
+      Value: ''
+  Name: ''
+Type: AWS::WAFRegional::GeoMatchSet

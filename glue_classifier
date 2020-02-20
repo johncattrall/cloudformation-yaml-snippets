@@ -1,0 +1,26 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  CsvClassifier:
+    AllowSingleColumn: true
+    ContainsHeader: ''
+    Delimiter: ''
+    DisableValueTrimming: true
+    Header:
+      - ''
+    Name: ''
+    QuoteSymbol: ''
+  GrokClassifier:
+    Classification: ''
+    CustomPatterns: ''
+    GrokPattern: ''
+    Name: ''
+  JsonClassifier:
+    JsonPath: ''
+    Name: ''
+  XMLClassifier:
+    Classification: ''
+    Name: ''
+    RowTag: ''
+Type: AWS::Glue::Classifier

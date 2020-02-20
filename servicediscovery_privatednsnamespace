@@ -1,0 +1,8 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Description: ''
+  Name: ''
+  Vpc: ''
+Type: AWS::ServiceDiscovery::PrivateDnsNamespace

@@ -1,0 +1,11 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  ApiId: ''
+  ModelSelectionExpression: ''
+  ResponseModels: {}
+  ResponseParameters: {}
+  RouteId: ''
+  RouteResponseKey: ''
+Type: AWS::ApiGatewayV2::RouteResponse

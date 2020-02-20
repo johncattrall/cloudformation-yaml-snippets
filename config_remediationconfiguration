@@ -1,0 +1,18 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Automatic: true
+  ConfigRuleName: ''
+  ExecutionControls:
+    SsmControls:
+      ConcurrentExecutionRatePercentage: 0
+      ErrorPercentage: 0
+  MaximumAutomaticAttempts: 0
+  Parameters: {}
+  ResourceType: ''
+  RetryAttemptSeconds: 0
+  TargetId: ''
+  TargetType: ''
+  TargetVersion: ''
+Type: AWS::Config::RemediationConfiguration

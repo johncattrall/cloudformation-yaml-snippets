@@ -1,0 +1,36 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Code:
+    S3Bucket: ''
+    S3Key: ''
+    S3ObjectVersion: ''
+    ZipFile: ''
+  DeadLetterConfig:
+    TargetArn: ''
+  Description: ''
+  Environment:
+    Variables:
+      Key: ''
+  FunctionName: ''
+  Handler: ''
+  KmsKeyArn: ''
+  Layers:
+    - ''
+  MemorySize: 0
+  ReservedConcurrentExecutions: 0
+  Role: ''
+  Runtime: ''
+  Tags:
+    - Key: ''
+      Value: ''
+  Timeout: 0
+  TracingConfig:
+    Mode: ''
+  VpcConfig:
+    SecurityGroupIds:
+      - ''
+    SubnetIds:
+      - ''
+Type: AWS::Lambda::Function

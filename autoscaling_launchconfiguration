@@ -1,0 +1,35 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  AssociatePublicIpAddress: true
+  BlockDeviceMappings:
+    - DeviceName: ''
+      Ebs:
+        DeleteOnTermination: true
+        Encrypted: true
+        Iops: 0
+        SnapshotId: ''
+        VolumeSize: 0
+        VolumeType: ''
+      NoDevice: true
+      VirtualName: ''
+  ClassicLinkVPCId: ''
+  ClassicLinkVPCSecurityGroups:
+    - ''
+  EbsOptimized: true
+  IamInstanceProfile: ''
+  ImageId: ''
+  InstanceId: ''
+  InstanceMonitoring: true
+  InstanceType: ''
+  KernelId: ''
+  KeyName: ''
+  LaunchConfigurationName: ''
+  PlacementTenancy: ''
+  RamDiskId: ''
+  SecurityGroups:
+    - ''
+  SpotPrice: ''
+  UserData: ''
+Type: AWS::AutoScaling::LaunchConfiguration

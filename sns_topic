@@ -1,0 +1,14 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  DisplayName: ''
+  KmsMasterKeyId: ''
+  Subscription:
+    - Endpoint: ''
+      Protocol: ''
+  Tags:
+    - Key: ''
+      Value: ''
+  TopicName: ''
+Type: AWS::SNS::Topic

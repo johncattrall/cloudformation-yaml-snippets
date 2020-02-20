@@ -1,0 +1,15 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Description: ''
+  FunctionName: ''
+  FunctionVersion: ''
+  Name: ''
+  ProvisionedConcurrencyConfig:
+    ProvisionedConcurrentExecutions: 0
+  RoutingConfig:
+    AdditionalVersionWeights:
+      - FunctionVersion: ''
+        FunctionWeight: 0
+Type: AWS::Lambda::Alias

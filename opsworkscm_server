@@ -1,0 +1,29 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  AssociatePublicIpAddress: true
+  BackupId: ''
+  BackupRetentionCount: 0
+  CustomCertificate: ''
+  CustomDomain: ''
+  CustomPrivateKey: ''
+  DisableAutomatedBackup: true
+  Engine: ''
+  EngineAttributes:
+    - Name: ''
+      Value: ''
+  EngineModel: ''
+  EngineVersion: ''
+  InstanceProfileArn: ''
+  InstanceType: ''
+  KeyPair: ''
+  PreferredBackupWindow: ''
+  PreferredMaintenanceWindow: ''
+  SecurityGroupIds:
+    - ''
+  ServerName: ''
+  ServiceRoleArn: ''
+  SubnetIds:
+    - ''
+Type: AWS::OpsWorksCM::Server

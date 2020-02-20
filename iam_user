@@ -1,0 +1,21 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Groups:
+    - ''
+  LoginProfile:
+    Password: ''
+    PasswordResetRequired: true
+  ManagedPolicyArns:
+    - ''
+  Path: ''
+  PermissionsBoundary: ''
+  Policies:
+    - PolicyDocument: {}
+      PolicyName: ''
+  Tags:
+    - Key: ''
+      Value: ''
+  UserName: ''
+Type: AWS::IAM::User

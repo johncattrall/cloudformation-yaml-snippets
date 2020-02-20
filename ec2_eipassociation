@@ -1,0 +1,10 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  AllocationId: ''
+  EIP: ''
+  InstanceId: ''
+  NetworkInterfaceId: ''
+  PrivateIpAddress: ''
+Type: AWS::EC2::EIPAssociation

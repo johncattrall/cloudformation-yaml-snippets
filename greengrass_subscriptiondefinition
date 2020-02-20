@@ -1,0 +1,13 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  InitialVersion:
+    Subscriptions:
+      - Id: ''
+        Source: ''
+        Subject: ''
+        Target: ''
+  Name: ''
+  Tags: {}
+Type: AWS::Greengrass::SubscriptionDefinition

@@ -1,0 +1,12 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  ResponseParameters:
+    Key: ''
+  ResponseTemplates:
+    Key: ''
+  ResponseType: ''
+  RestApiId: ''
+  StatusCode: ''
+Type: AWS::ApiGateway::GatewayResponse

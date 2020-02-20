@@ -1,0 +1,27 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  AmiType: ''
+  ClusterName: ''
+  DiskSize: 0
+  ForceUpdateEnabled: true
+  InstanceTypes:
+    - ''
+  Labels: {}
+  NodeRole: ''
+  NodegroupName: ''
+  ReleaseVersion: ''
+  RemoteAccess:
+    Ec2SshKey: ''
+    SourceSecurityGroups:
+      - ''
+  ScalingConfig:
+    DesiredSize: 0
+    MaxSize: 0
+    MinSize: 0
+  Subnets:
+    - ''
+  Tags: {}
+  Version: ''
+Type: AWS::EKS::Nodegroup

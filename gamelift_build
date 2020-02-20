@@ -1,0 +1,13 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Name: ''
+  OperatingSystem: ''
+  StorageLocation:
+    Bucket: ''
+    Key: ''
+    ObjectVersion: ''
+    RoleArn: ''
+  Version: ''
+Type: AWS::GameLift::Build

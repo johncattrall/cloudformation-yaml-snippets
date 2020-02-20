@@ -1,0 +1,14 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  AutoMinorVersionUpgrade: true
+  AvailabilityZone: ''
+  DBClusterIdentifier: ''
+  DBInstanceClass: ''
+  DBInstanceIdentifier: ''
+  PreferredMaintenanceWindow: ''
+  Tags:
+    - Key: ''
+      Value: ''
+Type: AWS::DocDB::DBInstance

@@ -1,0 +1,38 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  BackupId: ''
+  FileSystemType: ''
+  KmsKeyId: ''
+  LustreConfiguration:
+    ExportPath: ''
+    ImportPath: ''
+    ImportedFileChunkSize: 0
+    WeeklyMaintenanceStartTime: ''
+  SecurityGroupIds:
+    - ''
+  StorageCapacity: 0
+  SubnetIds:
+    - ''
+  Tags:
+    - Key: ''
+      Value: ''
+  WindowsConfiguration:
+    ActiveDirectoryId: ''
+    AutomaticBackupRetentionDays: 0
+    CopyTagsToBackups: true
+    DailyAutomaticBackupStartTime: ''
+    DeploymentType: ''
+    PreferredSubnetId: ''
+    SelfManagedActiveDirectoryConfiguration:
+      DnsIps:
+        - ''
+      DomainName: ''
+      FileSystemAdministratorsGroup: ''
+      OrganizationalUnitDistinguishedName: ''
+      Password: ''
+      UserName: ''
+    ThroughputCapacity: 0
+    WeeklyMaintenanceStartTime: ''
+Type: AWS::FSx::FileSystem

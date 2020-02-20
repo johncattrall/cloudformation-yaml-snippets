@@ -1,0 +1,12 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Destinations:
+    - DestinationArn: ''
+  Name: ''
+  PlayerLatencyPolicies:
+    - MaximumIndividualPlayerLatencyMilliseconds: 0
+      PolicyDurationSeconds: 0
+  TimeoutInSeconds: 0
+Type: AWS::GameLift::GameSessionQueue

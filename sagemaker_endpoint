@@ -1,0 +1,13 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  EndpointConfigName: ''
+  EndpointName: ''
+  ExcludeRetainedVariantProperties:
+    - VariantPropertyType: ''
+  RetainAllVariantProperties: true
+  Tags:
+    - Key: ''
+      Value: ''
+Type: AWS::SageMaker::Endpoint

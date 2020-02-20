@@ -1,0 +1,17 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  DataLakePrincipal:
+    DataLakePrincipalIdentifier: ''
+  Permissions:
+    - ''
+  PermissionsWithGrantOption:
+    - ''
+  Resource:
+    DatabaseResource:
+      Name: ''
+    TableResource:
+      DatabaseName: ''
+      Name: ''
+Type: AWS::LakeFormation::Permissions

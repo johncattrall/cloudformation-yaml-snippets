@@ -1,0 +1,17 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  AutomaticStopTimeMinutes: 0
+  Description: ''
+  InstanceType: ''
+  Name: ''
+  OwnerArn: ''
+  Repositories:
+    - PathComponent: ''
+      RepositoryUrl: ''
+  SubnetId: ''
+  Tags:
+    - Key: ''
+      Value: ''
+Type: AWS::Cloud9::EnvironmentEC2

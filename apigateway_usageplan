@@ -1,0 +1,24 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  ApiStages:
+    - ApiId: ''
+      Stage: ''
+      Throttle:
+        Key:
+          BurstLimit: 0
+          RateLimit: 0
+  Description: ''
+  Quota:
+    Limit: 0
+    Offset: 0
+    Period: ''
+  Tags:
+    - Key: ''
+      Value: ''
+  Throttle:
+    BurstLimit: 0
+    RateLimit: 0
+  UsagePlanName: ''
+Type: AWS::ApiGateway::UsagePlan

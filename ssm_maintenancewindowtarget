@@ -1,0 +1,14 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Description: ''
+  Name: ''
+  OwnerInformation: ''
+  ResourceType: ''
+  Targets:
+    - Key: ''
+      Values:
+        - ''
+  WindowId: ''
+Type: AWS::SSM::MaintenanceWindowTarget

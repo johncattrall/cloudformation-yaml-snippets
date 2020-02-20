@@ -1,0 +1,18 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  ApiId: ''
+  AuthorizerCredentialsArn: ''
+  AuthorizerResultTtlInSeconds: 0
+  AuthorizerType: ''
+  AuthorizerUri: ''
+  IdentitySource:
+    - ''
+  IdentityValidationExpression: ''
+  JwtConfiguration:
+    Audience:
+      - ''
+    Issuer: ''
+  Name: ''
+Type: AWS::ApiGatewayV2::Authorizer

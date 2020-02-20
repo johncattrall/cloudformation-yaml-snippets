@@ -1,0 +1,51 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  ApplicationSource:
+    CloudFormationStackARN: ''
+    TagFilters:
+      - Key: ''
+        Values:
+          - ''
+  ScalingInstructions:
+    - CustomizedLoadMetricSpecification:
+        Dimensions:
+          - Name: ''
+            Value: ''
+        MetricName: ''
+        Namespace: ''
+        Statistic: ''
+        Unit: ''
+      DisableDynamicScaling: true
+      MaxCapacity: 0
+      MinCapacity: 0
+      PredefinedLoadMetricSpecification:
+        PredefinedLoadMetricType: ''
+        ResourceLabel: ''
+      PredictiveScalingMaxCapacityBehavior: ''
+      PredictiveScalingMaxCapacityBuffer: 0
+      PredictiveScalingMode: ''
+      ResourceId: ''
+      ScalableDimension: ''
+      ScalingPolicyUpdateBehavior: ''
+      ScheduledActionBufferTime: 0
+      ServiceNamespace: ''
+      TargetTrackingConfigurations:
+        - CustomizedScalingMetricSpecification:
+            Dimensions:
+              - Name: ''
+                Value: ''
+            MetricName: ''
+            Namespace: ''
+            Statistic: ''
+            Unit: ''
+          DisableScaleIn: true
+          EstimatedInstanceWarmup: 0
+          PredefinedScalingMetricSpecification:
+            PredefinedScalingMetricType: ''
+            ResourceLabel: ''
+          ScaleInCooldown: 0
+          ScaleOutCooldown: 0
+          TargetValue: 0
+Type: AWS::AutoScalingPlans::ScalingPlan

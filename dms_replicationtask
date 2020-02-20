@@ -1,0 +1,18 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  CdcStartPosition: ''
+  CdcStartTime: 0
+  CdcStopPosition: ''
+  MigrationType: ''
+  ReplicationInstanceArn: ''
+  ReplicationTaskIdentifier: ''
+  ReplicationTaskSettings: ''
+  SourceEndpointArn: ''
+  TableMappings: ''
+  Tags:
+    - Key: ''
+      Value: ''
+  TargetEndpointArn: ''
+Type: AWS::DMS::ReplicationTask

@@ -1,0 +1,11 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Name: ''
+  XssMatchTuples:
+    - FieldToMatch:
+        Data: ''
+        Type: ''
+      TextTransformation: ''
+Type: AWS::WAF::XssMatchSet

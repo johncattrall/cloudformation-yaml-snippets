@@ -1,0 +1,13 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Name: ''
+  ResourcesVpcConfig:
+    SecurityGroupIds:
+      - ''
+    SubnetIds:
+      - ''
+  RoleArn: ''
+  Version: ''
+Type: AWS::EKS::Cluster

@@ -1,0 +1,165 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  AccelerateConfiguration:
+    AccelerationStatus: ''
+  AccessControl: ''
+  AnalyticsConfigurations:
+    - Id: ''
+      Prefix: ''
+      StorageClassAnalysis:
+        DataExport:
+          Destination:
+            BucketAccountId: ''
+            BucketArn: ''
+            Format: ''
+            Prefix: ''
+          OutputSchemaVersion: ''
+      TagFilters:
+        - Key: ''
+          Value: ''
+  BucketEncryption:
+    ServerSideEncryptionConfiguration:
+      - ServerSideEncryptionByDefault:
+          KMSMasterKeyID: ''
+          SSEAlgorithm: ''
+  BucketName: ''
+  CorsConfiguration:
+    CorsRules:
+      - AllowedHeaders:
+          - ''
+        AllowedMethods:
+          - ''
+        AllowedOrigins:
+          - ''
+        ExposedHeaders:
+          - ''
+        Id: ''
+        MaxAge: 0
+  InventoryConfigurations:
+    - Destination:
+        BucketAccountId: ''
+        BucketArn: ''
+        Format: ''
+        Prefix: ''
+      Enabled: true
+      Id: ''
+      IncludedObjectVersions: ''
+      OptionalFields:
+        - ''
+      Prefix: ''
+      ScheduleFrequency: ''
+  LifecycleConfiguration:
+    Rules:
+      - AbortIncompleteMultipartUpload:
+          DaysAfterInitiation: 0
+        ExpirationDate: '0000-00-20T00:00:00'
+        ExpirationInDays: 0
+        Id: ''
+        NoncurrentVersionExpirationInDays: 0
+        NoncurrentVersionTransition:
+          StorageClass: ''
+          TransitionInDays: 0
+        NoncurrentVersionTransitions:
+          - StorageClass: ''
+            TransitionInDays: 0
+        Prefix: ''
+        Status: ''
+        TagFilters:
+          - Key: ''
+            Value: ''
+        Transition:
+          StorageClass: ''
+          TransitionDate: '0000-00-20T00:00:00'
+          TransitionInDays: 0
+        Transitions:
+          - StorageClass: ''
+            TransitionDate: '0000-00-20T00:00:00'
+            TransitionInDays: 0
+  LoggingConfiguration:
+    DestinationBucketName: ''
+    LogFilePrefix: ''
+  MetricsConfigurations:
+    - Id: ''
+      Prefix: ''
+      TagFilters:
+        - Key: ''
+          Value: ''
+  NotificationConfiguration:
+    LambdaConfigurations:
+      - Event: ''
+        Filter:
+          S3Key:
+            Rules:
+              - Name: ''
+                Value: ''
+        Function: ''
+    QueueConfigurations:
+      - Event: ''
+        Filter:
+          S3Key:
+            Rules:
+              - Name: ''
+                Value: ''
+        Queue: ''
+    TopicConfigurations:
+      - Event: ''
+        Filter:
+          S3Key:
+            Rules:
+              - Name: ''
+                Value: ''
+        Topic: ''
+  ObjectLockConfiguration:
+    ObjectLockEnabled: ''
+    Rule:
+      DefaultRetention:
+        Days: 0
+        Mode: ''
+        Years: 0
+  ObjectLockEnabled: true
+  PublicAccessBlockConfiguration:
+    BlockPublicAcls: true
+    BlockPublicPolicy: true
+    IgnorePublicAcls: true
+    RestrictPublicBuckets: true
+  ReplicationConfiguration:
+    Role: ''
+    Rules:
+      - Destination:
+          AccessControlTranslation:
+            Owner: ''
+          Account: ''
+          Bucket: ''
+          EncryptionConfiguration:
+            ReplicaKmsKeyID: ''
+          StorageClass: ''
+        Id: ''
+        Prefix: ''
+        SourceSelectionCriteria:
+          SseKmsEncryptedObjects:
+            Status: ''
+        Status: ''
+  Tags:
+    - Key: ''
+      Value: ''
+  VersioningConfiguration:
+    Status: ''
+  WebsiteConfiguration:
+    ErrorDocument: ''
+    IndexDocument: ''
+    RedirectAllRequestsTo:
+      HostName: ''
+      Protocol: ''
+    RoutingRules:
+      - RedirectRule:
+          HostName: ''
+          HttpRedirectCode: ''
+          Protocol: ''
+          ReplaceKeyPrefixWith: ''
+          ReplaceKeyWith: ''
+        RoutingRuleCondition:
+          HttpErrorCodeReturnedEquals: ''
+          KeyPrefixEquals: ''
+Type: AWS::S3::Bucket

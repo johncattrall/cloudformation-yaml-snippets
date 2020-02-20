@@ -1,0 +1,16 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  DomainName: ''
+  DomainNameServers:
+    - ''
+  NetbiosNameServers:
+    - ''
+  NetbiosNodeType: 0
+  NtpServers:
+    - ''
+  Tags:
+    - Key: ''
+      Value: ''
+Type: AWS::EC2::DHCPOptions

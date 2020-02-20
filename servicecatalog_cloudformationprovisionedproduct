@@ -1,0 +1,30 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  AcceptLanguage: ''
+  NotificationArns:
+    - ''
+  PathId: ''
+  ProductId: ''
+  ProductName: ''
+  ProvisionedProductName: ''
+  ProvisioningArtifactId: ''
+  ProvisioningArtifactName: ''
+  ProvisioningParameters:
+    - Key: ''
+      Value: ''
+  ProvisioningPreferences:
+    StackSetAccounts:
+      - ''
+    StackSetFailureToleranceCount: 0
+    StackSetFailureTolerancePercentage: 0
+    StackSetMaxConcurrencyCount: 0
+    StackSetMaxConcurrencyPercentage: 0
+    StackSetOperationType: ''
+    StackSetRegions:
+      - ''
+  Tags:
+    - Key: ''
+      Value: ''
+Type: AWS::ServiceCatalog::CloudFormationProvisionedProduct

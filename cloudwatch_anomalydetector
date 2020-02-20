@@ -1,0 +1,12 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Configuration: {}
+  Dimensions:
+    - Name: ''
+      Value: ''
+  MetricName: ''
+  Namespace: ''
+  Stat: ''
+Type: AWS::CloudWatch::AnomalyDetector

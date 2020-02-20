@@ -1,0 +1,8 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  CertificateIdentifier: ''
+  CertificatePem: ''
+  CertificateWallet: ''
+Type: AWS::DMS::Certificate

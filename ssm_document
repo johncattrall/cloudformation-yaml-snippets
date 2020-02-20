@@ -1,0 +1,11 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Content: {}
+  DocumentType: ''
+  Name: ''
+  Tags:
+    - Key: ''
+      Value: ''
+Type: AWS::SSM::Document

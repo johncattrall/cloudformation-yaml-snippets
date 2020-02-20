@@ -1,0 +1,15 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  CreateAlias: true
+  Edition: ''
+  EnableSso: true
+  Name: ''
+  Password: ''
+  ShortName: ''
+  VpcSettings:
+    SubnetIds:
+      - ''
+    VpcId: ''
+Type: AWS::DirectoryService::MicrosoftAD

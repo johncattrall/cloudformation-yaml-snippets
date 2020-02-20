@@ -1,0 +1,39 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  MeshName: ''
+  Spec:
+    Backends:
+      - VirtualService:
+          VirtualServiceName: ''
+    Listeners:
+      - HealthCheck:
+          HealthyThreshold: 0
+          IntervalMillis: 0
+          Path: ''
+          Port: 0
+          Protocol: ''
+          TimeoutMillis: 0
+          UnhealthyThreshold: 0
+        PortMapping:
+          Port: 0
+          Protocol: ''
+    Logging:
+      AccessLog:
+        File:
+          Path: ''
+    ServiceDiscovery:
+      AWSCloudMap:
+        Attributes:
+          - Key: ''
+            Value: ''
+        NamespaceName: ''
+        ServiceName: ''
+      DNS:
+        Hostname: ''
+  Tags:
+    - Key: ''
+      Value: ''
+  VirtualNodeName: ''
+Type: AWS::AppMesh::VirtualNode

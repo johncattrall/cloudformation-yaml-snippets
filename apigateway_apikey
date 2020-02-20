@@ -1,0 +1,17 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  CustomerId: ''
+  Description: ''
+  Enabled: true
+  GenerateDistinctId: true
+  Name: ''
+  StageKeys:
+    - RestApiId: ''
+      StageName: ''
+  Tags:
+    - Key: ''
+      Value: ''
+  Value: ''
+Type: AWS::ApiGateway::ApiKey

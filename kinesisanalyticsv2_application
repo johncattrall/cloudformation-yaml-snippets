@@ -1,0 +1,66 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  ApplicationConfiguration:
+    ApplicationCodeConfiguration:
+      CodeContent:
+        S3ContentLocation:
+          BucketARN: ''
+          FileKey: ''
+          ObjectVersion: ''
+        TextContent: ''
+        ZipFileContent: ''
+      CodeContentType: ''
+    ApplicationSnapshotConfiguration:
+      SnapshotsEnabled: true
+    EnvironmentProperties:
+      PropertyGroups:
+        - PropertyGroupId: ''
+          PropertyMap: {}
+    FlinkApplicationConfiguration:
+      CheckpointConfiguration:
+        CheckpointInterval: 0
+        CheckpointingEnabled: true
+        ConfigurationType: ''
+        MinPauseBetweenCheckpoints: 0
+      MonitoringConfiguration:
+        ConfigurationType: ''
+        LogLevel: ''
+        MetricsLevel: ''
+      ParallelismConfiguration:
+        AutoScalingEnabled: true
+        ConfigurationType: ''
+        Parallelism: 0
+        ParallelismPerKPU: 0
+    SqlApplicationConfiguration:
+      Inputs:
+        - InputParallelism:
+            Count: 0
+          InputProcessingConfiguration:
+            InputLambdaProcessor:
+              ResourceARN: ''
+          InputSchema:
+            RecordColumns:
+              - Mapping: ''
+                Name: ''
+                SqlType: ''
+            RecordEncoding: ''
+            RecordFormat:
+              MappingParameters:
+                CSVMappingParameters:
+                  RecordColumnDelimiter: ''
+                  RecordRowDelimiter: ''
+                JSONMappingParameters:
+                  RecordRowPath: ''
+              RecordFormatType: ''
+          KinesisFirehoseInput:
+            ResourceARN: ''
+          KinesisStreamsInput:
+            ResourceARN: ''
+          NamePrefix: ''
+  ApplicationDescription: ''
+  ApplicationName: ''
+  RuntimeEnvironment: ''
+  ServiceExecutionRole: ''
+Type: AWS::KinesisAnalyticsV2::Application

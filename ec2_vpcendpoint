@@ -1,0 +1,16 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  PolicyDocument: {}
+  PrivateDnsEnabled: true
+  RouteTableIds:
+    - ''
+  SecurityGroupIds:
+    - ''
+  ServiceName: ''
+  SubnetIds:
+    - ''
+  VpcEndpointType: ''
+  VpcId: ''
+Type: AWS::EC2::VPCEndpoint

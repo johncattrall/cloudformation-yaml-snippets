@@ -1,0 +1,23 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  AdditionalAuthenticationProviders: {}
+  AuthenticationType: ''
+  LogConfig:
+    CloudWatchLogsRoleArn: ''
+    ExcludeVerboseContent: true
+    FieldLogLevel: ''
+  Name: ''
+  OpenIDConnectConfig:
+    AuthTTL: 0
+    ClientId: ''
+    IatTTL: 0
+    Issuer: ''
+  Tags: {}
+  UserPoolConfig:
+    AppIdClientRegex: ''
+    AwsRegion: ''
+    DefaultAction: ''
+    UserPoolId: ''
+Type: AWS::AppSync::GraphQLApi

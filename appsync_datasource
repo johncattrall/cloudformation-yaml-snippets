@@ -1,0 +1,39 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  ApiId: ''
+  Description: ''
+  DynamoDBConfig:
+    AwsRegion: ''
+    DeltaSyncConfig:
+      BaseTableTTL: ''
+      DeltaSyncTableName: ''
+      DeltaSyncTableTTL: ''
+    TableName: ''
+    UseCallerCredentials: true
+    Versioned: true
+  ElasticsearchConfig:
+    AwsRegion: ''
+    Endpoint: ''
+  HttpConfig:
+    AuthorizationConfig:
+      AuthorizationType: ''
+      AwsIamConfig:
+        SigningRegion: ''
+        SigningServiceName: ''
+    Endpoint: ''
+  LambdaConfig:
+    LambdaFunctionArn: ''
+  Name: ''
+  RelationalDatabaseConfig:
+    RdsHttpEndpointConfig:
+      AwsRegion: ''
+      AwsSecretStoreArn: ''
+      DatabaseName: ''
+      DbClusterIdentifier: ''
+      Schema: ''
+    RelationalDatabaseSourceType: ''
+  ServiceRoleArn: ''
+  Type: ''
+Type: AWS::AppSync::DataSource

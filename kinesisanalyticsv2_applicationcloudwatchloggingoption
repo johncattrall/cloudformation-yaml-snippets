@@ -1,0 +1,8 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  ApplicationName: ''
+  CloudWatchLoggingOption:
+    LogStreamARN: ''
+Type: AWS::KinesisAnalyticsV2::ApplicationCloudWatchLoggingOption

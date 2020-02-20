@@ -1,0 +1,12 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  ClusterName: ''
+  ClusterSettings:
+    - Name: ''
+      Value: ''
+  Tags:
+    - Key: ''
+      Value: ''
+Type: AWS::ECS::Cluster

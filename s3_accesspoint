@@ -1,0 +1,18 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Bucket: ''
+  CreationDate: ''
+  Name: ''
+  NetworkOrigin: ''
+  Policy: {}
+  PolicyStatus: {}
+  PublicAccessBlockConfiguration:
+    BlockPublicAcls: true
+    BlockPublicPolicy: true
+    IgnorePublicAcls: true
+    RestrictPublicBuckets: true
+  VpcConfiguration:
+    VpcId: ''
+Type: AWS::S3::AccessPoint

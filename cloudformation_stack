@@ -1,0 +1,14 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  NotificationARNs:
+    - ''
+  Parameters:
+    Key: ''
+  Tags:
+    - Key: ''
+      Value: ''
+  TemplateURL: ''
+  TimeoutInMinutes: 0
+Type: AWS::CloudFormation::Stack

@@ -1,0 +1,14 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  ApiId: ''
+  DataSourceName: ''
+  Description: ''
+  FunctionVersion: ''
+  Name: ''
+  RequestMappingTemplate: ''
+  RequestMappingTemplateS3Location: ''
+  ResponseMappingTemplate: ''
+  ResponseMappingTemplateS3Location: ''
+Type: AWS::AppSync::FunctionConfiguration

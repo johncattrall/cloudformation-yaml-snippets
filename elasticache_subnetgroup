@@ -1,0 +1,9 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  CacheSubnetGroupName: ''
+  Description: ''
+  SubnetIds:
+    - ''
+Type: AWS::ElastiCache::SubnetGroup

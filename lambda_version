@@ -1,0 +1,10 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  CodeSha256: ''
+  Description: ''
+  FunctionName: ''
+  ProvisionedConcurrencyConfig:
+    ProvisionedConcurrentExecutions: 0
+Type: AWS::Lambda::Version

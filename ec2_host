@@ -1,0 +1,9 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  AutoPlacement: ''
+  AvailabilityZone: ''
+  HostRecovery: ''
+  InstanceType: ''
+Type: AWS::EC2::Host

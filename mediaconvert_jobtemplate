@@ -1,0 +1,15 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  AccelerationSettings:
+    Mode: ''
+  Category: ''
+  Description: ''
+  Name: ''
+  Priority: 0
+  Queue: ''
+  SettingsJson: {}
+  StatusUpdateInterval: ''
+  Tags: {}
+Type: AWS::MediaConvert::JobTemplate

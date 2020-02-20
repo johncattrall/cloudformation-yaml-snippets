@@ -1,0 +1,29 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  HealthCheckConfig:
+    AlarmIdentifier:
+      Name: ''
+      Region: ''
+    ChildHealthChecks:
+      - ''
+    EnableSNI: true
+    FailureThreshold: 0
+    FullyQualifiedDomainName: ''
+    HealthThreshold: 0
+    IPAddress: ''
+    InsufficientDataHealthStatus: ''
+    Inverted: true
+    MeasureLatency: true
+    Port: 0
+    Regions:
+      - ''
+    RequestInterval: 0
+    ResourcePath: ''
+    SearchString: ''
+    Type: ''
+  HealthCheckTags:
+    - Key: ''
+      Value: ''
+Type: AWS::Route53::HealthCheck

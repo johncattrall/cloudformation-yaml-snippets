@@ -1,0 +1,7 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  CertificateSigningRequest: ''
+  Status: ''
+Type: AWS::IoT::Certificate

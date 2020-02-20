@@ -1,0 +1,14 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  DestinationConfig:
+    OnFailure:
+      Destination: ''
+    OnSuccess:
+      Destination: ''
+  FunctionName: ''
+  MaximumEventAgeInSeconds: 0
+  MaximumRetryAttempts: 0
+  Qualifier: ''
+Type: AWS::Lambda::EventInvokeConfig

@@ -1,0 +1,26 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  ApiId: ''
+  CachingConfig:
+    CachingKeys:
+      - ''
+    Ttl: 0
+  DataSourceName: ''
+  FieldName: ''
+  Kind: ''
+  PipelineConfig:
+    Functions:
+      - ''
+  RequestMappingTemplate: ''
+  RequestMappingTemplateS3Location: ''
+  ResponseMappingTemplate: ''
+  ResponseMappingTemplateS3Location: ''
+  SyncConfig:
+    ConflictDetection: ''
+    ConflictHandler: ''
+    LambdaConflictHandlerConfig:
+      LambdaConflictHandlerArn: ''
+  TypeName: ''
+Type: AWS::AppSync::Resolver

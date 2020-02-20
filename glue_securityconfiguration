@@ -1,0 +1,14 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  EncryptionConfiguration:
+    CloudWatchEncryption:
+      CloudWatchEncryptionMode: ''
+      KmsKeyArn: ''
+    JobBookmarksEncryption:
+      JobBookmarksEncryptionMode: ''
+      KmsKeyArn: ''
+    S3Encryptions: {}
+  Name: ''
+Type: AWS::Glue::SecurityConfiguration

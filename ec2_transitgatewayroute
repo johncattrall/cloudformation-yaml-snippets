@@ -1,0 +1,9 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Blackhole: true
+  DestinationCidrBlock: ''
+  TransitGatewayAttachmentId: ''
+  TransitGatewayRouteTableId: ''
+Type: AWS::EC2::TransitGatewayRoute

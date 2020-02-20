@@ -1,0 +1,15 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Encrypted: true
+  FileSystemTags:
+    - Key: ''
+      Value: ''
+  KmsKeyId: ''
+  LifecyclePolicies:
+    - TransitionToIA: ''
+  PerformanceMode: ''
+  ProvisionedThroughputInMibps: 0
+  ThroughputMode: ''
+Type: AWS::EFS::FileSystem

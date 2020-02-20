@@ -1,0 +1,11 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  MetricName: ''
+  Name: ''
+  Predicates:
+    - DataId: ''
+      Negated: true
+      Type: ''
+Type: AWS::WAFRegional::Rule

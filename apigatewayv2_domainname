@@ -1,0 +1,11 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  DomainName: ''
+  DomainNameConfigurations:
+    - CertificateArn: ''
+      CertificateName: ''
+      EndpointType: ''
+  Tags: {}
+Type: AWS::ApiGatewayV2::DomainName

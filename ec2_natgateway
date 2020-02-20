@@ -1,0 +1,10 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  AllocationId: ''
+  SubnetId: ''
+  Tags:
+    - Key: ''
+      Value: ''
+Type: AWS::EC2::NatGateway

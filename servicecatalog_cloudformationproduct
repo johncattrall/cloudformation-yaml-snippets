@@ -1,0 +1,21 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  AcceptLanguage: ''
+  Description: ''
+  Distributor: ''
+  Name: ''
+  Owner: ''
+  ProvisioningArtifactParameters:
+    - Description: ''
+      DisableTemplateValidation: true
+      Info: {}
+      Name: ''
+  SupportDescription: ''
+  SupportEmail: ''
+  SupportUrl: ''
+  Tags:
+    - Key: ''
+      Value: ''
+Type: AWS::ServiceCatalog::CloudFormationProduct

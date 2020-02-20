@@ -1,0 +1,45 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  ActionsEnabled: true
+  AlarmActions:
+    - ''
+  AlarmDescription: ''
+  AlarmName: ''
+  ComparisonOperator: ''
+  DatapointsToAlarm: 0
+  Dimensions:
+    - Name: ''
+      Value: ''
+  EvaluateLowSampleCountPercentile: ''
+  EvaluationPeriods: 0
+  ExtendedStatistic: ''
+  InsufficientDataActions:
+    - ''
+  MetricName: ''
+  Metrics:
+    - Expression: ''
+      Id: ''
+      Label: ''
+      MetricStat:
+        Metric:
+          Dimensions:
+            - Name: ''
+              Value: ''
+          MetricName: ''
+          Namespace: ''
+        Period: 0
+        Stat: ''
+        Unit: ''
+      ReturnData: true
+  Namespace: ''
+  OKActions:
+    - ''
+  Period: 0
+  Statistic: ''
+  Threshold: 0
+  ThresholdMetricId: ''
+  TreatMissingData: ''
+  Unit: ''
+Type: AWS::CloudWatch::Alarm

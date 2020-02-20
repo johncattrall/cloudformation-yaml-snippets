@@ -1,0 +1,8 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  AcceptanceRequired: true
+  NetworkLoadBalancerArns:
+    - ''
+Type: AWS::EC2::VPCEndpointService

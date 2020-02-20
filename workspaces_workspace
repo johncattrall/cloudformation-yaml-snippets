@@ -1,0 +1,20 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  BundleId: ''
+  DirectoryId: ''
+  RootVolumeEncryptionEnabled: true
+  Tags:
+    - Key: ''
+      Value: ''
+  UserName: ''
+  UserVolumeEncryptionEnabled: true
+  VolumeEncryptionKey: ''
+  WorkspaceProperties:
+    ComputeTypeName: ''
+    RootVolumeSizeGib: 0
+    RunningMode: ''
+    RunningModeAutoStopTimeoutInMinutes: 0
+    UserVolumeSizeGib: 0
+Type: AWS::WorkSpaces::Workspace

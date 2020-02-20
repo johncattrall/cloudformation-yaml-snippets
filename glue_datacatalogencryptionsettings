@@ -1,0 +1,13 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  CatalogId: ''
+  DataCatalogEncryptionSettings:
+    ConnectionPasswordEncryption:
+      KmsKeyId: ''
+      ReturnConnectionPasswordEncrypted: true
+    EncryptionAtRest:
+      CatalogEncryptionMode: ''
+      SseAwsKmsKeyId: ''
+Type: AWS::Glue::DataCatalogEncryptionSettings

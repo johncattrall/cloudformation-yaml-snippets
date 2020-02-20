@@ -1,0 +1,8 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  AWSServiceName: ''
+  CustomSuffix: ''
+  Description: ''
+Type: AWS::IAM::ServiceLinkedRole

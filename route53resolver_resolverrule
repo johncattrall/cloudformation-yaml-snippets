@@ -1,0 +1,15 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  DomainName: ''
+  Name: ''
+  ResolverEndpointId: ''
+  RuleType: ''
+  Tags:
+    - Key: ''
+      Value: ''
+  TargetIps:
+    - Ip: ''
+      Port: ''
+Type: AWS::Route53Resolver::ResolverRule

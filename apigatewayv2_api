@@ -1,0 +1,35 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  ApiKeySelectionExpression: ''
+  BasePath: ''
+  Body: {}
+  BodyS3Location:
+    Bucket: ''
+    Etag: ''
+    Key: ''
+    Version: ''
+  CorsConfiguration:
+    AllowCredentials: true
+    AllowHeaders:
+      - ''
+    AllowMethods:
+      - ''
+    AllowOrigins:
+      - ''
+    ExposeHeaders:
+      - ''
+    MaxAge: 0
+  CredentialsArn: ''
+  Description: ''
+  DisableSchemaValidation: true
+  FailOnWarnings: true
+  Name: ''
+  ProtocolType: ''
+  RouteKey: ''
+  RouteSelectionExpression: ''
+  Tags: {}
+  Target: ''
+  Version: ''
+Type: AWS::ApiGatewayV2::Api

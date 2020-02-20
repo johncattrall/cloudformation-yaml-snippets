@@ -1,0 +1,49 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  ArtifactStore:
+    EncryptionKey:
+      Id: ''
+      Type: ''
+    Location: ''
+    Type: ''
+  ArtifactStores:
+    - ArtifactStore:
+        EncryptionKey:
+          Id: ''
+          Type: ''
+        Location: ''
+        Type: ''
+      Region: ''
+  DisableInboundStageTransitions:
+    - Reason: ''
+      StageName: ''
+  Name: ''
+  RestartExecutionOnUpdate: true
+  RoleArn: ''
+  Stages:
+    - Actions:
+        - ActionTypeId:
+            Category: ''
+            Owner: ''
+            Provider: ''
+            Version: ''
+          Configuration: {}
+          InputArtifacts:
+            - Name: ''
+          Name: ''
+          Namespace: ''
+          OutputArtifacts:
+            - Name: ''
+          Region: ''
+          RoleArn: ''
+          RunOrder: 0
+      Blockers:
+        - Name: ''
+          Type: ''
+      Name: ''
+  Tags:
+    - Key: ''
+      Value: ''
+Type: AWS::CodePipeline::Pipeline

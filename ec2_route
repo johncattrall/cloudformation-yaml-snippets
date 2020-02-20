@@ -1,0 +1,15 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  DestinationCidrBlock: ''
+  DestinationIpv6CidrBlock: ''
+  EgressOnlyInternetGatewayId: ''
+  GatewayId: ''
+  InstanceId: ''
+  NatGatewayId: ''
+  NetworkInterfaceId: ''
+  RouteTableId: ''
+  TransitGatewayId: ''
+  VpcPeeringConnectionId: ''
+Type: AWS::EC2::Route

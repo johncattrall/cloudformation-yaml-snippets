@@ -1,0 +1,14 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  ByteMatchTuples:
+    - FieldToMatch:
+        Data: ''
+        Type: ''
+      PositionalConstraint: ''
+      TargetString: ''
+      TargetStringBase64: ''
+      TextTransformation: ''
+  Name: ''
+Type: AWS::WAFRegional::ByteMatchSet

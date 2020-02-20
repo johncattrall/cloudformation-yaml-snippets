@@ -1,0 +1,8 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  KeyId: ''
+  KeyType: ''
+  UsagePlanId: ''
+Type: AWS::ApiGateway::UsagePlanKey

@@ -1,0 +1,12 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  DeliverLogsPermissionArn: ''
+  LogDestination: ''
+  LogDestinationType: ''
+  LogGroupName: ''
+  ResourceId: ''
+  ResourceType: ''
+  TrafficType: ''
+Type: AWS::EC2::FlowLog

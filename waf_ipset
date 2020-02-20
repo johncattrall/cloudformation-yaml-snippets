@@ -1,0 +1,9 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  IPSetDescriptors:
+    - Type: ''
+      Value: ''
+  Name: ''
+Type: AWS::WAF::IPSet

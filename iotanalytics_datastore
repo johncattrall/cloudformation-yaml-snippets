@@ -1,0 +1,18 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  DatastoreName: ''
+  DatastoreStorage:
+    CustomerManagedS3:
+      Bucket: ''
+      KeyPrefix: ''
+      RoleArn: ''
+    ServiceManagedS3: {}
+  RetentionPeriod:
+    NumberOfDays: 0
+    Unlimited: true
+  Tags:
+    - Key: ''
+      Value: ''
+Type: AWS::IoTAnalytics::Datastore

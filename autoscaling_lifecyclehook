@@ -1,0 +1,13 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  AutoScalingGroupName: ''
+  DefaultResult: ''
+  HeartbeatTimeout: 0
+  LifecycleHookName: ''
+  LifecycleTransition: ''
+  NotificationMetadata: ''
+  NotificationTargetARN: ''
+  RoleARN: ''
+Type: AWS::AutoScaling::LifecycleHook

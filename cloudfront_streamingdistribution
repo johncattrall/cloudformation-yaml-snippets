@@ -1,0 +1,25 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  StreamingDistributionConfig:
+    Aliases:
+      - ''
+    Comment: ''
+    Enabled: true
+    Logging:
+      Bucket: ''
+      Enabled: true
+      Prefix: ''
+    PriceClass: ''
+    S3Origin:
+      DomainName: ''
+      OriginAccessIdentity: ''
+    TrustedSigners:
+      AwsAccountNumbers:
+        - ''
+      Enabled: true
+  Tags:
+    - Key: ''
+      Value: ''
+Type: AWS::CloudFront::StreamingDistribution

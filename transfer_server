@@ -1,0 +1,16 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  EndpointDetails:
+    VpcEndpointId: ''
+  EndpointType: ''
+  IdentityProviderDetails:
+    InvocationRole: ''
+    Url: ''
+  IdentityProviderType: ''
+  LoggingRole: ''
+  Tags:
+    - Key: ''
+      Value: ''
+Type: AWS::Transfer::Server

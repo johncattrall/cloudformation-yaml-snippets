@@ -1,0 +1,15 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Description: ''
+  NetworkInterfaceId: ''
+  PacketLength: 0
+  SessionNumber: 0
+  Tags:
+    - Key: ''
+      Value: ''
+  TrafficMirrorFilterId: ''
+  TrafficMirrorTargetId: ''
+  VirtualNetworkId: 0
+Type: AWS::EC2::TrafficMirrorSession

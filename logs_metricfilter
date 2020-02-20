@@ -1,0 +1,12 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  FilterPattern: ''
+  LogGroupName: ''
+  MetricTransformations:
+    - DefaultValue: 0
+      MetricName: ''
+      MetricNamespace: ''
+      MetricValue: ''
+Type: AWS::Logs::MetricFilter

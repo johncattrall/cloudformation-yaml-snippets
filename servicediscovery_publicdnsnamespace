@@ -1,0 +1,7 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Description: ''
+  Name: ''
+Type: AWS::ServiceDiscovery::PublicDnsNamespace

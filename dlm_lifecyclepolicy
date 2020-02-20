@@ -1,0 +1,49 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Description: ''
+  ExecutionRoleArn: ''
+  PolicyDetails:
+    Parameters:
+      ExcludeBootVolume: true
+    PolicyType: ''
+    ResourceTypes:
+      - ''
+    Schedules:
+      - CopyTags: true
+        CreateRule:
+          Interval: 0
+          IntervalUnit: ''
+          Times:
+            - ''
+        CrossRegionCopyRules:
+          - CmkArn: ''
+            CopyTags: true
+            Encrypted: true
+            RetainRule:
+              Interval: 0
+              IntervalUnit: ''
+            TargetRegion: ''
+        FastRestoreRule:
+          AvailabilityZones:
+            - ''
+          Count: 0
+          Interval: 0
+          IntervalUnit: ''
+        Name: ''
+        RetainRule:
+          Count: 0
+          Interval: 0
+          IntervalUnit: ''
+        TagsToAdd:
+          - Key: ''
+            Value: ''
+        VariableTags:
+          - Key: ''
+            Value: ''
+    TargetTags:
+      - Key: ''
+        Value: ''
+  State: ''
+Type: AWS::DLM::LifecyclePolicy

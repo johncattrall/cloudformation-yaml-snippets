@@ -1,0 +1,9 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  DeleteOnTermination: true
+  DeviceIndex: ''
+  InstanceId: ''
+  NetworkInterfaceId: ''
+Type: AWS::EC2::NetworkInterfaceAttachment

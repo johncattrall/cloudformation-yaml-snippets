@@ -1,0 +1,25 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  ApplicationName: ''
+  CNAMEPrefix: ''
+  Description: ''
+  EnvironmentName: ''
+  OptionSettings:
+    - Namespace: ''
+      OptionName: ''
+      ResourceName: ''
+      Value: ''
+  PlatformArn: ''
+  SolutionStackName: ''
+  Tags:
+    - Key: ''
+      Value: ''
+  TemplateName: ''
+  Tier:
+    Name: ''
+    Type: ''
+    Version: ''
+  VersionLabel: ''
+Type: AWS::ElasticBeanstalk::Environment

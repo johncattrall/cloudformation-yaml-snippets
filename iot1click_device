@@ -1,0 +1,7 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  DeviceId: ''
+  Enabled: true
+Type: AWS::IoT1Click::Device

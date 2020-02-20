@@ -1,0 +1,7 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  DashboardBody: ''
+  DashboardName: ''
+Type: AWS::CloudWatch::Dashboard

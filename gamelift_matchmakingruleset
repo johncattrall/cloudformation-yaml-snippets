@@ -1,0 +1,7 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Name: ''
+  RuleSetBody: ''
+Type: AWS::GameLift::MatchmakingRuleSet

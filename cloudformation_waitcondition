@@ -1,0 +1,8 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Count: 0
+  Handle: ''
+  Timeout: ''
+Type: AWS::CloudFormation::WaitCondition

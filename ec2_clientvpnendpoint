@@ -1,0 +1,27 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  AuthenticationOptions:
+    - ActiveDirectory:
+        DirectoryId: ''
+      MutualAuthentication:
+        ClientRootCertificateChainArn: ''
+      Type: ''
+  ClientCidrBlock: ''
+  ConnectionLogOptions:
+    CloudwatchLogGroup: ''
+    CloudwatchLogStream: ''
+    Enabled: true
+  Description: ''
+  DnsServers:
+    - ''
+  ServerCertificateArn: ''
+  SplitTunnel: true
+  TagSpecifications:
+    - ResourceType: ''
+      Tags:
+        - Key: ''
+          Value: ''
+  TransportProtocol: ''
+Type: AWS::EC2::ClientVpnEndpoint

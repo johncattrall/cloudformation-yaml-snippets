@@ -1,0 +1,11 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  AcceptLanguage: ''
+  Description: ''
+  NotificationArns:
+    - ''
+  PortfolioId: ''
+  ProductId: ''
+Type: AWS::ServiceCatalog::LaunchNotificationConstraint

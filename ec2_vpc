@@ -1,0 +1,12 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  CidrBlock: ''
+  EnableDnsHostnames: true
+  EnableDnsSupport: true
+  InstanceTenancy: ''
+  Tags:
+    - Key: ''
+      Value: ''
+Type: AWS::EC2::VPC

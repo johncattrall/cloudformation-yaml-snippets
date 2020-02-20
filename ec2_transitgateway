@@ -1,0 +1,15 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  AmazonSideAsn: 0
+  AutoAcceptSharedAttachments: ''
+  DefaultRouteTableAssociation: ''
+  DefaultRouteTablePropagation: ''
+  Description: ''
+  DnsSupport: ''
+  Tags:
+    - Key: ''
+      Value: ''
+  VpnEcmpSupport: ''
+Type: AWS::EC2::TransitGateway

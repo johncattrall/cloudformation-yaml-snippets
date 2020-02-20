@@ -1,0 +1,7 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  ElasticLoadBalancerName: ''
+  LayerId: ''
+Type: AWS::OpsWorks::ElasticLoadBalancerAttachment

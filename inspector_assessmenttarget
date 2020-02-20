@@ -1,0 +1,7 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  AssessmentTargetName: ''
+  ResourceGroupArn: ''
+Type: AWS::Inspector::AssessmentTarget

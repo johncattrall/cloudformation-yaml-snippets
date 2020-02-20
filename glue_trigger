@@ -1,0 +1,28 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Actions:
+    - Arguments: {}
+      CrawlerName: ''
+      JobName: ''
+      NotificationProperty:
+        NotifyDelayAfter: 0
+      SecurityConfiguration: ''
+      Timeout: 0
+  Description: ''
+  Name: ''
+  Predicate:
+    Conditions:
+      - CrawlState: ''
+        CrawlerName: ''
+        JobName: ''
+        LogicalOperator: ''
+        State: ''
+    Logical: ''
+  Schedule: ''
+  StartOnCreation: true
+  Tags: {}
+  Type: ''
+  WorkflowName: ''
+Type: AWS::Glue::Trigger

@@ -1,0 +1,9 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Database: ''
+  Description: ''
+  Name: ''
+  QueryString: ''
+Type: AWS::Athena::NamedQuery

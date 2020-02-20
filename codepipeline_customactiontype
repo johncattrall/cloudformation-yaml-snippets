@@ -1,0 +1,30 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Category: ''
+  ConfigurationProperties:
+    - Description: ''
+      Key: true
+      Name: ''
+      Queryable: true
+      Required: true
+      Secret: true
+      Type: ''
+  InputArtifactDetails:
+    MaximumCount: 0
+    MinimumCount: 0
+  OutputArtifactDetails:
+    MaximumCount: 0
+    MinimumCount: 0
+  Provider: ''
+  Settings:
+    EntityUrlTemplate: ''
+    ExecutionUrlTemplate: ''
+    RevisionUrlTemplate: ''
+    ThirdPartyConfigurationUrl: ''
+  Tags:
+    - Key: ''
+      Value: ''
+  Version: ''
+Type: AWS::CodePipeline::CustomActionType

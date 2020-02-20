@@ -1,0 +1,27 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  AvailabilityZones:
+    - ''
+  BackupRetentionPeriod: 0
+  DBClusterIdentifier: ''
+  DBClusterParameterGroupName: ''
+  DBSubnetGroupName: ''
+  EnableCloudwatchLogsExports:
+    - ''
+  EngineVersion: ''
+  KmsKeyId: ''
+  MasterUserPassword: ''
+  MasterUsername: ''
+  Port: 0
+  PreferredBackupWindow: ''
+  PreferredMaintenanceWindow: ''
+  SnapshotIdentifier: ''
+  StorageEncrypted: true
+  Tags:
+    - Key: ''
+      Value: ''
+  VpcSecurityGroupIds:
+    - ''
+Type: AWS::DocDB::DBCluster

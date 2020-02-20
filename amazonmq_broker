@@ -1,0 +1,39 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  AutoMinorVersionUpgrade: true
+  BrokerName: ''
+  Configuration:
+    Id: ''
+    Revision: 0
+  DeploymentMode: ''
+  EncryptionOptions:
+    KmsKeyId: ''
+    UseAwsOwnedKey: true
+  EngineType: ''
+  EngineVersion: ''
+  HostInstanceType: ''
+  Logs:
+    Audit: true
+    General: true
+  MaintenanceWindowStartTime:
+    DayOfWeek: ''
+    TimeOfDay: ''
+    TimeZone: ''
+  PubliclyAccessible: true
+  SecurityGroups:
+    - ''
+  StorageType: ''
+  SubnetIds:
+    - ''
+  Tags:
+    - Key: ''
+      Value: ''
+  Users:
+    - ConsoleAccess: true
+      Groups:
+        - ''
+      Password: ''
+      Username: ''
+Type: AWS::AmazonMQ::Broker

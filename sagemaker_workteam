@@ -1,0 +1,17 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Description: ''
+  MemberDefinitions:
+    - CognitoMemberDefinition:
+        CognitoClientId: ''
+        CognitoUserGroup: ''
+        CognitoUserPool: ''
+  NotificationConfiguration:
+    NotificationTopicArn: ''
+  Tags:
+    - Key: ''
+      Value: ''
+  WorkteamName: ''
+Type: AWS::SageMaker::Workteam

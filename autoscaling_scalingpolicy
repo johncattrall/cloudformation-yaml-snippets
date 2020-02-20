@@ -1,0 +1,31 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  AdjustmentType: ''
+  AutoScalingGroupName: ''
+  Cooldown: ''
+  EstimatedInstanceWarmup: 0
+  MetricAggregationType: ''
+  MinAdjustmentMagnitude: 0
+  PolicyType: ''
+  ScalingAdjustment: 0
+  StepAdjustments:
+    - MetricIntervalLowerBound: 0
+      MetricIntervalUpperBound: 0
+      ScalingAdjustment: 0
+  TargetTrackingConfiguration:
+    CustomizedMetricSpecification:
+      Dimensions:
+        - Name: ''
+          Value: ''
+      MetricName: ''
+      Namespace: ''
+      Statistic: ''
+      Unit: ''
+    DisableScaleIn: true
+    PredefinedMetricSpecification:
+      PredefinedMetricType: ''
+      ResourceLabel: ''
+    TargetValue: 0
+Type: AWS::AutoScaling::ScalingPolicy

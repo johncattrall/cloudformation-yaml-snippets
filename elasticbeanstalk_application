@@ -1,0 +1,18 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  ApplicationName: ''
+  Description: ''
+  ResourceLifecycleConfig:
+    ServiceRole: ''
+    VersionLifecycleConfig:
+      MaxAgeRule:
+        DeleteSourceFromS3: true
+        Enabled: true
+        MaxAgeInDays: 0
+      MaxCountRule:
+        DeleteSourceFromS3: true
+        Enabled: true
+        MaxCount: 0
+Type: AWS::ElasticBeanstalk::Application

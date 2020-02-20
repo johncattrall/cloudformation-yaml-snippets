@@ -1,0 +1,8 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Cluster: ''
+  Service: ''
+  TaskSetId: ''
+Type: AWS::ECS::PrimaryTaskSet

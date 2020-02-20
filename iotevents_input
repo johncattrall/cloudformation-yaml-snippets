@@ -1,0 +1,13 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  InputDefinition:
+    Attributes:
+      - JsonPath: ''
+  InputDescription: ''
+  InputName: ''
+  Tags:
+    - Key: ''
+      Value: ''
+Type: AWS::IoTEvents::Input

@@ -1,0 +1,16 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  ApplicationName: ''
+  Description: ''
+  EnvironmentId: ''
+  OptionSettings:
+    - Namespace: ''
+      OptionName: ''
+      ResourceName: ''
+      Value: ''
+  PlatformArn: ''
+  SolutionStackName: ''
+  SourceConfiguration: ''
+Type: AWS::ElasticBeanstalk::ConfigurationTemplate

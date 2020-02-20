@@ -1,0 +1,22 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  EngineName: ''
+  MajorEngineVersion: ''
+  OptionConfigurations:
+    - DBSecurityGroupMemberships:
+        - ''
+      OptionName: ''
+      OptionSettings:
+        - Name: ''
+          Value: ''
+      OptionVersion: ''
+      Port: 0
+      VpcSecurityGroupMemberships:
+        - ''
+  OptionGroupDescription: ''
+  Tags:
+    - Key: ''
+      Value: ''
+Type: AWS::RDS::OptionGroup

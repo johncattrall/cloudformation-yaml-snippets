@@ -1,0 +1,103 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Artifacts:
+    ArtifactIdentifier: ''
+    EncryptionDisabled: true
+    Location: ''
+    Name: ''
+    NamespaceType: ''
+    OverrideArtifactName: true
+    Packaging: ''
+    Path: ''
+    Type: ''
+  BadgeEnabled: true
+  Cache:
+    Location: ''
+    Modes:
+      - ''
+    Type: ''
+  Description: ''
+  EncryptionKey: ''
+  Environment:
+    Certificate: ''
+    ComputeType: ''
+    EnvironmentVariables:
+      - Name: ''
+        Type: ''
+        Value: ''
+    Image: ''
+    ImagePullCredentialsType: ''
+    PrivilegedMode: true
+    RegistryCredential:
+      Credential: ''
+      CredentialProvider: ''
+    Type: ''
+  LogsConfig:
+    CloudWatchLogs:
+      GroupName: ''
+      Status: ''
+      StreamName: ''
+    S3Logs:
+      EncryptionDisabled: true
+      Location: ''
+      Status: ''
+  Name: ''
+  QueuedTimeoutInMinutes: 0
+  SecondaryArtifacts:
+    - ArtifactIdentifier: ''
+      EncryptionDisabled: true
+      Location: ''
+      Name: ''
+      NamespaceType: ''
+      OverrideArtifactName: true
+      Packaging: ''
+      Path: ''
+      Type: ''
+  SecondarySourceVersions:
+    - SourceIdentifier: ''
+      SourceVersion: ''
+  SecondarySources:
+    - Auth:
+        Resource: ''
+        Type: ''
+      BuildSpec: ''
+      GitCloneDepth: 0
+      GitSubmodulesConfig:
+        FetchSubmodules: true
+      InsecureSsl: true
+      Location: ''
+      ReportBuildStatus: true
+      SourceIdentifier: ''
+      Type: ''
+  ServiceRole: ''
+  Source:
+    Auth:
+      Resource: ''
+      Type: ''
+    BuildSpec: ''
+    GitCloneDepth: 0
+    GitSubmodulesConfig:
+      FetchSubmodules: true
+    InsecureSsl: true
+    Location: ''
+    ReportBuildStatus: true
+    SourceIdentifier: ''
+    Type: ''
+  SourceVersion: ''
+  Tags:
+    - Key: ''
+      Value: ''
+  TimeoutInMinutes: 0
+  Triggers:
+    FilterGroups:
+      - {}
+    Webhook: true
+  VpcConfig:
+    SecurityGroupIds:
+      - ''
+    Subnets:
+      - ''
+    VpcId: ''
+Type: AWS::CodeBuild::Project

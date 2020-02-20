@@ -1,0 +1,31 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Comment: ''
+  HostedZoneId: ''
+  HostedZoneName: ''
+  RecordSets:
+    - AliasTarget:
+        DNSName: ''
+        EvaluateTargetHealth: true
+        HostedZoneId: ''
+      Comment: ''
+      Failover: ''
+      GeoLocation:
+        ContinentCode: ''
+        CountryCode: ''
+        SubdivisionCode: ''
+      HealthCheckId: ''
+      HostedZoneId: ''
+      HostedZoneName: ''
+      MultiValueAnswer: true
+      Name: ''
+      Region: ''
+      ResourceRecords:
+        - ''
+      SetIdentifier: ''
+      TTL: ''
+      Type: ''
+      Weight: 0
+Type: AWS::Route53::RecordSetGroup

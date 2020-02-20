@@ -1,0 +1,14 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  CompatibleRuntimes:
+    - ''
+  Content:
+    S3Bucket: ''
+    S3Key: ''
+    S3ObjectVersion: ''
+  Description: ''
+  LayerName: ''
+  LicenseInfo: ''
+Type: AWS::Lambda::LayerVersion

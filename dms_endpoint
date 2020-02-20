@@ -1,0 +1,51 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  CertificateArn: ''
+  DatabaseName: ''
+  DynamoDbSettings:
+    ServiceAccessRoleArn: ''
+  ElasticsearchSettings:
+    EndpointUri: ''
+    ErrorRetryDuration: 0
+    FullLoadErrorPercentage: 0
+    ServiceAccessRoleArn: ''
+  EndpointIdentifier: ''
+  EndpointType: ''
+  EngineName: ''
+  ExtraConnectionAttributes: ''
+  KinesisSettings:
+    MessageFormat: ''
+    ServiceAccessRoleArn: ''
+    StreamArn: ''
+  KmsKeyId: ''
+  MongoDbSettings:
+    AuthMechanism: ''
+    AuthSource: ''
+    AuthType: ''
+    DatabaseName: ''
+    DocsToInvestigate: ''
+    ExtractDocId: ''
+    NestingLevel: ''
+    Password: ''
+    Port: 0
+    ServerName: ''
+    Username: ''
+  Password: ''
+  Port: 0
+  S3Settings:
+    BucketFolder: ''
+    BucketName: ''
+    CompressionType: ''
+    CsvDelimiter: ''
+    CsvRowDelimiter: ''
+    ExternalTableDefinition: ''
+    ServiceAccessRoleArn: ''
+  ServerName: ''
+  SslMode: ''
+  Tags:
+    - Key: ''
+      Value: ''
+  Username: ''
+Type: AWS::DMS::Endpoint

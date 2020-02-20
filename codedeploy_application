@@ -1,0 +1,7 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  ApplicationName: ''
+  ComputePlatform: ''
+Type: AWS::CodeDeploy::Application

@@ -1,0 +1,13 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Groups:
+    - ''
+  PolicyDocument: {}
+  PolicyName: ''
+  Roles:
+    - ''
+  Users:
+    - ''
+Type: AWS::IAM::Policy

@@ -1,0 +1,15 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  CertificateArn: ''
+  DomainName: ''
+  EndpointConfiguration:
+    Types:
+      - ''
+  RegionalCertificateArn: ''
+  SecurityPolicy: ''
+  Tags:
+    - Key: ''
+      Value: ''
+Type: AWS::ApiGateway::DomainName

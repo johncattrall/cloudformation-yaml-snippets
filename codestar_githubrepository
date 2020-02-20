@@ -1,0 +1,16 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Code:
+    S3:
+      Bucket: ''
+      Key: ''
+      ObjectVersion: ''
+  EnableIssues: true
+  IsPrivate: true
+  RepositoryAccessToken: ''
+  RepositoryDescription: ''
+  RepositoryName: ''
+  RepositoryOwner: ''
+Type: AWS::CodeStar::GitHubRepository

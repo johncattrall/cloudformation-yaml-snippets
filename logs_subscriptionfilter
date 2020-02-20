@@ -1,0 +1,9 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  DestinationArn: ''
+  FilterPattern: ''
+  LogGroupName: ''
+  RoleArn: ''
+Type: AWS::Logs::SubscriptionFilter

@@ -1,0 +1,8 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  IdentityPoolId: ''
+  RoleMappings: {}
+  Roles: {}
+Type: AWS::Cognito::IdentityPoolRoleAttachment

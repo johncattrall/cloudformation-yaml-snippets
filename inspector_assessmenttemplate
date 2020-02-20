@@ -1,0 +1,13 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  AssessmentTargetArn: ''
+  AssessmentTemplateName: ''
+  DurationInSeconds: 0
+  RulesPackageArns:
+    - ''
+  UserAttributesForFindings:
+    - Key: ''
+      Value: ''
+Type: AWS::Inspector::AssessmentTemplate

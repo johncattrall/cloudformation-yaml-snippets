@@ -1,0 +1,25 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Containers:
+    - ContainerHostname: ''
+      Environment: {}
+      Image: ''
+      ModelDataUrl: ''
+  ExecutionRoleArn: ''
+  ModelName: ''
+  PrimaryContainer:
+    ContainerHostname: ''
+    Environment: {}
+    Image: ''
+    ModelDataUrl: ''
+  Tags:
+    - Key: ''
+      Value: ''
+  VpcConfig:
+    SecurityGroupIds:
+      - ''
+    Subnets:
+      - ''
+Type: AWS::SageMaker::Model

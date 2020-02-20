@@ -1,0 +1,17 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  AllowUnassociatedTargets: true
+  Cutoff: 0
+  Description: ''
+  Duration: 0
+  EndDate: ''
+  Name: ''
+  Schedule: ''
+  ScheduleTimezone: ''
+  StartDate: ''
+  Tags:
+    - Key: ''
+      Value: ''
+Type: AWS::SSM::MaintenanceWindow

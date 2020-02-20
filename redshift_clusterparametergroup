@@ -1,0 +1,13 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Description: ''
+  ParameterGroupFamily: ''
+  Parameters:
+    - ParameterName: ''
+      ParameterValue: ''
+  Tags:
+    - Key: ''
+      Value: ''
+Type: AWS::Redshift::ClusterParameterGroup

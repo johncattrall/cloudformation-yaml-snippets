@@ -1,0 +1,9 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  AttributePayload:
+    Attributes:
+      Key: ''
+  ThingName: ''
+Type: AWS::IoT::Thing

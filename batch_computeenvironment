@@ -1,0 +1,32 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  ComputeEnvironmentName: ''
+  ComputeResources:
+    AllocationStrategy: ''
+    BidPercentage: 0
+    DesiredvCpus: 0
+    Ec2KeyPair: ''
+    ImageId: ''
+    InstanceRole: ''
+    InstanceTypes:
+      - ''
+    LaunchTemplate:
+      LaunchTemplateId: ''
+      LaunchTemplateName: ''
+      Version: ''
+    MaxvCpus: 0
+    MinvCpus: 0
+    PlacementGroup: ''
+    SecurityGroupIds:
+      - ''
+    SpotIamFleetRole: ''
+    Subnets:
+      - ''
+    Tags: {}
+    Type: ''
+  ServiceRole: ''
+  State: ''
+  Type: ''
+Type: AWS::Batch::ComputeEnvironment

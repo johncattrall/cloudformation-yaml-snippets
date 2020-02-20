@@ -1,0 +1,13 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Data: ''
+  Description: ''
+  EngineType: ''
+  EngineVersion: ''
+  Name: ''
+  Tags:
+    - Key: ''
+      Value: ''
+Type: AWS::AmazonMQ::Configuration

@@ -1,0 +1,17 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Authentication: ''
+  AuthenticationConfiguration:
+    AllowedIPRange: ''
+    SecretToken: ''
+  Filters:
+    - JsonPath: ''
+      MatchEquals: ''
+  Name: ''
+  RegisterWithThirdParty: true
+  TargetAction: ''
+  TargetPipeline: ''
+  TargetPipelineVersion: 0
+Type: AWS::CodePipeline::Webhook

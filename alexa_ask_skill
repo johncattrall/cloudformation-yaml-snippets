@@ -1,0 +1,17 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  AuthenticationConfiguration:
+    ClientId: ''
+    ClientSecret: ''
+    RefreshToken: ''
+  SkillPackage:
+    Overrides:
+      Manifest: {}
+    S3Bucket: ''
+    S3BucketRole: ''
+    S3Key: ''
+    S3ObjectVersion: ''
+  VendorId: ''
+Type: Alexa::ASK::Skill

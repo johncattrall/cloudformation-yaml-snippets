@@ -1,0 +1,11 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Description: ''
+  NetworkInterfaceId: ''
+  NetworkLoadBalancerArn: ''
+  Tags:
+    - Key: ''
+      Value: ''
+Type: AWS::EC2::TrafficMirrorTarget

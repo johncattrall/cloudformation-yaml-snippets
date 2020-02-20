@@ -1,0 +1,23 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Code:
+    S3:
+      Bucket: ''
+      Key: ''
+      ObjectVersion: ''
+  RepositoryDescription: ''
+  RepositoryName: ''
+  Tags:
+    - Key: ''
+      Value: ''
+  Triggers:
+    - Branches:
+        - ''
+      CustomData: ''
+      DestinationArn: ''
+      Events:
+        - ''
+      Name: ''
+Type: AWS::CodeCommit::Repository

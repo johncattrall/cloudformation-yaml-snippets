@@ -1,0 +1,7 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  AliasName: ''
+  TargetKeyId: ''
+Type: AWS::KMS::Alias

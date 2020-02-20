@@ -1,0 +1,9 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  CustomDomainConfig:
+    CertificateArn: ''
+  Domain: ''
+  UserPoolId: ''
+Type: AWS::Cognito::UserPoolDomain

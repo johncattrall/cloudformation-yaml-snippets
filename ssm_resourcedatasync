@@ -1,0 +1,11 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  BucketName: ''
+  BucketPrefix: ''
+  BucketRegion: ''
+  KMSKeyArn: ''
+  SyncFormat: ''
+  SyncName: ''
+Type: AWS::SSM::ResourceDataSync

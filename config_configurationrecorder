@@ -1,0 +1,12 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Name: ''
+  RecordingGroup:
+    AllSupported: true
+    IncludeGlobalResourceTypes: true
+    ResourceTypes:
+      - ''
+  RoleARN: ''
+Type: AWS::Config::ConfigurationRecorder

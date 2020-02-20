@@ -1,0 +1,19 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  ContentBasedDeduplication: true
+  DelaySeconds: 0
+  FifoQueue: true
+  KmsDataKeyReusePeriodSeconds: 0
+  KmsMasterKeyId: ''
+  MaximumMessageSize: 0
+  MessageRetentionPeriod: 0
+  QueueName: ''
+  ReceiveMessageWaitTimeSeconds: 0
+  RedrivePolicy: {}
+  Tags:
+    - Key: ''
+      Value: ''
+  VisibilityTimeout: 0
+Type: AWS::SQS::Queue

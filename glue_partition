@@ -1,0 +1,39 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  CatalogId: ''
+  DatabaseName: ''
+  PartitionInput:
+    Parameters: {}
+    StorageDescriptor:
+      BucketColumns:
+        - ''
+      Columns:
+        - Comment: ''
+          Name: ''
+          Type: ''
+      Compressed: true
+      InputFormat: ''
+      Location: ''
+      NumberOfBuckets: 0
+      OutputFormat: ''
+      Parameters: {}
+      SerdeInfo:
+        Name: ''
+        Parameters: {}
+        SerializationLibrary: ''
+      SkewedInfo:
+        SkewedColumnNames:
+          - ''
+        SkewedColumnValueLocationMaps: {}
+        SkewedColumnValues:
+          - ''
+      SortColumns:
+        - Column: ''
+          SortOrder: 0
+      StoredAsSubDirectories: true
+    Values:
+      - ''
+  TableName: ''
+Type: AWS::Glue::Partition

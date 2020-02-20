@@ -1,0 +1,11 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  ApiCachingBehavior: ''
+  ApiId: ''
+  AtRestEncryptionEnabled: true
+  TransitEncryptionEnabled: true
+  Ttl: 0
+  Type: ''
+Type: AWS::AppSync::ApiCache

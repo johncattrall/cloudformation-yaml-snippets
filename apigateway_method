@@ -1,0 +1,50 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  ApiKeyRequired: true
+  AuthorizationScopes:
+    - ''
+  AuthorizationType: ''
+  AuthorizerId: ''
+  HttpMethod: ''
+  Integration:
+    CacheKeyParameters:
+      - ''
+    CacheNamespace: ''
+    ConnectionId: ''
+    ConnectionType: ''
+    ContentHandling: ''
+    Credentials: ''
+    IntegrationHttpMethod: ''
+    IntegrationResponses:
+      - ContentHandling: ''
+        ResponseParameters:
+          Key: ''
+        ResponseTemplates:
+          Key: ''
+        SelectionPattern: ''
+        StatusCode: ''
+    PassthroughBehavior: ''
+    RequestParameters:
+      Key: ''
+    RequestTemplates:
+      Key: ''
+    TimeoutInMillis: 0
+    Type: ''
+    Uri: ''
+  MethodResponses:
+    - ResponseModels:
+        Key: ''
+      ResponseParameters:
+        Key: true
+      StatusCode: ''
+  OperationName: ''
+  RequestModels:
+    Key: ''
+  RequestParameters:
+    Key: true
+  RequestValidatorId: ''
+  ResourceId: ''
+  RestApiId: ''
+Type: AWS::ApiGateway::Method

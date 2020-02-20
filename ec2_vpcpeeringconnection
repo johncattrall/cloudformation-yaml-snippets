@@ -1,0 +1,13 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  PeerOwnerId: ''
+  PeerRegion: ''
+  PeerRoleArn: ''
+  PeerVpcId: ''
+  Tags:
+    - Key: ''
+      Value: ''
+  VpcId: ''
+Type: AWS::EC2::VPCPeeringConnection

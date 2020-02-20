@@ -1,0 +1,11 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  ConfigSnapshotDeliveryProperties:
+    DeliveryFrequency: ''
+  Name: ''
+  S3BucketName: ''
+  S3KeyPrefix: ''
+  SnsTopicARN: ''
+Type: AWS::Config::DeliveryChannel

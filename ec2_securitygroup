@@ -1,0 +1,31 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  GroupDescription: ''
+  GroupName: ''
+  SecurityGroupEgress:
+    - CidrIp: ''
+      CidrIpv6: ''
+      Description: ''
+      DestinationPrefixListId: ''
+      DestinationSecurityGroupId: ''
+      FromPort: 0
+      IpProtocol: ''
+      ToPort: 0
+  SecurityGroupIngress:
+    - CidrIp: ''
+      CidrIpv6: ''
+      Description: ''
+      FromPort: 0
+      IpProtocol: ''
+      SourcePrefixListId: ''
+      SourceSecurityGroupId: ''
+      SourceSecurityGroupName: ''
+      SourceSecurityGroupOwnerId: ''
+      ToPort: 0
+  Tags:
+    - Key: ''
+      Value: ''
+  VpcId: ''
+Type: AWS::EC2::SecurityGroup

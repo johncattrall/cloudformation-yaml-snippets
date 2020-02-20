@@ -1,0 +1,12 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Description: ''
+  Family: ''
+  Name: ''
+  Parameters: {}
+  Tags:
+    - Key: ''
+      Value: ''
+Type: AWS::Neptune::DBClusterParameterGroup

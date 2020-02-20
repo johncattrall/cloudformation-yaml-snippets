@@ -1,0 +1,30 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  ExcludedAccounts:
+    - ''
+  OrganizationConfigRuleName: ''
+  OrganizationCustomRuleMetadata:
+    Description: ''
+    InputParameters: ''
+    LambdaFunctionArn: ''
+    MaximumExecutionFrequency: ''
+    OrganizationConfigRuleTriggerTypes:
+      - ''
+    ResourceIdScope: ''
+    ResourceTypesScope:
+      - ''
+    TagKeyScope: ''
+    TagValueScope: ''
+  OrganizationManagedRuleMetadata:
+    Description: ''
+    InputParameters: ''
+    MaximumExecutionFrequency: ''
+    ResourceIdScope: ''
+    ResourceTypesScope:
+      - ''
+    RuleIdentifier: ''
+    TagKeyScope: ''
+    TagValueScope: ''
+Type: AWS::Config::OrganizationConfigRule

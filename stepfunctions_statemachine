@@ -1,0 +1,18 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  DefinitionString: ''
+  LoggingConfiguration:
+    Destinations:
+      - CloudWatchLogsLogGroup:
+          LogGroupArn: ''
+    IncludeExecutionData: true
+    Level: ''
+  RoleArn: ''
+  StateMachineName: ''
+  StateMachineType: ''
+  Tags:
+    - Key: ''
+      Value: ''
+Type: AWS::StepFunctions::StateMachine

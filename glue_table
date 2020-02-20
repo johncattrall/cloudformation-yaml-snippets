@@ -1,0 +1,47 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  CatalogId: ''
+  DatabaseName: ''
+  TableInput:
+    Description: ''
+    Name: ''
+    Owner: ''
+    Parameters: {}
+    PartitionKeys:
+      - Comment: ''
+        Name: ''
+        Type: ''
+    Retention: 0
+    StorageDescriptor:
+      BucketColumns:
+        - ''
+      Columns:
+        - Comment: ''
+          Name: ''
+          Type: ''
+      Compressed: true
+      InputFormat: ''
+      Location: ''
+      NumberOfBuckets: 0
+      OutputFormat: ''
+      Parameters: {}
+      SerdeInfo:
+        Name: ''
+        Parameters: {}
+        SerializationLibrary: ''
+      SkewedInfo:
+        SkewedColumnNames:
+          - ''
+        SkewedColumnValueLocationMaps: {}
+        SkewedColumnValues:
+          - ''
+      SortColumns:
+        - Column: ''
+          SortOrder: 0
+      StoredAsSubDirectories: true
+    TableType: ''
+    ViewExpandedText: ''
+    ViewOriginalText: ''
+Type: AWS::Glue::Table

@@ -1,0 +1,12 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  DBSubnetGroupDescription: ''
+  DBSubnetGroupName: ''
+  SubnetIds:
+    - ''
+  Tags:
+    - Key: ''
+      Value: ''
+Type: AWS::DocDB::DBSubnetGroup

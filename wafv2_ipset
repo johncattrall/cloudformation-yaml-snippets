@@ -1,0 +1,16 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Addresses:
+    IPAddresses:
+      - ''
+  Description: ''
+  IPAddressVersion: ''
+  Name: ''
+  Scope: ''
+  Tags:
+    TagList:
+      - Key: ''
+        Value: ''
+Type: AWS::WAFv2::IPSet

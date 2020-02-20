@@ -1,0 +1,39 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  AccessLogSetting:
+    DestinationArn: ''
+    Format: ''
+  CacheClusterEnabled: true
+  CacheClusterSize: ''
+  CanarySetting:
+    DeploymentId: ''
+    PercentTraffic: 0
+    StageVariableOverrides:
+      Key: ''
+    UseStageCache: true
+  ClientCertificateId: ''
+  DeploymentId: ''
+  Description: ''
+  DocumentationVersion: ''
+  MethodSettings:
+    - CacheDataEncrypted: true
+      CacheTtlInSeconds: 0
+      CachingEnabled: true
+      DataTraceEnabled: true
+      HttpMethod: ''
+      LoggingLevel: ''
+      MetricsEnabled: true
+      ResourcePath: ''
+      ThrottlingBurstLimit: 0
+      ThrottlingRateLimit: 0
+  RestApiId: ''
+  StageName: ''
+  Tags:
+    - Key: ''
+      Value: ''
+  TracingEnabled: true
+  Variables:
+    Key: ''
+Type: AWS::ApiGateway::Stage

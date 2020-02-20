@@ -1,0 +1,25 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  AvailabilityZones:
+    - ''
+  BackupRetentionPeriod: 0
+  DBClusterIdentifier: ''
+  DBClusterParameterGroupName: ''
+  DBSubnetGroupName: ''
+  EnableCloudwatchLogsExports:
+    - ''
+  IamAuthEnabled: true
+  KmsKeyId: ''
+  Port: 0
+  PreferredBackupWindow: ''
+  PreferredMaintenanceWindow: ''
+  SnapshotIdentifier: ''
+  StorageEncrypted: true
+  Tags:
+    - Key: ''
+      Value: ''
+  VpcSecurityGroupIds:
+    - ''
+Type: AWS::Neptune::DBCluster

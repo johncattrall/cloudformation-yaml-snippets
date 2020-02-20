@@ -1,0 +1,15 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  HomeDirectory: ''
+  Policy: ''
+  Role: ''
+  ServerId: ''
+  SshPublicKeys:
+    - {}
+  Tags:
+    - Key: ''
+      Value: ''
+  UserName: ''
+Type: AWS::Transfer::User

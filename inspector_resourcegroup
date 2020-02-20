@@ -1,0 +1,8 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  ResourceGroupTags:
+    - Key: ''
+      Value: ''
+Type: AWS::Inspector::ResourceGroup

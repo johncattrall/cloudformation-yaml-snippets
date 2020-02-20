@@ -1,0 +1,4 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+!GetAtt '$1.$2'

@@ -1,0 +1,55 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Actions:
+    - ActionName: ''
+      ContainerAction:
+        ExecutionRoleArn: ''
+        Image: ''
+        ResourceConfiguration:
+          ComputeType: ''
+          VolumeSizeInGB: 0
+        Variables:
+          - DatasetContentVersionValue:
+              DatasetName: ''
+            DoubleValue: 0
+            OutputFileUriValue:
+              FileName: ''
+            StringValue: ''
+            VariableName: ''
+      QueryAction:
+        Filters:
+          - DeltaTime:
+              OffsetSeconds: 0
+              TimeExpression: ''
+        SqlQuery: ''
+  ContentDeliveryRules:
+    - Destination:
+        IotEventsDestinationConfiguration:
+          InputName: ''
+          RoleArn: ''
+        S3DestinationConfiguration:
+          Bucket: ''
+          GlueConfiguration:
+            DatabaseName: ''
+            TableName: ''
+          Key: ''
+          RoleArn: ''
+      EntryName: ''
+  DatasetName: ''
+  RetentionPeriod:
+    NumberOfDays: 0
+    Unlimited: true
+  Tags:
+    - Key: ''
+      Value: ''
+  Triggers:
+    - Schedule:
+        ScheduleExpression: ''
+      TriggeringDataset:
+        DatasetName: ''
+  VersioningConfiguration:
+    MaxVersions: 0
+    Unlimited: true
+Type: AWS::IoTAnalytics::Dataset

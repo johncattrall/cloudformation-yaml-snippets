@@ -1,0 +1,65 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  AllocatedStorage: ''
+  AllowMajorVersionUpgrade: true
+  AssociatedRoles:
+    - FeatureName: ''
+      RoleArn: ''
+  AutoMinorVersionUpgrade: true
+  AvailabilityZone: ''
+  BackupRetentionPeriod: 0
+  CharacterSetName: ''
+  CopyTagsToSnapshot: true
+  DBClusterIdentifier: ''
+  DBInstanceClass: ''
+  DBInstanceIdentifier: ''
+  DBName: ''
+  DBParameterGroupName: ''
+  DBSecurityGroups:
+    - ''
+  DBSnapshotIdentifier: ''
+  DBSubnetGroupName: ''
+  DeleteAutomatedBackups: true
+  DeletionProtection: true
+  Domain: ''
+  DomainIAMRoleName: ''
+  EnableCloudwatchLogsExports:
+    - ''
+  EnableIAMDatabaseAuthentication: true
+  EnablePerformanceInsights: true
+  Engine: ''
+  EngineVersion: ''
+  Iops: 0
+  KmsKeyId: ''
+  LicenseModel: ''
+  MasterUserPassword: ''
+  MasterUsername: ''
+  MaxAllocatedStorage: 0
+  MonitoringInterval: 0
+  MonitoringRoleArn: ''
+  MultiAZ: true
+  OptionGroupName: ''
+  PerformanceInsightsKMSKeyId: ''
+  PerformanceInsightsRetentionPeriod: 0
+  Port: ''
+  PreferredBackupWindow: ''
+  PreferredMaintenanceWindow: ''
+  ProcessorFeatures:
+    - Name: ''
+      Value: ''
+  PromotionTier: 0
+  PubliclyAccessible: true
+  SourceDBInstanceIdentifier: ''
+  SourceRegion: ''
+  StorageEncrypted: true
+  StorageType: ''
+  Tags:
+    - Key: ''
+      Value: ''
+  Timezone: ''
+  UseDefaultProcessorFeatures: true
+  VPCSecurityGroups:
+    - ''
+Type: AWS::RDS::DBInstance

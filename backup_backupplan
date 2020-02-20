@@ -1,0 +1,18 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  BackupPlan:
+    BackupPlanName: ''
+    BackupPlanRule:
+      - CompletionWindowMinutes: 0
+        Lifecycle:
+          DeleteAfterDays: 0
+          MoveToColdStorageAfterDays: 0
+        RecoveryPointTags: {}
+        RuleName: ''
+        ScheduleExpression: ''
+        StartWindowMinutes: 0
+        TargetBackupVault: ''
+  BackupPlanTags: {}
+Type: AWS::Backup::BackupPlan

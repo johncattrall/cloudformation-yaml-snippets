@@ -1,0 +1,13 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Name: ''
+  SizeConstraints:
+    - ComparisonOperator: ''
+      FieldToMatch:
+        Data: ''
+        Type: ''
+      Size: 0
+      TextTransformation: ''
+Type: AWS::WAF::SizeConstraintSet

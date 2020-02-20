@@ -1,0 +1,11 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Description: ''
+  SubnetIds:
+    - ''
+  Tags:
+    - Key: ''
+      Value: ''
+Type: AWS::Redshift::ClusterSubnetGroup

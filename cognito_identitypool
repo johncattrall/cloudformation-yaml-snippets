@@ -1,0 +1,27 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  AllowClassicFlow: true
+  AllowUnauthenticatedIdentities: true
+  CognitoEvents: {}
+  CognitoIdentityProviders:
+    - ClientId: ''
+      ProviderName: ''
+      ServerSideTokenCheck: true
+  CognitoStreams:
+    RoleArn: ''
+    StreamName: ''
+    StreamingStatus: ''
+  DeveloperProviderName: ''
+  IdentityPoolName: ''
+  OpenIdConnectProviderARNs:
+    - ''
+  PushSync:
+    ApplicationArns:
+      - ''
+    RoleArn: ''
+  SamlProviderARNs:
+    - ''
+  SupportedLoginProviders: {}
+Type: AWS::Cognito::IdentityPool

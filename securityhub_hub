@@ -1,0 +1,6 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Tags: {}
+Type: AWS::SecurityHub::Hub

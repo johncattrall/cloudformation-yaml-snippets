@@ -1,0 +1,9 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  BasePath: ''
+  DomainName: ''
+  RestApiId: ''
+  Stage: ''
+Type: AWS::ApiGateway::BasePathMapping

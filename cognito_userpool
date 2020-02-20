@@ -1,0 +1,79 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  AdminCreateUserConfig:
+    AllowAdminCreateUserOnly: true
+    InviteMessageTemplate:
+      EmailMessage: ''
+      EmailSubject: ''
+      SMSMessage: ''
+    UnusedAccountValidityDays: 0
+  AliasAttributes:
+    - ''
+  AutoVerifiedAttributes:
+    - ''
+  DeviceConfiguration:
+    ChallengeRequiredOnNewDevice: true
+    DeviceOnlyRememberedOnUserPrompt: true
+  EmailConfiguration:
+    ConfigurationSet: ''
+    EmailSendingAccount: ''
+    From: ''
+    ReplyToEmailAddress: ''
+    SourceArn: ''
+  EmailVerificationMessage: ''
+  EmailVerificationSubject: ''
+  EnabledMfas:
+    - ''
+  LambdaConfig:
+    CreateAuthChallenge: ''
+    CustomMessage: ''
+    DefineAuthChallenge: ''
+    PostAuthentication: ''
+    PostConfirmation: ''
+    PreAuthentication: ''
+    PreSignUp: ''
+    PreTokenGeneration: ''
+    UserMigration: ''
+    VerifyAuthChallengeResponse: ''
+  MfaConfiguration: ''
+  Policies:
+    PasswordPolicy:
+      MinimumLength: 0
+      RequireLowercase: true
+      RequireNumbers: true
+      RequireSymbols: true
+      RequireUppercase: true
+      TemporaryPasswordValidityDays: 0
+  Schema:
+    - AttributeDataType: ''
+      DeveloperOnlyAttribute: true
+      Mutable: true
+      Name: ''
+      NumberAttributeConstraints:
+        MaxValue: ''
+        MinValue: ''
+      Required: true
+      StringAttributeConstraints:
+        MaxLength: ''
+        MinLength: ''
+  SmsAuthenticationMessage: ''
+  SmsConfiguration:
+    ExternalId: ''
+    SnsCallerArn: ''
+  SmsVerificationMessage: ''
+  UserPoolAddOns:
+    AdvancedSecurityMode: ''
+  UserPoolName: ''
+  UserPoolTags: {}
+  UsernameAttributes:
+    - ''
+  VerificationMessageTemplate:
+    DefaultEmailOption: ''
+    EmailMessage: ''
+    EmailMessageByLink: ''
+    EmailSubject: ''
+    EmailSubjectByLink: ''
+    SmsMessage: ''
+Type: AWS::Cognito::UserPool

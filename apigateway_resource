@@ -1,0 +1,8 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  ParentId: ''
+  PathPart: ''
+  RestApiId: ''
+Type: AWS::ApiGateway::Resource

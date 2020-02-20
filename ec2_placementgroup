@@ -1,0 +1,6 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Strategy: ''
+Type: AWS::EC2::PlacementGroup

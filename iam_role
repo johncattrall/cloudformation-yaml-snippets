@@ -1,0 +1,19 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  AssumeRolePolicyDocument: {}
+  Description: ''
+  ManagedPolicyArns:
+    - ''
+  MaxSessionDuration: 0
+  Path: ''
+  PermissionsBoundary: ''
+  Policies:
+    - PolicyDocument: {}
+      PolicyName: ''
+  RoleName: ''
+  Tags:
+    - Key: ''
+      Value: ''
+Type: AWS::IAM::Role

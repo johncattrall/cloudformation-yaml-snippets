@@ -1,0 +1,13 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Content: ''
+  Description: ''
+  RegistryName: ''
+  SchemaName: ''
+  Tags:
+    - Key: ''
+      Value: ''
+  Type: ''
+Type: AWS::EventSchemas::Schema

@@ -1,0 +1,13 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Action: ''
+  Condition:
+    Key: ''
+    Type: ''
+    Value: ''
+  EventBusName: ''
+  Principal: ''
+  StatementId: ''
+Type: AWS::Events::EventBusPolicy

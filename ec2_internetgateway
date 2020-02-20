@@ -1,0 +1,8 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Tags:
+    - Key: ''
+      Value: ''
+Type: AWS::EC2::InternetGateway

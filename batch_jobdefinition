@@ -1,0 +1,87 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  ContainerProperties:
+    Command:
+      - ''
+    Environment:
+      - Name: ''
+        Value: ''
+    Image: ''
+    InstanceType: ''
+    JobRoleArn: ''
+    LinuxParameters:
+      Devices:
+        - ContainerPath: ''
+          HostPath: ''
+          Permissions:
+            - ''
+    Memory: 0
+    MountPoints:
+      - ContainerPath: ''
+        ReadOnly: true
+        SourceVolume: ''
+    Privileged: true
+    ReadonlyRootFilesystem: true
+    ResourceRequirements:
+      - Type: ''
+        Value: ''
+    Ulimits:
+      - HardLimit: 0
+        Name: ''
+        SoftLimit: 0
+    User: ''
+    Vcpus: 0
+    Volumes:
+      - Host:
+          SourcePath: ''
+        Name: ''
+  JobDefinitionName: ''
+  NodeProperties:
+    MainNode: 0
+    NodeRangeProperties:
+      - Container:
+          Command:
+            - ''
+          Environment:
+            - Name: ''
+              Value: ''
+          Image: ''
+          InstanceType: ''
+          JobRoleArn: ''
+          LinuxParameters:
+            Devices:
+              - ContainerPath: ''
+                HostPath: ''
+                Permissions:
+                  - ''
+          Memory: 0
+          MountPoints:
+            - ContainerPath: ''
+              ReadOnly: true
+              SourceVolume: ''
+          Privileged: true
+          ReadonlyRootFilesystem: true
+          ResourceRequirements:
+            - Type: ''
+              Value: ''
+          Ulimits:
+            - HardLimit: 0
+              Name: ''
+              SoftLimit: 0
+          User: ''
+          Vcpus: 0
+          Volumes:
+            - Host:
+                SourcePath: ''
+              Name: ''
+        TargetNodes: ''
+    NumNodes: 0
+  Parameters: {}
+  RetryStrategy:
+    Attempts: 0
+  Timeout:
+    AttemptDurationSeconds: 0
+  Type: ''
+Type: AWS::Batch::JobDefinition

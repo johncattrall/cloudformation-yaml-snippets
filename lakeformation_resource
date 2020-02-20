@@ -1,0 +1,8 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  ResourceArn: ''
+  RoleArn: ''
+  UseServiceLinkedRole: true
+Type: AWS::LakeFormation::Resource

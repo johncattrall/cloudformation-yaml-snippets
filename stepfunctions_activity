@@ -1,0 +1,9 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Name: ''
+  Tags:
+    - Key: ''
+      Value: ''
+Type: AWS::StepFunctions::Activity

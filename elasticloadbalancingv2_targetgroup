@@ -1,0 +1,30 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  HealthCheckEnabled: true
+  HealthCheckIntervalSeconds: 0
+  HealthCheckPath: ''
+  HealthCheckPort: ''
+  HealthCheckProtocol: ''
+  HealthCheckTimeoutSeconds: 0
+  HealthyThresholdCount: 0
+  Matcher:
+    HttpCode: ''
+  Name: ''
+  Port: 0
+  Protocol: ''
+  Tags:
+    - Key: ''
+      Value: ''
+  TargetGroupAttributes:
+    - Key: ''
+      Value: ''
+  TargetType: ''
+  Targets:
+    - AvailabilityZone: ''
+      Id: ''
+      Port: 0
+  UnhealthyThresholdCount: 0
+  VpcId: ''
+Type: AWS::ElasticLoadBalancingV2::TargetGroup

@@ -1,0 +1,21 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  CurrentRevisionId: ''
+  Name: ''
+  RenderingEngine:
+    Name: ''
+    Version: ''
+  RobotSoftwareSuite:
+    Name: ''
+    Version: ''
+  SimulationSoftwareSuite:
+    Name: ''
+    Version: ''
+  Sources:
+    - Architecture: ''
+      S3Bucket: ''
+      S3Key: ''
+  Tags: {}
+Type: AWS::RoboMaker::SimulationApplication

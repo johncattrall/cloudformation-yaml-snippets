@@ -1,0 +1,13 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  InitialVersion:
+    Cores:
+      - CertificateArn: ''
+        Id: ''
+        SyncShadow: true
+        ThingArn: ''
+  Name: ''
+  Tags: {}
+Type: AWS::Greengrass::CoreDefinition

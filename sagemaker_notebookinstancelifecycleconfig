@@ -1,0 +1,10 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  NotebookInstanceLifecycleConfigName: ''
+  OnCreate:
+    - Content: ''
+  OnStart:
+    - Content: ''
+Type: AWS::SageMaker::NotebookInstanceLifecycleConfig

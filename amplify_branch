@@ -1,0 +1,23 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  AppId: ''
+  BasicAuthConfig:
+    EnableBasicAuth: true
+    Password: ''
+    Username: ''
+  BranchName: ''
+  BuildSpec: ''
+  Description: ''
+  EnableAutoBuild: true
+  EnablePullRequestPreview: true
+  EnvironmentVariables:
+    - Name: ''
+      Value: ''
+  PullRequestEnvironmentName: ''
+  Stage: ''
+  Tags:
+    - Key: ''
+      Value: ''
+Type: AWS::Amplify::Branch

@@ -1,0 +1,30 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  ApiKeySourceType: ''
+  BinaryMediaTypes:
+    - ''
+  Body: {}
+  BodyS3Location:
+    Bucket: ''
+    ETag: ''
+    Key: ''
+    Version: ''
+  CloneFrom: ''
+  Description: ''
+  EndpointConfiguration:
+    Types:
+      - ''
+    VpcEndpointIds:
+      - ''
+  FailOnWarnings: true
+  MinimumCompressionSize: 0
+  Name: ''
+  Parameters:
+    Key: ''
+  Policy: {}
+  Tags:
+    - Key: ''
+      Value: ''
+Type: AWS::ApiGateway::RestApi

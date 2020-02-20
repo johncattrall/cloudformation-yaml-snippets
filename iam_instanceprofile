@@ -1,0 +1,9 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  InstanceProfileName: ''
+  Path: ''
+  Roles:
+    - ''
+Type: AWS::IAM::InstanceProfile

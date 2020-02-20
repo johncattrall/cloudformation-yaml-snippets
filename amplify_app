@@ -1,0 +1,43 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  AccessToken: ''
+  AutoBranchCreationConfig:
+    AutoBranchCreationPatterns:
+      - ''
+    BasicAuthConfig:
+      EnableBasicAuth: true
+      Password: ''
+      Username: ''
+    BuildSpec: ''
+    EnableAutoBranchCreation: true
+    EnableAutoBuild: true
+    EnablePullRequestPreview: true
+    EnvironmentVariables:
+      - Name: ''
+        Value: ''
+    PullRequestEnvironmentName: ''
+    Stage: ''
+  BasicAuthConfig:
+    EnableBasicAuth: true
+    Password: ''
+    Username: ''
+  BuildSpec: ''
+  CustomRules:
+    - Condition: ''
+      Source: ''
+      Status: ''
+      Target: ''
+  Description: ''
+  EnvironmentVariables:
+    - Name: ''
+      Value: ''
+  IAMServiceRole: ''
+  Name: ''
+  OauthToken: ''
+  Repository: ''
+  Tags:
+    - Key: ''
+      Value: ''
+Type: AWS::Amplify::App

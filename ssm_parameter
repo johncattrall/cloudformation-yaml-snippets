@@ -1,0 +1,13 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  AllowedPattern: ''
+  Description: ''
+  Name: ''
+  Policies: ''
+  Tags: {}
+  Tier: ''
+  Type: ''
+  Value: ''
+Type: AWS::SSM::Parameter

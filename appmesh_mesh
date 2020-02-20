@@ -1,0 +1,12 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  MeshName: ''
+  Spec:
+    EgressFilter:
+      Type: ''
+  Tags:
+    - Key: ''
+      Value: ''
+Type: AWS::AppMesh::Mesh

@@ -1,0 +1,9 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  ApiId: ''
+  ApiMappingKey: ''
+  DomainName: ''
+  Stage: ''
+Type: AWS::ApiGatewayV2::ApiMapping

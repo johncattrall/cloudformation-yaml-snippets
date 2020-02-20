@@ -1,0 +1,6 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  ServiceToken: ''
+Type: AWS::CloudFormation::CustomResource

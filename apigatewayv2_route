@@ -1,0 +1,18 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  ApiId: ''
+  ApiKeyRequired: true
+  AuthorizationScopes:
+    - ''
+  AuthorizationType: ''
+  AuthorizerId: ''
+  ModelSelectionExpression: ''
+  OperationName: ''
+  RequestModels: {}
+  RequestParameters: {}
+  RouteKey: ''
+  RouteResponseSelectionExpression: ''
+  Target: ''
+Type: AWS::ApiGatewayV2::Route

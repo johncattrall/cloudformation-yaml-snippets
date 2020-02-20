@@ -1,0 +1,8 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  AcceptLanguage: ''
+  AccountId: ''
+  PortfolioId: ''
+Type: AWS::ServiceCatalog::PortfolioShare

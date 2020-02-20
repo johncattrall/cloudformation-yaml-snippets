@@ -1,0 +1,9 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  AllowSelfManagement: true
+  IamUserArn: ''
+  SshPublicKey: ''
+  SshUsername: ''
+Type: AWS::OpsWorks::UserProfile

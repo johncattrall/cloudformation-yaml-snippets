@@ -1,0 +1,20 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Action: ''
+  Description: ''
+  DetectorId: ''
+  FindingCriteria:
+    Criterion: {}
+    ItemType:
+      Eq:
+        - ''
+      Gte: 0
+      Lt: 0
+      Lte: 0
+      Neq:
+        - ''
+  Name: ''
+  Rank: 0
+Type: AWS::GuardDuty::Filter

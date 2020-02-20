@@ -1,0 +1,18 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  CatalogId: ''
+  ConnectionInput:
+    ConnectionProperties: {}
+    ConnectionType: ''
+    Description: ''
+    MatchCriteria:
+      - ''
+    Name: ''
+    PhysicalConnectionRequirements:
+      AvailabilityZone: ''
+      SecurityGroupIdList:
+        - ''
+      SubnetId: ''
+Type: AWS::Glue::Connection

@@ -1,0 +1,10 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  AppId: ''
+  DomainName: ''
+  SubDomainSettings:
+    - BranchName: ''
+      Prefix: ''
+Type: AWS::Amplify::Domain

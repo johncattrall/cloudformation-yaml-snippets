@@ -1,0 +1,9 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Name: ''
+  RestApiId: ''
+  ValidateRequestBody: true
+  ValidateRequestParameters: true
+Type: AWS::ApiGateway::RequestValidator

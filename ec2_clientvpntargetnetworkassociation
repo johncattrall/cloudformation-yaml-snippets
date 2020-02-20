@@ -1,0 +1,7 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  ClientVpnEndpointId: ''
+  SubnetId: ''
+Type: AWS::EC2::ClientVpnTargetNetworkAssociation

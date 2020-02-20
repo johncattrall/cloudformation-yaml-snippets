@@ -1,0 +1,16 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  AcceptLanguage: ''
+  AccountList:
+    - ''
+  AdminRole: ''
+  Description: ''
+  ExecutionRole: ''
+  PortfolioId: ''
+  ProductId: ''
+  RegionList:
+    - ''
+  StackInstanceControl: ''
+Type: AWS::ServiceCatalog::StackSetConstraint

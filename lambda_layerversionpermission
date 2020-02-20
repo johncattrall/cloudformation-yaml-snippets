@@ -1,0 +1,9 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Action: ''
+  LayerVersionArn: ''
+  OrganizationId: ''
+  Principal: ''
+Type: AWS::Lambda::LayerVersionPermission

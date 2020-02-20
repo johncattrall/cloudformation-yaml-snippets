@@ -1,0 +1,27 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Description: ''
+  GlueVersion: ''
+  InputRecordTables:
+    GlueTables:
+      - CatalogId: ''
+        ConnectionName: ''
+        DatabaseName: ''
+        TableName: ''
+  MaxCapacity: 0
+  MaxRetries: 0
+  Name: ''
+  NumberOfWorkers: 0
+  Role: ''
+  Timeout: 0
+  TransformParameters:
+    FindMatchesParameters:
+      AccuracyCostTradeoff: 0
+      EnforceProvidedLabels: true
+      PrecisionRecallTradeoff: 0
+      PrimaryKeyColumnName: ''
+    TransformType: ''
+  WorkerType: ''
+Type: AWS::Glue::MLTransform

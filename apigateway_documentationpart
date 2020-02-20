@@ -1,0 +1,13 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Location:
+    Method: ''
+    Name: ''
+    Path: ''
+    StatusCode: ''
+    Type: ''
+  Properties: ''
+  RestApiId: ''
+Type: AWS::ApiGateway::DocumentationPart

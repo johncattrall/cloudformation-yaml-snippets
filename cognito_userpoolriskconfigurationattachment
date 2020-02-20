@@ -1,0 +1,44 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  AccountTakeoverRiskConfiguration:
+    Actions:
+      HighAction:
+        EventAction: ''
+        Notify: true
+      LowAction:
+        EventAction: ''
+        Notify: true
+      MediumAction:
+        EventAction: ''
+        Notify: true
+    NotifyConfiguration:
+      BlockEmail:
+        HtmlBody: ''
+        Subject: ''
+        TextBody: ''
+      From: ''
+      MfaEmail:
+        HtmlBody: ''
+        Subject: ''
+        TextBody: ''
+      NoActionEmail:
+        HtmlBody: ''
+        Subject: ''
+        TextBody: ''
+      ReplyTo: ''
+      SourceArn: ''
+  ClientId: ''
+  CompromisedCredentialsRiskConfiguration:
+    Actions:
+      EventAction: ''
+    EventFilter:
+      - ''
+  RiskExceptionConfiguration:
+    BlockedIPRangeList:
+      - ''
+    SkippedIPRangeList:
+      - ''
+  UserPoolId: ''
+Type: AWS::Cognito::UserPoolRiskConfigurationAttachment

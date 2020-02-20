@@ -1,0 +1,15 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  BackupPlanId: ''
+  BackupSelection:
+    IamRoleArn: ''
+    ListOfTags:
+      - ConditionKey: ''
+        ConditionType: ''
+        ConditionValue: ''
+    Resources:
+      - ''
+    SelectionName: ''
+Type: AWS::Backup::BackupSelection

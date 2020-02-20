@@ -1,0 +1,8 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Name: ''
+  ResolverRuleId: ''
+  VPCId: ''
+Type: AWS::Route53Resolver::ResolverRuleAssociation

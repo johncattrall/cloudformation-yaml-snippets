@@ -1,0 +1,11 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  CatalogId: ''
+  DatabaseInput:
+    Description: ''
+    LocationUri: ''
+    Name: ''
+    Parameters: {}
+Type: AWS::Glue::Database

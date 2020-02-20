@@ -1,0 +1,13 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  AccessPolicy: {}
+  BackupVaultName: ''
+  BackupVaultTags: {}
+  EncryptionKeyArn: ''
+  Notifications:
+    BackupVaultEvents:
+      - ''
+    SNSTopicArn: ''
+Type: AWS::Backup::BackupVault

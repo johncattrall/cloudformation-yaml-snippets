@@ -1,0 +1,11 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Domain: ''
+  InstanceId: ''
+  PublicIpv4Pool: ''
+  Tags:
+    - Key: ''
+      Value: ''
+Type: AWS::EC2::EIP

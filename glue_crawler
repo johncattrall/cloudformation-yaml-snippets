@@ -1,0 +1,36 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Classifiers:
+    - ''
+  Configuration: ''
+  CrawlerSecurityConfiguration: ''
+  DatabaseName: ''
+  Description: ''
+  Name: ''
+  Role: ''
+  Schedule:
+    ScheduleExpression: ''
+  SchemaChangePolicy:
+    DeleteBehavior: ''
+    UpdateBehavior: ''
+  TablePrefix: ''
+  Tags: {}
+  Targets:
+    CatalogTargets:
+      - DatabaseName: ''
+        Tables:
+          - ''
+    DynamoDBTargets:
+      - Path: ''
+    JdbcTargets:
+      - ConnectionName: ''
+        Exclusions:
+          - ''
+        Path: ''
+    S3Targets:
+      - Exclusions:
+          - ''
+        Path: ''
+Type: AWS::Glue::Crawler

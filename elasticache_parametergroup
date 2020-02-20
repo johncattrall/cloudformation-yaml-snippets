@@ -1,0 +1,9 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  CacheParameterGroupFamily: ''
+  Description: ''
+  Properties:
+    Key: ''
+Type: AWS::ElastiCache::ParameterGroup

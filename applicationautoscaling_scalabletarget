@@ -1,0 +1,23 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  MaxCapacity: 0
+  MinCapacity: 0
+  ResourceId: ''
+  RoleARN: ''
+  ScalableDimension: ''
+  ScheduledActions:
+    - EndTime: '0000-00-20T00:00:00'
+      ScalableTargetAction:
+        MaxCapacity: 0
+        MinCapacity: 0
+      Schedule: ''
+      ScheduledActionName: ''
+      StartTime: '0000-00-20T00:00:00'
+  ServiceNamespace: ''
+  SuspendedState:
+    DynamicScalingInSuspended: true
+    DynamicScalingOutSuspended: true
+    ScheduledScalingSuspended: true
+Type: AWS::ApplicationAutoScaling::ScalableTarget

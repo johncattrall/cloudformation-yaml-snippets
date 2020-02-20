@@ -1,0 +1,11 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Identifier: ''
+  Name: ''
+  Scopes:
+    - ScopeDescription: ''
+      ScopeName: ''
+  UserPoolId: ''
+Type: AWS::Cognito::UserPoolResourceServer

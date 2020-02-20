@@ -1,0 +1,65 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  AutoScalingGroupName: ''
+  AvailabilityZones:
+    - ''
+  Cooldown: ''
+  DesiredCapacity: ''
+  HealthCheckGracePeriod: 0
+  HealthCheckType: ''
+  InstanceId: ''
+  LaunchConfigurationName: ''
+  LaunchTemplate:
+    LaunchTemplateId: ''
+    LaunchTemplateName: ''
+    Version: ''
+  LifecycleHookSpecificationList:
+    - DefaultResult: ''
+      HeartbeatTimeout: 0
+      LifecycleHookName: ''
+      LifecycleTransition: ''
+      NotificationMetadata: ''
+      NotificationTargetARN: ''
+      RoleARN: ''
+  LoadBalancerNames:
+    - ''
+  MaxSize: ''
+  MetricsCollection:
+    - Granularity: ''
+      Metrics:
+        - ''
+  MinSize: ''
+  MixedInstancesPolicy:
+    InstancesDistribution:
+      OnDemandAllocationStrategy: ''
+      OnDemandBaseCapacity: 0
+      OnDemandPercentageAboveBaseCapacity: 0
+      SpotAllocationStrategy: ''
+      SpotInstancePools: 0
+      SpotMaxPrice: ''
+    LaunchTemplate:
+      LaunchTemplateSpecification:
+        LaunchTemplateId: ''
+        LaunchTemplateName: ''
+        Version: ''
+      Overrides:
+        - InstanceType: ''
+  NotificationConfigurations:
+    - NotificationTypes:
+        - ''
+      TopicARN: ''
+  PlacementGroup: ''
+  ServiceLinkedRoleARN: ''
+  Tags:
+    - Key: ''
+      PropagateAtLaunch: true
+      Value: ''
+  TargetGroupARNs:
+    - ''
+  TerminationPolicies:
+    - ''
+  VPCZoneIdentifier:
+    - ''
+Type: AWS::AutoScaling::AutoScalingGroup

@@ -1,0 +1,9 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Broker: ''
+  Configuration:
+    Id: ''
+    Revision: 0
+Type: AWS::AmazonMQ::ConfigurationAssociation

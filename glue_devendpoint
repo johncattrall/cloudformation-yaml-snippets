@@ -1,0 +1,20 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Arguments: {}
+  EndpointName: ''
+  ExtraJarsS3Path: ''
+  ExtraPythonLibsS3Path: ''
+  GlueVersion: ''
+  NumberOfNodes: 0
+  NumberOfWorkers: 0
+  PublicKey: ''
+  RoleArn: ''
+  SecurityConfiguration: ''
+  SecurityGroupIds:
+    - ''
+  SubnetId: ''
+  Tags: {}
+  WorkerType: ''
+Type: AWS::Glue::DevEndpoint

@@ -1,0 +1,14 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Name: ''
+  RetentionPeriodHours: 0
+  ShardCount: 0
+  StreamEncryption:
+    EncryptionType: ''
+    KeyId: ''
+  Tags:
+    - Key: ''
+      Value: ''
+Type: AWS::Kinesis::Stream

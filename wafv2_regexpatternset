@@ -1,0 +1,15 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Description: ''
+  Name: ''
+  RegularExpressionList:
+    RegularExpressionList:
+      - RegexString: ''
+  Scope: ''
+  Tags:
+    TagList:
+      - Key: ''
+        Value: ''
+Type: AWS::WAFv2::RegexPatternSet

@@ -1,0 +1,13 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  LifecyclePolicy:
+    LifecyclePolicyText: ''
+    RegistryId: ''
+  RepositoryName: ''
+  RepositoryPolicyText: {}
+  Tags:
+    - Key: ''
+      Value: ''
+Type: AWS::ECR::Repository

@@ -1,0 +1,5 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties: {}
+Type: AWS::CloudFormation::WaitConditionHandle

@@ -1,0 +1,11 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Action: ''
+  EventSourceToken: ''
+  FunctionName: ''
+  Principal: ''
+  SourceAccount: ''
+  SourceArn: ''
+Type: AWS::Lambda::Permission

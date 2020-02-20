@@ -1,0 +1,8 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  AmazonProvidedIpv6CidrBlock: true
+  CidrBlock: ''
+  VpcId: ''
+Type: AWS::EC2::VPCCidrBlock

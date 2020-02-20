@@ -1,0 +1,12 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  AttributeMapping: {}
+  IdpIdentifiers:
+    - ''
+  ProviderDetails: {}
+  ProviderName: ''
+  ProviderType: ''
+  UserPoolId: ''
+Type: AWS::Cognito::UserPoolIdentityProvider

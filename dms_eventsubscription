@@ -1,0 +1,16 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Enabled: true
+  EventCategories:
+    - ''
+  SnsTopicArn: ''
+  SourceIds:
+    - ''
+  SourceType: ''
+  SubscriptionName: ''
+  Tags:
+    - Key: ''
+      Value: ''
+Type: AWS::DMS::EventSubscription

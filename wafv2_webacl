@@ -1,0 +1,2153 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  DefaultAction:
+    Allow: {}
+    Block: {}
+  Description: ''
+  Name: ''
+  Rules:
+    Rules:
+      - Action:
+          Allow: {}
+          Block: {}
+          Count: {}
+        Name: ''
+        OverrideAction:
+          Count: {}
+          None: {}
+        Priority: 0
+        Statement:
+          AndStatement:
+            Statements:
+              StatementTwos:
+                - AndStatement:
+                    Statements:
+                      StatementThrees:
+                        - ByteMatchStatement:
+                            FieldToMatch:
+                              AllQueryArguments: {}
+                              Body: {}
+                              Method: {}
+                              QueryString: {}
+                              SingleHeader:
+                                Name: ''
+                              SingleQueryArgument:
+                                Name: ''
+                              UriPath: {}
+                            PositionalConstraint: ''
+                            SearchString: ''
+                            SearchStringBase64: ''
+                            TextTransformations:
+                              TextTransformations:
+                                - Priority: 0
+                                  Type: ''
+                          GeoMatchStatement:
+                            CountryCodes:
+                              CountryCodes:
+                                - ''
+                          IPSetReferenceStatement:
+                            Arn: ''
+                          ManagedRuleGroupStatement:
+                            ExcludedRules:
+                              ExcludedRules:
+                                - Name: ''
+                            Name: ''
+                            VendorName: ''
+                          RegexPatternSetReferenceStatement:
+                            Arn: ''
+                            FieldToMatch:
+                              AllQueryArguments: {}
+                              Body: {}
+                              Method: {}
+                              QueryString: {}
+                              SingleHeader:
+                                Name: ''
+                              SingleQueryArgument:
+                                Name: ''
+                              UriPath: {}
+                            TextTransformations:
+                              TextTransformations:
+                                - Priority: 0
+                                  Type: ''
+                          RuleGroupReferenceStatement:
+                            Arn: ''
+                            ExcludedRules:
+                              ExcludedRules:
+                                - Name: ''
+                          SizeConstraintStatement:
+                            ComparisonOperator: ''
+                            FieldToMatch:
+                              AllQueryArguments: {}
+                              Body: {}
+                              Method: {}
+                              QueryString: {}
+                              SingleHeader:
+                                Name: ''
+                              SingleQueryArgument:
+                                Name: ''
+                              UriPath: {}
+                            Size: 0
+                            TextTransformations:
+                              TextTransformations:
+                                - Priority: 0
+                                  Type: ''
+                          SqliMatchStatement:
+                            FieldToMatch:
+                              AllQueryArguments: {}
+                              Body: {}
+                              Method: {}
+                              QueryString: {}
+                              SingleHeader:
+                                Name: ''
+                              SingleQueryArgument:
+                                Name: ''
+                              UriPath: {}
+                            TextTransformations:
+                              TextTransformations:
+                                - Priority: 0
+                                  Type: ''
+                          XssMatchStatement:
+                            FieldToMatch:
+                              AllQueryArguments: {}
+                              Body: {}
+                              Method: {}
+                              QueryString: {}
+                              SingleHeader:
+                                Name: ''
+                              SingleQueryArgument:
+                                Name: ''
+                              UriPath: {}
+                            TextTransformations:
+                              TextTransformations:
+                                - Priority: 0
+                                  Type: ''
+                  ByteMatchStatement:
+                    FieldToMatch:
+                      AllQueryArguments: {}
+                      Body: {}
+                      Method: {}
+                      QueryString: {}
+                      SingleHeader:
+                        Name: ''
+                      SingleQueryArgument:
+                        Name: ''
+                      UriPath: {}
+                    PositionalConstraint: ''
+                    SearchString: ''
+                    SearchStringBase64: ''
+                    TextTransformations:
+                      TextTransformations:
+                        - Priority: 0
+                          Type: ''
+                  GeoMatchStatement:
+                    CountryCodes:
+                      CountryCodes:
+                        - ''
+                  IPSetReferenceStatement:
+                    Arn: ''
+                  ManagedRuleGroupStatement:
+                    ExcludedRules:
+                      ExcludedRules:
+                        - Name: ''
+                    Name: ''
+                    VendorName: ''
+                  NotStatement:
+                    Statement:
+                      ByteMatchStatement:
+                        FieldToMatch:
+                          AllQueryArguments: {}
+                          Body: {}
+                          Method: {}
+                          QueryString: {}
+                          SingleHeader:
+                            Name: ''
+                          SingleQueryArgument:
+                            Name: ''
+                          UriPath: {}
+                        PositionalConstraint: ''
+                        SearchString: ''
+                        SearchStringBase64: ''
+                        TextTransformations:
+                          TextTransformations:
+                            - Priority: 0
+                              Type: ''
+                      GeoMatchStatement:
+                        CountryCodes:
+                          CountryCodes:
+                            - ''
+                      IPSetReferenceStatement:
+                        Arn: ''
+                      ManagedRuleGroupStatement:
+                        ExcludedRules:
+                          ExcludedRules:
+                            - Name: ''
+                        Name: ''
+                        VendorName: ''
+                      RegexPatternSetReferenceStatement:
+                        Arn: ''
+                        FieldToMatch:
+                          AllQueryArguments: {}
+                          Body: {}
+                          Method: {}
+                          QueryString: {}
+                          SingleHeader:
+                            Name: ''
+                          SingleQueryArgument:
+                            Name: ''
+                          UriPath: {}
+                        TextTransformations:
+                          TextTransformations:
+                            - Priority: 0
+                              Type: ''
+                      RuleGroupReferenceStatement:
+                        Arn: ''
+                        ExcludedRules:
+                          ExcludedRules:
+                            - Name: ''
+                      SizeConstraintStatement:
+                        ComparisonOperator: ''
+                        FieldToMatch:
+                          AllQueryArguments: {}
+                          Body: {}
+                          Method: {}
+                          QueryString: {}
+                          SingleHeader:
+                            Name: ''
+                          SingleQueryArgument:
+                            Name: ''
+                          UriPath: {}
+                        Size: 0
+                        TextTransformations:
+                          TextTransformations:
+                            - Priority: 0
+                              Type: ''
+                      SqliMatchStatement:
+                        FieldToMatch:
+                          AllQueryArguments: {}
+                          Body: {}
+                          Method: {}
+                          QueryString: {}
+                          SingleHeader:
+                            Name: ''
+                          SingleQueryArgument:
+                            Name: ''
+                          UriPath: {}
+                        TextTransformations:
+                          TextTransformations:
+                            - Priority: 0
+                              Type: ''
+                      XssMatchStatement:
+                        FieldToMatch:
+                          AllQueryArguments: {}
+                          Body: {}
+                          Method: {}
+                          QueryString: {}
+                          SingleHeader:
+                            Name: ''
+                          SingleQueryArgument:
+                            Name: ''
+                          UriPath: {}
+                        TextTransformations:
+                          TextTransformations:
+                            - Priority: 0
+                              Type: ''
+                  OrStatement:
+                    Statements:
+                      StatementThrees:
+                        - ByteMatchStatement:
+                            FieldToMatch:
+                              AllQueryArguments: {}
+                              Body: {}
+                              Method: {}
+                              QueryString: {}
+                              SingleHeader:
+                                Name: ''
+                              SingleQueryArgument:
+                                Name: ''
+                              UriPath: {}
+                            PositionalConstraint: ''
+                            SearchString: ''
+                            SearchStringBase64: ''
+                            TextTransformations:
+                              TextTransformations:
+                                - Priority: 0
+                                  Type: ''
+                          GeoMatchStatement:
+                            CountryCodes:
+                              CountryCodes:
+                                - ''
+                          IPSetReferenceStatement:
+                            Arn: ''
+                          ManagedRuleGroupStatement:
+                            ExcludedRules:
+                              ExcludedRules:
+                                - Name: ''
+                            Name: ''
+                            VendorName: ''
+                          RegexPatternSetReferenceStatement:
+                            Arn: ''
+                            FieldToMatch:
+                              AllQueryArguments: {}
+                              Body: {}
+                              Method: {}
+                              QueryString: {}
+                              SingleHeader:
+                                Name: ''
+                              SingleQueryArgument:
+                                Name: ''
+                              UriPath: {}
+                            TextTransformations:
+                              TextTransformations:
+                                - Priority: 0
+                                  Type: ''
+                          RuleGroupReferenceStatement:
+                            Arn: ''
+                            ExcludedRules:
+                              ExcludedRules:
+                                - Name: ''
+                          SizeConstraintStatement:
+                            ComparisonOperator: ''
+                            FieldToMatch:
+                              AllQueryArguments: {}
+                              Body: {}
+                              Method: {}
+                              QueryString: {}
+                              SingleHeader:
+                                Name: ''
+                              SingleQueryArgument:
+                                Name: ''
+                              UriPath: {}
+                            Size: 0
+                            TextTransformations:
+                              TextTransformations:
+                                - Priority: 0
+                                  Type: ''
+                          SqliMatchStatement:
+                            FieldToMatch:
+                              AllQueryArguments: {}
+                              Body: {}
+                              Method: {}
+                              QueryString: {}
+                              SingleHeader:
+                                Name: ''
+                              SingleQueryArgument:
+                                Name: ''
+                              UriPath: {}
+                            TextTransformations:
+                              TextTransformations:
+                                - Priority: 0
+                                  Type: ''
+                          XssMatchStatement:
+                            FieldToMatch:
+                              AllQueryArguments: {}
+                              Body: {}
+                              Method: {}
+                              QueryString: {}
+                              SingleHeader:
+                                Name: ''
+                              SingleQueryArgument:
+                                Name: ''
+                              UriPath: {}
+                            TextTransformations:
+                              TextTransformations:
+                                - Priority: 0
+                                  Type: ''
+                  RateBasedStatement:
+                    AggregateKeyType: ''
+                    Limit: 0
+                    ScopeDownStatement:
+                      ByteMatchStatement:
+                        FieldToMatch:
+                          AllQueryArguments: {}
+                          Body: {}
+                          Method: {}
+                          QueryString: {}
+                          SingleHeader:
+                            Name: ''
+                          SingleQueryArgument:
+                            Name: ''
+                          UriPath: {}
+                        PositionalConstraint: ''
+                        SearchString: ''
+                        SearchStringBase64: ''
+                        TextTransformations:
+                          TextTransformations:
+                            - Priority: 0
+                              Type: ''
+                      GeoMatchStatement:
+                        CountryCodes:
+                          CountryCodes:
+                            - ''
+                      IPSetReferenceStatement:
+                        Arn: ''
+                      ManagedRuleGroupStatement:
+                        ExcludedRules:
+                          ExcludedRules:
+                            - Name: ''
+                        Name: ''
+                        VendorName: ''
+                      RegexPatternSetReferenceStatement:
+                        Arn: ''
+                        FieldToMatch:
+                          AllQueryArguments: {}
+                          Body: {}
+                          Method: {}
+                          QueryString: {}
+                          SingleHeader:
+                            Name: ''
+                          SingleQueryArgument:
+                            Name: ''
+                          UriPath: {}
+                        TextTransformations:
+                          TextTransformations:
+                            - Priority: 0
+                              Type: ''
+                      RuleGroupReferenceStatement:
+                        Arn: ''
+                        ExcludedRules:
+                          ExcludedRules:
+                            - Name: ''
+                      SizeConstraintStatement:
+                        ComparisonOperator: ''
+                        FieldToMatch:
+                          AllQueryArguments: {}
+                          Body: {}
+                          Method: {}
+                          QueryString: {}
+                          SingleHeader:
+                            Name: ''
+                          SingleQueryArgument:
+                            Name: ''
+                          UriPath: {}
+                        Size: 0
+                        TextTransformations:
+                          TextTransformations:
+                            - Priority: 0
+                              Type: ''
+                      SqliMatchStatement:
+                        FieldToMatch:
+                          AllQueryArguments: {}
+                          Body: {}
+                          Method: {}
+                          QueryString: {}
+                          SingleHeader:
+                            Name: ''
+                          SingleQueryArgument:
+                            Name: ''
+                          UriPath: {}
+                        TextTransformations:
+                          TextTransformations:
+                            - Priority: 0
+                              Type: ''
+                      XssMatchStatement:
+                        FieldToMatch:
+                          AllQueryArguments: {}
+                          Body: {}
+                          Method: {}
+                          QueryString: {}
+                          SingleHeader:
+                            Name: ''
+                          SingleQueryArgument:
+                            Name: ''
+                          UriPath: {}
+                        TextTransformations:
+                          TextTransformations:
+                            - Priority: 0
+                              Type: ''
+                  RegexPatternSetReferenceStatement:
+                    Arn: ''
+                    FieldToMatch:
+                      AllQueryArguments: {}
+                      Body: {}
+                      Method: {}
+                      QueryString: {}
+                      SingleHeader:
+                        Name: ''
+                      SingleQueryArgument:
+                        Name: ''
+                      UriPath: {}
+                    TextTransformations:
+                      TextTransformations:
+                        - Priority: 0
+                          Type: ''
+                  RuleGroupReferenceStatement:
+                    Arn: ''
+                    ExcludedRules:
+                      ExcludedRules:
+                        - Name: ''
+                  SizeConstraintStatement:
+                    ComparisonOperator: ''
+                    FieldToMatch:
+                      AllQueryArguments: {}
+                      Body: {}
+                      Method: {}
+                      QueryString: {}
+                      SingleHeader:
+                        Name: ''
+                      SingleQueryArgument:
+                        Name: ''
+                      UriPath: {}
+                    Size: 0
+                    TextTransformations:
+                      TextTransformations:
+                        - Priority: 0
+                          Type: ''
+                  SqliMatchStatement:
+                    FieldToMatch:
+                      AllQueryArguments: {}
+                      Body: {}
+                      Method: {}
+                      QueryString: {}
+                      SingleHeader:
+                        Name: ''
+                      SingleQueryArgument:
+                        Name: ''
+                      UriPath: {}
+                    TextTransformations:
+                      TextTransformations:
+                        - Priority: 0
+                          Type: ''
+                  XssMatchStatement:
+                    FieldToMatch:
+                      AllQueryArguments: {}
+                      Body: {}
+                      Method: {}
+                      QueryString: {}
+                      SingleHeader:
+                        Name: ''
+                      SingleQueryArgument:
+                        Name: ''
+                      UriPath: {}
+                    TextTransformations:
+                      TextTransformations:
+                        - Priority: 0
+                          Type: ''
+          ByteMatchStatement:
+            FieldToMatch:
+              AllQueryArguments: {}
+              Body: {}
+              Method: {}
+              QueryString: {}
+              SingleHeader:
+                Name: ''
+              SingleQueryArgument:
+                Name: ''
+              UriPath: {}
+            PositionalConstraint: ''
+            SearchString: ''
+            SearchStringBase64: ''
+            TextTransformations:
+              TextTransformations:
+                - Priority: 0
+                  Type: ''
+          GeoMatchStatement:
+            CountryCodes:
+              CountryCodes:
+                - ''
+          IPSetReferenceStatement:
+            Arn: ''
+          ManagedRuleGroupStatement:
+            ExcludedRules:
+              ExcludedRules:
+                - Name: ''
+            Name: ''
+            VendorName: ''
+          NotStatement:
+            Statement:
+              AndStatement:
+                Statements:
+                  StatementThrees:
+                    - ByteMatchStatement:
+                        FieldToMatch:
+                          AllQueryArguments: {}
+                          Body: {}
+                          Method: {}
+                          QueryString: {}
+                          SingleHeader:
+                            Name: ''
+                          SingleQueryArgument:
+                            Name: ''
+                          UriPath: {}
+                        PositionalConstraint: ''
+                        SearchString: ''
+                        SearchStringBase64: ''
+                        TextTransformations:
+                          TextTransformations:
+                            - Priority: 0
+                              Type: ''
+                      GeoMatchStatement:
+                        CountryCodes:
+                          CountryCodes:
+                            - ''
+                      IPSetReferenceStatement:
+                        Arn: ''
+                      ManagedRuleGroupStatement:
+                        ExcludedRules:
+                          ExcludedRules:
+                            - Name: ''
+                        Name: ''
+                        VendorName: ''
+                      RegexPatternSetReferenceStatement:
+                        Arn: ''
+                        FieldToMatch:
+                          AllQueryArguments: {}
+                          Body: {}
+                          Method: {}
+                          QueryString: {}
+                          SingleHeader:
+                            Name: ''
+                          SingleQueryArgument:
+                            Name: ''
+                          UriPath: {}
+                        TextTransformations:
+                          TextTransformations:
+                            - Priority: 0
+                              Type: ''
+                      RuleGroupReferenceStatement:
+                        Arn: ''
+                        ExcludedRules:
+                          ExcludedRules:
+                            - Name: ''
+                      SizeConstraintStatement:
+                        ComparisonOperator: ''
+                        FieldToMatch:
+                          AllQueryArguments: {}
+                          Body: {}
+                          Method: {}
+                          QueryString: {}
+                          SingleHeader:
+                            Name: ''
+                          SingleQueryArgument:
+                            Name: ''
+                          UriPath: {}
+                        Size: 0
+                        TextTransformations:
+                          TextTransformations:
+                            - Priority: 0
+                              Type: ''
+                      SqliMatchStatement:
+                        FieldToMatch:
+                          AllQueryArguments: {}
+                          Body: {}
+                          Method: {}
+                          QueryString: {}
+                          SingleHeader:
+                            Name: ''
+                          SingleQueryArgument:
+                            Name: ''
+                          UriPath: {}
+                        TextTransformations:
+                          TextTransformations:
+                            - Priority: 0
+                              Type: ''
+                      XssMatchStatement:
+                        FieldToMatch:
+                          AllQueryArguments: {}
+                          Body: {}
+                          Method: {}
+                          QueryString: {}
+                          SingleHeader:
+                            Name: ''
+                          SingleQueryArgument:
+                            Name: ''
+                          UriPath: {}
+                        TextTransformations:
+                          TextTransformations:
+                            - Priority: 0
+                              Type: ''
+              ByteMatchStatement:
+                FieldToMatch:
+                  AllQueryArguments: {}
+                  Body: {}
+                  Method: {}
+                  QueryString: {}
+                  SingleHeader:
+                    Name: ''
+                  SingleQueryArgument:
+                    Name: ''
+                  UriPath: {}
+                PositionalConstraint: ''
+                SearchString: ''
+                SearchStringBase64: ''
+                TextTransformations:
+                  TextTransformations:
+                    - Priority: 0
+                      Type: ''
+              GeoMatchStatement:
+                CountryCodes:
+                  CountryCodes:
+                    - ''
+              IPSetReferenceStatement:
+                Arn: ''
+              ManagedRuleGroupStatement:
+                ExcludedRules:
+                  ExcludedRules:
+                    - Name: ''
+                Name: ''
+                VendorName: ''
+              NotStatement:
+                Statement:
+                  ByteMatchStatement:
+                    FieldToMatch:
+                      AllQueryArguments: {}
+                      Body: {}
+                      Method: {}
+                      QueryString: {}
+                      SingleHeader:
+                        Name: ''
+                      SingleQueryArgument:
+                        Name: ''
+                      UriPath: {}
+                    PositionalConstraint: ''
+                    SearchString: ''
+                    SearchStringBase64: ''
+                    TextTransformations:
+                      TextTransformations:
+                        - Priority: 0
+                          Type: ''
+                  GeoMatchStatement:
+                    CountryCodes:
+                      CountryCodes:
+                        - ''
+                  IPSetReferenceStatement:
+                    Arn: ''
+                  ManagedRuleGroupStatement:
+                    ExcludedRules:
+                      ExcludedRules:
+                        - Name: ''
+                    Name: ''
+                    VendorName: ''
+                  RegexPatternSetReferenceStatement:
+                    Arn: ''
+                    FieldToMatch:
+                      AllQueryArguments: {}
+                      Body: {}
+                      Method: {}
+                      QueryString: {}
+                      SingleHeader:
+                        Name: ''
+                      SingleQueryArgument:
+                        Name: ''
+                      UriPath: {}
+                    TextTransformations:
+                      TextTransformations:
+                        - Priority: 0
+                          Type: ''
+                  RuleGroupReferenceStatement:
+                    Arn: ''
+                    ExcludedRules:
+                      ExcludedRules:
+                        - Name: ''
+                  SizeConstraintStatement:
+                    ComparisonOperator: ''
+                    FieldToMatch:
+                      AllQueryArguments: {}
+                      Body: {}
+                      Method: {}
+                      QueryString: {}
+                      SingleHeader:
+                        Name: ''
+                      SingleQueryArgument:
+                        Name: ''
+                      UriPath: {}
+                    Size: 0
+                    TextTransformations:
+                      TextTransformations:
+                        - Priority: 0
+                          Type: ''
+                  SqliMatchStatement:
+                    FieldToMatch:
+                      AllQueryArguments: {}
+                      Body: {}
+                      Method: {}
+                      QueryString: {}
+                      SingleHeader:
+                        Name: ''
+                      SingleQueryArgument:
+                        Name: ''
+                      UriPath: {}
+                    TextTransformations:
+                      TextTransformations:
+                        - Priority: 0
+                          Type: ''
+                  XssMatchStatement:
+                    FieldToMatch:
+                      AllQueryArguments: {}
+                      Body: {}
+                      Method: {}
+                      QueryString: {}
+                      SingleHeader:
+                        Name: ''
+                      SingleQueryArgument:
+                        Name: ''
+                      UriPath: {}
+                    TextTransformations:
+                      TextTransformations:
+                        - Priority: 0
+                          Type: ''
+              OrStatement:
+                Statements:
+                  StatementThrees:
+                    - ByteMatchStatement:
+                        FieldToMatch:
+                          AllQueryArguments: {}
+                          Body: {}
+                          Method: {}
+                          QueryString: {}
+                          SingleHeader:
+                            Name: ''
+                          SingleQueryArgument:
+                            Name: ''
+                          UriPath: {}
+                        PositionalConstraint: ''
+                        SearchString: ''
+                        SearchStringBase64: ''
+                        TextTransformations:
+                          TextTransformations:
+                            - Priority: 0
+                              Type: ''
+                      GeoMatchStatement:
+                        CountryCodes:
+                          CountryCodes:
+                            - ''
+                      IPSetReferenceStatement:
+                        Arn: ''
+                      ManagedRuleGroupStatement:
+                        ExcludedRules:
+                          ExcludedRules:
+                            - Name: ''
+                        Name: ''
+                        VendorName: ''
+                      RegexPatternSetReferenceStatement:
+                        Arn: ''
+                        FieldToMatch:
+                          AllQueryArguments: {}
+                          Body: {}
+                          Method: {}
+                          QueryString: {}
+                          SingleHeader:
+                            Name: ''
+                          SingleQueryArgument:
+                            Name: ''
+                          UriPath: {}
+                        TextTransformations:
+                          TextTransformations:
+                            - Priority: 0
+                              Type: ''
+                      RuleGroupReferenceStatement:
+                        Arn: ''
+                        ExcludedRules:
+                          ExcludedRules:
+                            - Name: ''
+                      SizeConstraintStatement:
+                        ComparisonOperator: ''
+                        FieldToMatch:
+                          AllQueryArguments: {}
+                          Body: {}
+                          Method: {}
+                          QueryString: {}
+                          SingleHeader:
+                            Name: ''
+                          SingleQueryArgument:
+                            Name: ''
+                          UriPath: {}
+                        Size: 0
+                        TextTransformations:
+                          TextTransformations:
+                            - Priority: 0
+                              Type: ''
+                      SqliMatchStatement:
+                        FieldToMatch:
+                          AllQueryArguments: {}
+                          Body: {}
+                          Method: {}
+                          QueryString: {}
+                          SingleHeader:
+                            Name: ''
+                          SingleQueryArgument:
+                            Name: ''
+                          UriPath: {}
+                        TextTransformations:
+                          TextTransformations:
+                            - Priority: 0
+                              Type: ''
+                      XssMatchStatement:
+                        FieldToMatch:
+                          AllQueryArguments: {}
+                          Body: {}
+                          Method: {}
+                          QueryString: {}
+                          SingleHeader:
+                            Name: ''
+                          SingleQueryArgument:
+                            Name: ''
+                          UriPath: {}
+                        TextTransformations:
+                          TextTransformations:
+                            - Priority: 0
+                              Type: ''
+              RateBasedStatement:
+                AggregateKeyType: ''
+                Limit: 0
+                ScopeDownStatement:
+                  ByteMatchStatement:
+                    FieldToMatch:
+                      AllQueryArguments: {}
+                      Body: {}
+                      Method: {}
+                      QueryString: {}
+                      SingleHeader:
+                        Name: ''
+                      SingleQueryArgument:
+                        Name: ''
+                      UriPath: {}
+                    PositionalConstraint: ''
+                    SearchString: ''
+                    SearchStringBase64: ''
+                    TextTransformations:
+                      TextTransformations:
+                        - Priority: 0
+                          Type: ''
+                  GeoMatchStatement:
+                    CountryCodes:
+                      CountryCodes:
+                        - ''
+                  IPSetReferenceStatement:
+                    Arn: ''
+                  ManagedRuleGroupStatement:
+                    ExcludedRules:
+                      ExcludedRules:
+                        - Name: ''
+                    Name: ''
+                    VendorName: ''
+                  RegexPatternSetReferenceStatement:
+                    Arn: ''
+                    FieldToMatch:
+                      AllQueryArguments: {}
+                      Body: {}
+                      Method: {}
+                      QueryString: {}
+                      SingleHeader:
+                        Name: ''
+                      SingleQueryArgument:
+                        Name: ''
+                      UriPath: {}
+                    TextTransformations:
+                      TextTransformations:
+                        - Priority: 0
+                          Type: ''
+                  RuleGroupReferenceStatement:
+                    Arn: ''
+                    ExcludedRules:
+                      ExcludedRules:
+                        - Name: ''
+                  SizeConstraintStatement:
+                    ComparisonOperator: ''
+                    FieldToMatch:
+                      AllQueryArguments: {}
+                      Body: {}
+                      Method: {}
+                      QueryString: {}
+                      SingleHeader:
+                        Name: ''
+                      SingleQueryArgument:
+                        Name: ''
+                      UriPath: {}
+                    Size: 0
+                    TextTransformations:
+                      TextTransformations:
+                        - Priority: 0
+                          Type: ''
+                  SqliMatchStatement:
+                    FieldToMatch:
+                      AllQueryArguments: {}
+                      Body: {}
+                      Method: {}
+                      QueryString: {}
+                      SingleHeader:
+                        Name: ''
+                      SingleQueryArgument:
+                        Name: ''
+                      UriPath: {}
+                    TextTransformations:
+                      TextTransformations:
+                        - Priority: 0
+                          Type: ''
+                  XssMatchStatement:
+                    FieldToMatch:
+                      AllQueryArguments: {}
+                      Body: {}
+                      Method: {}
+                      QueryString: {}
+                      SingleHeader:
+                        Name: ''
+                      SingleQueryArgument:
+                        Name: ''
+                      UriPath: {}
+                    TextTransformations:
+                      TextTransformations:
+                        - Priority: 0
+                          Type: ''
+              RegexPatternSetReferenceStatement:
+                Arn: ''
+                FieldToMatch:
+                  AllQueryArguments: {}
+                  Body: {}
+                  Method: {}
+                  QueryString: {}
+                  SingleHeader:
+                    Name: ''
+                  SingleQueryArgument:
+                    Name: ''
+                  UriPath: {}
+                TextTransformations:
+                  TextTransformations:
+                    - Priority: 0
+                      Type: ''
+              RuleGroupReferenceStatement:
+                Arn: ''
+                ExcludedRules:
+                  ExcludedRules:
+                    - Name: ''
+              SizeConstraintStatement:
+                ComparisonOperator: ''
+                FieldToMatch:
+                  AllQueryArguments: {}
+                  Body: {}
+                  Method: {}
+                  QueryString: {}
+                  SingleHeader:
+                    Name: ''
+                  SingleQueryArgument:
+                    Name: ''
+                  UriPath: {}
+                Size: 0
+                TextTransformations:
+                  TextTransformations:
+                    - Priority: 0
+                      Type: ''
+              SqliMatchStatement:
+                FieldToMatch:
+                  AllQueryArguments: {}
+                  Body: {}
+                  Method: {}
+                  QueryString: {}
+                  SingleHeader:
+                    Name: ''
+                  SingleQueryArgument:
+                    Name: ''
+                  UriPath: {}
+                TextTransformations:
+                  TextTransformations:
+                    - Priority: 0
+                      Type: ''
+              XssMatchStatement:
+                FieldToMatch:
+                  AllQueryArguments: {}
+                  Body: {}
+                  Method: {}
+                  QueryString: {}
+                  SingleHeader:
+                    Name: ''
+                  SingleQueryArgument:
+                    Name: ''
+                  UriPath: {}
+                TextTransformations:
+                  TextTransformations:
+                    - Priority: 0
+                      Type: ''
+          OrStatement:
+            Statements:
+              StatementTwos:
+                - AndStatement:
+                    Statements:
+                      StatementThrees:
+                        - ByteMatchStatement:
+                            FieldToMatch:
+                              AllQueryArguments: {}
+                              Body: {}
+                              Method: {}
+                              QueryString: {}
+                              SingleHeader:
+                                Name: ''
+                              SingleQueryArgument:
+                                Name: ''
+                              UriPath: {}
+                            PositionalConstraint: ''
+                            SearchString: ''
+                            SearchStringBase64: ''
+                            TextTransformations:
+                              TextTransformations:
+                                - Priority: 0
+                                  Type: ''
+                          GeoMatchStatement:
+                            CountryCodes:
+                              CountryCodes:
+                                - ''
+                          IPSetReferenceStatement:
+                            Arn: ''
+                          ManagedRuleGroupStatement:
+                            ExcludedRules:
+                              ExcludedRules:
+                                - Name: ''
+                            Name: ''
+                            VendorName: ''
+                          RegexPatternSetReferenceStatement:
+                            Arn: ''
+                            FieldToMatch:
+                              AllQueryArguments: {}
+                              Body: {}
+                              Method: {}
+                              QueryString: {}
+                              SingleHeader:
+                                Name: ''
+                              SingleQueryArgument:
+                                Name: ''
+                              UriPath: {}
+                            TextTransformations:
+                              TextTransformations:
+                                - Priority: 0
+                                  Type: ''
+                          RuleGroupReferenceStatement:
+                            Arn: ''
+                            ExcludedRules:
+                              ExcludedRules:
+                                - Name: ''
+                          SizeConstraintStatement:
+                            ComparisonOperator: ''
+                            FieldToMatch:
+                              AllQueryArguments: {}
+                              Body: {}
+                              Method: {}
+                              QueryString: {}
+                              SingleHeader:
+                                Name: ''
+                              SingleQueryArgument:
+                                Name: ''
+                              UriPath: {}
+                            Size: 0
+                            TextTransformations:
+                              TextTransformations:
+                                - Priority: 0
+                                  Type: ''
+                          SqliMatchStatement:
+                            FieldToMatch:
+                              AllQueryArguments: {}
+                              Body: {}
+                              Method: {}
+                              QueryString: {}
+                              SingleHeader:
+                                Name: ''
+                              SingleQueryArgument:
+                                Name: ''
+                              UriPath: {}
+                            TextTransformations:
+                              TextTransformations:
+                                - Priority: 0
+                                  Type: ''
+                          XssMatchStatement:
+                            FieldToMatch:
+                              AllQueryArguments: {}
+                              Body: {}
+                              Method: {}
+                              QueryString: {}
+                              SingleHeader:
+                                Name: ''
+                              SingleQueryArgument:
+                                Name: ''
+                              UriPath: {}
+                            TextTransformations:
+                              TextTransformations:
+                                - Priority: 0
+                                  Type: ''
+                  ByteMatchStatement:
+                    FieldToMatch:
+                      AllQueryArguments: {}
+                      Body: {}
+                      Method: {}
+                      QueryString: {}
+                      SingleHeader:
+                        Name: ''
+                      SingleQueryArgument:
+                        Name: ''
+                      UriPath: {}
+                    PositionalConstraint: ''
+                    SearchString: ''
+                    SearchStringBase64: ''
+                    TextTransformations:
+                      TextTransformations:
+                        - Priority: 0
+                          Type: ''
+                  GeoMatchStatement:
+                    CountryCodes:
+                      CountryCodes:
+                        - ''
+                  IPSetReferenceStatement:
+                    Arn: ''
+                  ManagedRuleGroupStatement:
+                    ExcludedRules:
+                      ExcludedRules:
+                        - Name: ''
+                    Name: ''
+                    VendorName: ''
+                  NotStatement:
+                    Statement:
+                      ByteMatchStatement:
+                        FieldToMatch:
+                          AllQueryArguments: {}
+                          Body: {}
+                          Method: {}
+                          QueryString: {}
+                          SingleHeader:
+                            Name: ''
+                          SingleQueryArgument:
+                            Name: ''
+                          UriPath: {}
+                        PositionalConstraint: ''
+                        SearchString: ''
+                        SearchStringBase64: ''
+                        TextTransformations:
+                          TextTransformations:
+                            - Priority: 0
+                              Type: ''
+                      GeoMatchStatement:
+                        CountryCodes:
+                          CountryCodes:
+                            - ''
+                      IPSetReferenceStatement:
+                        Arn: ''
+                      ManagedRuleGroupStatement:
+                        ExcludedRules:
+                          ExcludedRules:
+                            - Name: ''
+                        Name: ''
+                        VendorName: ''
+                      RegexPatternSetReferenceStatement:
+                        Arn: ''
+                        FieldToMatch:
+                          AllQueryArguments: {}
+                          Body: {}
+                          Method: {}
+                          QueryString: {}
+                          SingleHeader:
+                            Name: ''
+                          SingleQueryArgument:
+                            Name: ''
+                          UriPath: {}
+                        TextTransformations:
+                          TextTransformations:
+                            - Priority: 0
+                              Type: ''
+                      RuleGroupReferenceStatement:
+                        Arn: ''
+                        ExcludedRules:
+                          ExcludedRules:
+                            - Name: ''
+                      SizeConstraintStatement:
+                        ComparisonOperator: ''
+                        FieldToMatch:
+                          AllQueryArguments: {}
+                          Body: {}
+                          Method: {}
+                          QueryString: {}
+                          SingleHeader:
+                            Name: ''
+                          SingleQueryArgument:
+                            Name: ''
+                          UriPath: {}
+                        Size: 0
+                        TextTransformations:
+                          TextTransformations:
+                            - Priority: 0
+                              Type: ''
+                      SqliMatchStatement:
+                        FieldToMatch:
+                          AllQueryArguments: {}
+                          Body: {}
+                          Method: {}
+                          QueryString: {}
+                          SingleHeader:
+                            Name: ''
+                          SingleQueryArgument:
+                            Name: ''
+                          UriPath: {}
+                        TextTransformations:
+                          TextTransformations:
+                            - Priority: 0
+                              Type: ''
+                      XssMatchStatement:
+                        FieldToMatch:
+                          AllQueryArguments: {}
+                          Body: {}
+                          Method: {}
+                          QueryString: {}
+                          SingleHeader:
+                            Name: ''
+                          SingleQueryArgument:
+                            Name: ''
+                          UriPath: {}
+                        TextTransformations:
+                          TextTransformations:
+                            - Priority: 0
+                              Type: ''
+                  OrStatement:
+                    Statements:
+                      StatementThrees:
+                        - ByteMatchStatement:
+                            FieldToMatch:
+                              AllQueryArguments: {}
+                              Body: {}
+                              Method: {}
+                              QueryString: {}
+                              SingleHeader:
+                                Name: ''
+                              SingleQueryArgument:
+                                Name: ''
+                              UriPath: {}
+                            PositionalConstraint: ''
+                            SearchString: ''
+                            SearchStringBase64: ''
+                            TextTransformations:
+                              TextTransformations:
+                                - Priority: 0
+                                  Type: ''
+                          GeoMatchStatement:
+                            CountryCodes:
+                              CountryCodes:
+                                - ''
+                          IPSetReferenceStatement:
+                            Arn: ''
+                          ManagedRuleGroupStatement:
+                            ExcludedRules:
+                              ExcludedRules:
+                                - Name: ''
+                            Name: ''
+                            VendorName: ''
+                          RegexPatternSetReferenceStatement:
+                            Arn: ''
+                            FieldToMatch:
+                              AllQueryArguments: {}
+                              Body: {}
+                              Method: {}
+                              QueryString: {}
+                              SingleHeader:
+                                Name: ''
+                              SingleQueryArgument:
+                                Name: ''
+                              UriPath: {}
+                            TextTransformations:
+                              TextTransformations:
+                                - Priority: 0
+                                  Type: ''
+                          RuleGroupReferenceStatement:
+                            Arn: ''
+                            ExcludedRules:
+                              ExcludedRules:
+                                - Name: ''
+                          SizeConstraintStatement:
+                            ComparisonOperator: ''
+                            FieldToMatch:
+                              AllQueryArguments: {}
+                              Body: {}
+                              Method: {}
+                              QueryString: {}
+                              SingleHeader:
+                                Name: ''
+                              SingleQueryArgument:
+                                Name: ''
+                              UriPath: {}
+                            Size: 0
+                            TextTransformations:
+                              TextTransformations:
+                                - Priority: 0
+                                  Type: ''
+                          SqliMatchStatement:
+                            FieldToMatch:
+                              AllQueryArguments: {}
+                              Body: {}
+                              Method: {}
+                              QueryString: {}
+                              SingleHeader:
+                                Name: ''
+                              SingleQueryArgument:
+                                Name: ''
+                              UriPath: {}
+                            TextTransformations:
+                              TextTransformations:
+                                - Priority: 0
+                                  Type: ''
+                          XssMatchStatement:
+                            FieldToMatch:
+                              AllQueryArguments: {}
+                              Body: {}
+                              Method: {}
+                              QueryString: {}
+                              SingleHeader:
+                                Name: ''
+                              SingleQueryArgument:
+                                Name: ''
+                              UriPath: {}
+                            TextTransformations:
+                              TextTransformations:
+                                - Priority: 0
+                                  Type: ''
+                  RateBasedStatement:
+                    AggregateKeyType: ''
+                    Limit: 0
+                    ScopeDownStatement:
+                      ByteMatchStatement:
+                        FieldToMatch:
+                          AllQueryArguments: {}
+                          Body: {}
+                          Method: {}
+                          QueryString: {}
+                          SingleHeader:
+                            Name: ''
+                          SingleQueryArgument:
+                            Name: ''
+                          UriPath: {}
+                        PositionalConstraint: ''
+                        SearchString: ''
+                        SearchStringBase64: ''
+                        TextTransformations:
+                          TextTransformations:
+                            - Priority: 0
+                              Type: ''
+                      GeoMatchStatement:
+                        CountryCodes:
+                          CountryCodes:
+                            - ''
+                      IPSetReferenceStatement:
+                        Arn: ''
+                      ManagedRuleGroupStatement:
+                        ExcludedRules:
+                          ExcludedRules:
+                            - Name: ''
+                        Name: ''
+                        VendorName: ''
+                      RegexPatternSetReferenceStatement:
+                        Arn: ''
+                        FieldToMatch:
+                          AllQueryArguments: {}
+                          Body: {}
+                          Method: {}
+                          QueryString: {}
+                          SingleHeader:
+                            Name: ''
+                          SingleQueryArgument:
+                            Name: ''
+                          UriPath: {}
+                        TextTransformations:
+                          TextTransformations:
+                            - Priority: 0
+                              Type: ''
+                      RuleGroupReferenceStatement:
+                        Arn: ''
+                        ExcludedRules:
+                          ExcludedRules:
+                            - Name: ''
+                      SizeConstraintStatement:
+                        ComparisonOperator: ''
+                        FieldToMatch:
+                          AllQueryArguments: {}
+                          Body: {}
+                          Method: {}
+                          QueryString: {}
+                          SingleHeader:
+                            Name: ''
+                          SingleQueryArgument:
+                            Name: ''
+                          UriPath: {}
+                        Size: 0
+                        TextTransformations:
+                          TextTransformations:
+                            - Priority: 0
+                              Type: ''
+                      SqliMatchStatement:
+                        FieldToMatch:
+                          AllQueryArguments: {}
+                          Body: {}
+                          Method: {}
+                          QueryString: {}
+                          SingleHeader:
+                            Name: ''
+                          SingleQueryArgument:
+                            Name: ''
+                          UriPath: {}
+                        TextTransformations:
+                          TextTransformations:
+                            - Priority: 0
+                              Type: ''
+                      XssMatchStatement:
+                        FieldToMatch:
+                          AllQueryArguments: {}
+                          Body: {}
+                          Method: {}
+                          QueryString: {}
+                          SingleHeader:
+                            Name: ''
+                          SingleQueryArgument:
+                            Name: ''
+                          UriPath: {}
+                        TextTransformations:
+                          TextTransformations:
+                            - Priority: 0
+                              Type: ''
+                  RegexPatternSetReferenceStatement:
+                    Arn: ''
+                    FieldToMatch:
+                      AllQueryArguments: {}
+                      Body: {}
+                      Method: {}
+                      QueryString: {}
+                      SingleHeader:
+                        Name: ''
+                      SingleQueryArgument:
+                        Name: ''
+                      UriPath: {}
+                    TextTransformations:
+                      TextTransformations:
+                        - Priority: 0
+                          Type: ''
+                  RuleGroupReferenceStatement:
+                    Arn: ''
+                    ExcludedRules:
+                      ExcludedRules:
+                        - Name: ''
+                  SizeConstraintStatement:
+                    ComparisonOperator: ''
+                    FieldToMatch:
+                      AllQueryArguments: {}
+                      Body: {}
+                      Method: {}
+                      QueryString: {}
+                      SingleHeader:
+                        Name: ''
+                      SingleQueryArgument:
+                        Name: ''
+                      UriPath: {}
+                    Size: 0
+                    TextTransformations:
+                      TextTransformations:
+                        - Priority: 0
+                          Type: ''
+                  SqliMatchStatement:
+                    FieldToMatch:
+                      AllQueryArguments: {}
+                      Body: {}
+                      Method: {}
+                      QueryString: {}
+                      SingleHeader:
+                        Name: ''
+                      SingleQueryArgument:
+                        Name: ''
+                      UriPath: {}
+                    TextTransformations:
+                      TextTransformations:
+                        - Priority: 0
+                          Type: ''
+                  XssMatchStatement:
+                    FieldToMatch:
+                      AllQueryArguments: {}
+                      Body: {}
+                      Method: {}
+                      QueryString: {}
+                      SingleHeader:
+                        Name: ''
+                      SingleQueryArgument:
+                        Name: ''
+                      UriPath: {}
+                    TextTransformations:
+                      TextTransformations:
+                        - Priority: 0
+                          Type: ''
+          RateBasedStatement:
+            AggregateKeyType: ''
+            Limit: 0
+            ScopeDownStatement:
+              AndStatement:
+                Statements:
+                  StatementThrees:
+                    - ByteMatchStatement:
+                        FieldToMatch:
+                          AllQueryArguments: {}
+                          Body: {}
+                          Method: {}
+                          QueryString: {}
+                          SingleHeader:
+                            Name: ''
+                          SingleQueryArgument:
+                            Name: ''
+                          UriPath: {}
+                        PositionalConstraint: ''
+                        SearchString: ''
+                        SearchStringBase64: ''
+                        TextTransformations:
+                          TextTransformations:
+                            - Priority: 0
+                              Type: ''
+                      GeoMatchStatement:
+                        CountryCodes:
+                          CountryCodes:
+                            - ''
+                      IPSetReferenceStatement:
+                        Arn: ''
+                      ManagedRuleGroupStatement:
+                        ExcludedRules:
+                          ExcludedRules:
+                            - Name: ''
+                        Name: ''
+                        VendorName: ''
+                      RegexPatternSetReferenceStatement:
+                        Arn: ''
+                        FieldToMatch:
+                          AllQueryArguments: {}
+                          Body: {}
+                          Method: {}
+                          QueryString: {}
+                          SingleHeader:
+                            Name: ''
+                          SingleQueryArgument:
+                            Name: ''
+                          UriPath: {}
+                        TextTransformations:
+                          TextTransformations:
+                            - Priority: 0
+                              Type: ''
+                      RuleGroupReferenceStatement:
+                        Arn: ''
+                        ExcludedRules:
+                          ExcludedRules:
+                            - Name: ''
+                      SizeConstraintStatement:
+                        ComparisonOperator: ''
+                        FieldToMatch:
+                          AllQueryArguments: {}
+                          Body: {}
+                          Method: {}
+                          QueryString: {}
+                          SingleHeader:
+                            Name: ''
+                          SingleQueryArgument:
+                            Name: ''
+                          UriPath: {}
+                        Size: 0
+                        TextTransformations:
+                          TextTransformations:
+                            - Priority: 0
+                              Type: ''
+                      SqliMatchStatement:
+                        FieldToMatch:
+                          AllQueryArguments: {}
+                          Body: {}
+                          Method: {}
+                          QueryString: {}
+                          SingleHeader:
+                            Name: ''
+                          SingleQueryArgument:
+                            Name: ''
+                          UriPath: {}
+                        TextTransformations:
+                          TextTransformations:
+                            - Priority: 0
+                              Type: ''
+                      XssMatchStatement:
+                        FieldToMatch:
+                          AllQueryArguments: {}
+                          Body: {}
+                          Method: {}
+                          QueryString: {}
+                          SingleHeader:
+                            Name: ''
+                          SingleQueryArgument:
+                            Name: ''
+                          UriPath: {}
+                        TextTransformations:
+                          TextTransformations:
+                            - Priority: 0
+                              Type: ''
+              ByteMatchStatement:
+                FieldToMatch:
+                  AllQueryArguments: {}
+                  Body: {}
+                  Method: {}
+                  QueryString: {}
+                  SingleHeader:
+                    Name: ''
+                  SingleQueryArgument:
+                    Name: ''
+                  UriPath: {}
+                PositionalConstraint: ''
+                SearchString: ''
+                SearchStringBase64: ''
+                TextTransformations:
+                  TextTransformations:
+                    - Priority: 0
+                      Type: ''
+              GeoMatchStatement:
+                CountryCodes:
+                  CountryCodes:
+                    - ''
+              IPSetReferenceStatement:
+                Arn: ''
+              ManagedRuleGroupStatement:
+                ExcludedRules:
+                  ExcludedRules:
+                    - Name: ''
+                Name: ''
+                VendorName: ''
+              NotStatement:
+                Statement:
+                  ByteMatchStatement:
+                    FieldToMatch:
+                      AllQueryArguments: {}
+                      Body: {}
+                      Method: {}
+                      QueryString: {}
+                      SingleHeader:
+                        Name: ''
+                      SingleQueryArgument:
+                        Name: ''
+                      UriPath: {}
+                    PositionalConstraint: ''
+                    SearchString: ''
+                    SearchStringBase64: ''
+                    TextTransformations:
+                      TextTransformations:
+                        - Priority: 0
+                          Type: ''
+                  GeoMatchStatement:
+                    CountryCodes:
+                      CountryCodes:
+                        - ''
+                  IPSetReferenceStatement:
+                    Arn: ''
+                  ManagedRuleGroupStatement:
+                    ExcludedRules:
+                      ExcludedRules:
+                        - Name: ''
+                    Name: ''
+                    VendorName: ''
+                  RegexPatternSetReferenceStatement:
+                    Arn: ''
+                    FieldToMatch:
+                      AllQueryArguments: {}
+                      Body: {}
+                      Method: {}
+                      QueryString: {}
+                      SingleHeader:
+                        Name: ''
+                      SingleQueryArgument:
+                        Name: ''
+                      UriPath: {}
+                    TextTransformations:
+                      TextTransformations:
+                        - Priority: 0
+                          Type: ''
+                  RuleGroupReferenceStatement:
+                    Arn: ''
+                    ExcludedRules:
+                      ExcludedRules:
+                        - Name: ''
+                  SizeConstraintStatement:
+                    ComparisonOperator: ''
+                    FieldToMatch:
+                      AllQueryArguments: {}
+                      Body: {}
+                      Method: {}
+                      QueryString: {}
+                      SingleHeader:
+                        Name: ''
+                      SingleQueryArgument:
+                        Name: ''
+                      UriPath: {}
+                    Size: 0
+                    TextTransformations:
+                      TextTransformations:
+                        - Priority: 0
+                          Type: ''
+                  SqliMatchStatement:
+                    FieldToMatch:
+                      AllQueryArguments: {}
+                      Body: {}
+                      Method: {}
+                      QueryString: {}
+                      SingleHeader:
+                        Name: ''
+                      SingleQueryArgument:
+                        Name: ''
+                      UriPath: {}
+                    TextTransformations:
+                      TextTransformations:
+                        - Priority: 0
+                          Type: ''
+                  XssMatchStatement:
+                    FieldToMatch:
+                      AllQueryArguments: {}
+                      Body: {}
+                      Method: {}
+                      QueryString: {}
+                      SingleHeader:
+                        Name: ''
+                      SingleQueryArgument:
+                        Name: ''
+                      UriPath: {}
+                    TextTransformations:
+                      TextTransformations:
+                        - Priority: 0
+                          Type: ''
+              OrStatement:
+                Statements:
+                  StatementThrees:
+                    - ByteMatchStatement:
+                        FieldToMatch:
+                          AllQueryArguments: {}
+                          Body: {}
+                          Method: {}
+                          QueryString: {}
+                          SingleHeader:
+                            Name: ''
+                          SingleQueryArgument:
+                            Name: ''
+                          UriPath: {}
+                        PositionalConstraint: ''
+                        SearchString: ''
+                        SearchStringBase64: ''
+                        TextTransformations:
+                          TextTransformations:
+                            - Priority: 0
+                              Type: ''
+                      GeoMatchStatement:
+                        CountryCodes:
+                          CountryCodes:
+                            - ''
+                      IPSetReferenceStatement:
+                        Arn: ''
+                      ManagedRuleGroupStatement:
+                        ExcludedRules:
+                          ExcludedRules:
+                            - Name: ''
+                        Name: ''
+                        VendorName: ''
+                      RegexPatternSetReferenceStatement:
+                        Arn: ''
+                        FieldToMatch:
+                          AllQueryArguments: {}
+                          Body: {}
+                          Method: {}
+                          QueryString: {}
+                          SingleHeader:
+                            Name: ''
+                          SingleQueryArgument:
+                            Name: ''
+                          UriPath: {}
+                        TextTransformations:
+                          TextTransformations:
+                            - Priority: 0
+                              Type: ''
+                      RuleGroupReferenceStatement:
+                        Arn: ''
+                        ExcludedRules:
+                          ExcludedRules:
+                            - Name: ''
+                      SizeConstraintStatement:
+                        ComparisonOperator: ''
+                        FieldToMatch:
+                          AllQueryArguments: {}
+                          Body: {}
+                          Method: {}
+                          QueryString: {}
+                          SingleHeader:
+                            Name: ''
+                          SingleQueryArgument:
+                            Name: ''
+                          UriPath: {}
+                        Size: 0
+                        TextTransformations:
+                          TextTransformations:
+                            - Priority: 0
+                              Type: ''
+                      SqliMatchStatement:
+                        FieldToMatch:
+                          AllQueryArguments: {}
+                          Body: {}
+                          Method: {}
+                          QueryString: {}
+                          SingleHeader:
+                            Name: ''
+                          SingleQueryArgument:
+                            Name: ''
+                          UriPath: {}
+                        TextTransformations:
+                          TextTransformations:
+                            - Priority: 0
+                              Type: ''
+                      XssMatchStatement:
+                        FieldToMatch:
+                          AllQueryArguments: {}
+                          Body: {}
+                          Method: {}
+                          QueryString: {}
+                          SingleHeader:
+                            Name: ''
+                          SingleQueryArgument:
+                            Name: ''
+                          UriPath: {}
+                        TextTransformations:
+                          TextTransformations:
+                            - Priority: 0
+                              Type: ''
+              RateBasedStatement:
+                AggregateKeyType: ''
+                Limit: 0
+                ScopeDownStatement:
+                  ByteMatchStatement:
+                    FieldToMatch:
+                      AllQueryArguments: {}
+                      Body: {}
+                      Method: {}
+                      QueryString: {}
+                      SingleHeader:
+                        Name: ''
+                      SingleQueryArgument:
+                        Name: ''
+                      UriPath: {}
+                    PositionalConstraint: ''
+                    SearchString: ''
+                    SearchStringBase64: ''
+                    TextTransformations:
+                      TextTransformations:
+                        - Priority: 0
+                          Type: ''
+                  GeoMatchStatement:
+                    CountryCodes:
+                      CountryCodes:
+                        - ''
+                  IPSetReferenceStatement:
+                    Arn: ''
+                  ManagedRuleGroupStatement:
+                    ExcludedRules:
+                      ExcludedRules:
+                        - Name: ''
+                    Name: ''
+                    VendorName: ''
+                  RegexPatternSetReferenceStatement:
+                    Arn: ''
+                    FieldToMatch:
+                      AllQueryArguments: {}
+                      Body: {}
+                      Method: {}
+                      QueryString: {}
+                      SingleHeader:
+                        Name: ''
+                      SingleQueryArgument:
+                        Name: ''
+                      UriPath: {}
+                    TextTransformations:
+                      TextTransformations:
+                        - Priority: 0
+                          Type: ''
+                  RuleGroupReferenceStatement:
+                    Arn: ''
+                    ExcludedRules:
+                      ExcludedRules:
+                        - Name: ''
+                  SizeConstraintStatement:
+                    ComparisonOperator: ''
+                    FieldToMatch:
+                      AllQueryArguments: {}
+                      Body: {}
+                      Method: {}
+                      QueryString: {}
+                      SingleHeader:
+                        Name: ''
+                      SingleQueryArgument:
+                        Name: ''
+                      UriPath: {}
+                    Size: 0
+                    TextTransformations:
+                      TextTransformations:
+                        - Priority: 0
+                          Type: ''
+                  SqliMatchStatement:
+                    FieldToMatch:
+                      AllQueryArguments: {}
+                      Body: {}
+                      Method: {}
+                      QueryString: {}
+                      SingleHeader:
+                        Name: ''
+                      SingleQueryArgument:
+                        Name: ''
+                      UriPath: {}
+                    TextTransformations:
+                      TextTransformations:
+                        - Priority: 0
+                          Type: ''
+                  XssMatchStatement:
+                    FieldToMatch:
+                      AllQueryArguments: {}
+                      Body: {}
+                      Method: {}
+                      QueryString: {}
+                      SingleHeader:
+                        Name: ''
+                      SingleQueryArgument:
+                        Name: ''
+                      UriPath: {}
+                    TextTransformations:
+                      TextTransformations:
+                        - Priority: 0
+                          Type: ''
+              RegexPatternSetReferenceStatement:
+                Arn: ''
+                FieldToMatch:
+                  AllQueryArguments: {}
+                  Body: {}
+                  Method: {}
+                  QueryString: {}
+                  SingleHeader:
+                    Name: ''
+                  SingleQueryArgument:
+                    Name: ''
+                  UriPath: {}
+                TextTransformations:
+                  TextTransformations:
+                    - Priority: 0
+                      Type: ''
+              RuleGroupReferenceStatement:
+                Arn: ''
+                ExcludedRules:
+                  ExcludedRules:
+                    - Name: ''
+              SizeConstraintStatement:
+                ComparisonOperator: ''
+                FieldToMatch:
+                  AllQueryArguments: {}
+                  Body: {}
+                  Method: {}
+                  QueryString: {}
+                  SingleHeader:
+                    Name: ''
+                  SingleQueryArgument:
+                    Name: ''
+                  UriPath: {}
+                Size: 0
+                TextTransformations:
+                  TextTransformations:
+                    - Priority: 0
+                      Type: ''
+              SqliMatchStatement:
+                FieldToMatch:
+                  AllQueryArguments: {}
+                  Body: {}
+                  Method: {}
+                  QueryString: {}
+                  SingleHeader:
+                    Name: ''
+                  SingleQueryArgument:
+                    Name: ''
+                  UriPath: {}
+                TextTransformations:
+                  TextTransformations:
+                    - Priority: 0
+                      Type: ''
+              XssMatchStatement:
+                FieldToMatch:
+                  AllQueryArguments: {}
+                  Body: {}
+                  Method: {}
+                  QueryString: {}
+                  SingleHeader:
+                    Name: ''
+                  SingleQueryArgument:
+                    Name: ''
+                  UriPath: {}
+                TextTransformations:
+                  TextTransformations:
+                    - Priority: 0
+                      Type: ''
+          RegexPatternSetReferenceStatement:
+            Arn: ''
+            FieldToMatch:
+              AllQueryArguments: {}
+              Body: {}
+              Method: {}
+              QueryString: {}
+              SingleHeader:
+                Name: ''
+              SingleQueryArgument:
+                Name: ''
+              UriPath: {}
+            TextTransformations:
+              TextTransformations:
+                - Priority: 0
+                  Type: ''
+          RuleGroupReferenceStatement:
+            Arn: ''
+            ExcludedRules:
+              ExcludedRules:
+                - Name: ''
+          SizeConstraintStatement:
+            ComparisonOperator: ''
+            FieldToMatch:
+              AllQueryArguments: {}
+              Body: {}
+              Method: {}
+              QueryString: {}
+              SingleHeader:
+                Name: ''
+              SingleQueryArgument:
+                Name: ''
+              UriPath: {}
+            Size: 0
+            TextTransformations:
+              TextTransformations:
+                - Priority: 0
+                  Type: ''
+          SqliMatchStatement:
+            FieldToMatch:
+              AllQueryArguments: {}
+              Body: {}
+              Method: {}
+              QueryString: {}
+              SingleHeader:
+                Name: ''
+              SingleQueryArgument:
+                Name: ''
+              UriPath: {}
+            TextTransformations:
+              TextTransformations:
+                - Priority: 0
+                  Type: ''
+          XssMatchStatement:
+            FieldToMatch:
+              AllQueryArguments: {}
+              Body: {}
+              Method: {}
+              QueryString: {}
+              SingleHeader:
+                Name: ''
+              SingleQueryArgument:
+                Name: ''
+              UriPath: {}
+            TextTransformations:
+              TextTransformations:
+                - Priority: 0
+                  Type: ''
+        VisibilityConfig:
+          CloudWatchMetricsEnabled: true
+          MetricName: ''
+          SampledRequestsEnabled: true
+  Scope: ''
+  Tags:
+    TagList:
+      - Key: ''
+        Value: ''
+  VisibilityConfig:
+    CloudWatchMetricsEnabled: true
+    MetricName: ''
+    SampledRequestsEnabled: true
+Type: AWS::WAFv2::WebACL

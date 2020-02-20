@@ -1,0 +1,91 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  LaunchTemplateData:
+    BlockDeviceMappings:
+      - DeviceName: ''
+        Ebs:
+          DeleteOnTermination: true
+          Encrypted: true
+          Iops: 0
+          KmsKeyId: ''
+          SnapshotId: ''
+          VolumeSize: 0
+          VolumeType: ''
+        NoDevice: ''
+        VirtualName: ''
+    CapacityReservationSpecification:
+      CapacityReservationPreference: {}
+      CapacityReservationTarget:
+        CapacityReservationId: ''
+    CpuOptions:
+      CoreCount: 0
+      ThreadsPerCore: 0
+    CreditSpecification:
+      CpuCredits: ''
+    DisableApiTermination: true
+    EbsOptimized: true
+    ElasticGpuSpecifications:
+      - Type: ''
+    ElasticInferenceAccelerators:
+      - Type: ''
+    HibernationOptions:
+      Configured: true
+    IamInstanceProfile:
+      Arn: ''
+      Name: ''
+    ImageId: ''
+    InstanceInitiatedShutdownBehavior: ''
+    InstanceMarketOptions:
+      MarketType: ''
+      SpotOptions:
+        BlockDurationMinutes: 0
+        InstanceInterruptionBehavior: ''
+        MaxPrice: ''
+        SpotInstanceType: ''
+        ValidUntil: ''
+    InstanceType: ''
+    KernelId: ''
+    KeyName: ''
+    LicenseSpecifications:
+      - LicenseConfigurationArn: ''
+    Monitoring:
+      Enabled: true
+    NetworkInterfaces:
+      - AssociatePublicIpAddress: true
+        DeleteOnTermination: true
+        Description: ''
+        DeviceIndex: 0
+        Groups:
+          - ''
+        InterfaceType: ''
+        Ipv6AddressCount: 0
+        Ipv6Addresses:
+          - Ipv6Address: ''
+        NetworkInterfaceId: ''
+        PrivateIpAddress: ''
+        PrivateIpAddresses:
+          - Primary: true
+            PrivateIpAddress: ''
+        SecondaryPrivateIpAddressCount: 0
+        SubnetId: ''
+    Placement:
+      Affinity: ''
+      AvailabilityZone: ''
+      GroupName: ''
+      HostId: ''
+      Tenancy: ''
+    RamDiskId: ''
+    SecurityGroupIds:
+      - ''
+    SecurityGroups:
+      - ''
+    TagSpecifications:
+      - ResourceType: ''
+        Tags:
+          - Key: ''
+            Value: ''
+    UserData: ''
+  LaunchTemplateName: ''
+Type: AWS::EC2::LaunchTemplate

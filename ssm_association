@@ -1,0 +1,22 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  AssociationName: ''
+  DocumentVersion: ''
+  InstanceId: ''
+  Name: ''
+  OutputLocation:
+    S3Location:
+      OutputS3BucketName: ''
+      OutputS3KeyPrefix: ''
+  Parameters:
+    Key:
+      ParameterValues:
+        - ''
+  ScheduleExpression: ''
+  Targets:
+    - Key: ''
+      Values:
+        - ''
+Type: AWS::SSM::Association

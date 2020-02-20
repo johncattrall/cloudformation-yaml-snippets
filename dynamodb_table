@@ -1,0 +1,51 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  AttributeDefinitions:
+    - AttributeName: ''
+      AttributeType: ''
+  BillingMode: ''
+  GlobalSecondaryIndexes:
+    - IndexName: ''
+      KeySchema:
+        - AttributeName: ''
+          KeyType: ''
+      Projection:
+        NonKeyAttributes:
+          - ''
+        ProjectionType: ''
+      ProvisionedThroughput:
+        ReadCapacityUnits: 0
+        WriteCapacityUnits: 0
+  KeySchema:
+    - AttributeName: ''
+      KeyType: ''
+  LocalSecondaryIndexes:
+    - IndexName: ''
+      KeySchema:
+        - AttributeName: ''
+          KeyType: ''
+      Projection:
+        NonKeyAttributes:
+          - ''
+        ProjectionType: ''
+  PointInTimeRecoverySpecification:
+    PointInTimeRecoveryEnabled: true
+  ProvisionedThroughput:
+    ReadCapacityUnits: 0
+    WriteCapacityUnits: 0
+  SSESpecification:
+    KMSMasterKeyId: ''
+    SSEEnabled: true
+    SSEType: ''
+  StreamSpecification:
+    StreamViewType: ''
+  TableName: ''
+  Tags:
+    - Key: ''
+      Value: ''
+  TimeToLiveSpecification:
+    AttributeName: ''
+    Enabled: true
+Type: AWS::DynamoDB::Table

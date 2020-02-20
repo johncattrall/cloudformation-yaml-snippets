@@ -1,0 +1,16 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  HostedZoneConfig:
+    Comment: ''
+  HostedZoneTags:
+    - Key: ''
+      Value: ''
+  Name: ''
+  QueryLoggingConfig:
+    CloudWatchLogsLogGroupArn: ''
+  VPCs:
+    - VPCId: ''
+      VPCRegion: ''
+Type: AWS::Route53::HostedZone

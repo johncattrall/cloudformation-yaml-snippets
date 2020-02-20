@@ -1,0 +1,48 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Description: ''
+  LoggingInfo:
+    Region: ''
+    S3Bucket: ''
+    S3Prefix: ''
+  MaxConcurrency: ''
+  MaxErrors: ''
+  Name: ''
+  Priority: 0
+  ServiceRoleArn: ''
+  Targets:
+    - Key: ''
+      Values:
+        - ''
+  TaskArn: ''
+  TaskInvocationParameters:
+    MaintenanceWindowAutomationParameters:
+      DocumentVersion: ''
+      Parameters: {}
+    MaintenanceWindowLambdaParameters:
+      ClientContext: ''
+      Payload: ''
+      Qualifier: ''
+    MaintenanceWindowRunCommandParameters:
+      Comment: ''
+      DocumentHash: ''
+      DocumentHashType: ''
+      NotificationConfig:
+        NotificationArn: ''
+        NotificationEvents:
+          - ''
+        NotificationType: ''
+      OutputS3BucketName: ''
+      OutputS3KeyPrefix: ''
+      Parameters: {}
+      ServiceRoleArn: ''
+      TimeoutSeconds: 0
+    MaintenanceWindowStepFunctionsParameters:
+      Input: ''
+      Name: ''
+  TaskParameters: {}
+  TaskType: ''
+  WindowId: ''
+Type: AWS::SSM::MaintenanceWindowTask

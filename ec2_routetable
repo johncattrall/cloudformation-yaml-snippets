@@ -1,0 +1,9 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Tags:
+    - Key: ''
+      Value: ''
+  VpcId: ''
+Type: AWS::EC2::RouteTable

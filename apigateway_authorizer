@@ -1,0 +1,16 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  AuthType: ''
+  AuthorizerCredentials: ''
+  AuthorizerResultTtlInSeconds: 0
+  AuthorizerUri: ''
+  IdentitySource: ''
+  IdentityValidationExpression: ''
+  Name: ''
+  ProviderARNs:
+    - ''
+  RestApiId: ''
+  Type: ''
+Type: AWS::ApiGateway::Authorizer

@@ -1,0 +1,15 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  DetailType: ''
+  EventTypeIds:
+    - ''
+  Name: ''
+  Resource: ''
+  Status: ''
+  Tags: {}
+  Targets:
+    - TargetAddress: ''
+      TargetType: ''
+Type: AWS::CodeStarNotifications::NotificationRule

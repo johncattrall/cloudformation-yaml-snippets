@@ -1,0 +1,10 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  CodeRepositoryName: ''
+  GitConfig:
+    Branch: ''
+    RepositoryUrl: ''
+    SecretArn: ''
+Type: AWS::SageMaker::CodeRepository

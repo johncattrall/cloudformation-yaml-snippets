@@ -1,0 +1,12 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  SubnetIds:
+    - ''
+  Tags:
+    - Key: ''
+      Value: ''
+  TransitGatewayId: ''
+  VpcId: ''
+Type: AWS::EC2::TransitGatewayAttachment

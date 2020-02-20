@@ -1,0 +1,34 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  AppSource:
+    Password: ''
+    Revision: ''
+    SshKey: ''
+    Type: ''
+    Url: ''
+    Username: ''
+  Attributes:
+    Key: ''
+  DataSources:
+    - Arn: ''
+      DatabaseName: ''
+      Type: ''
+  Description: ''
+  Domains:
+    - ''
+  EnableSsl: true
+  Environment:
+    - Key: ''
+      Secure: true
+      Value: ''
+  Name: ''
+  Shortname: ''
+  SslConfiguration:
+    Certificate: ''
+    Chain: ''
+    PrivateKey: ''
+  StackId: ''
+  Type: ''
+Type: AWS::OpsWorks::App

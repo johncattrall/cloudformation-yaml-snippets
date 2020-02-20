@@ -1,0 +1,88 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  SpotFleetRequestConfigData:
+    AllocationStrategy: ''
+    ExcessCapacityTerminationPolicy: ''
+    IamFleetRole: ''
+    InstanceInterruptionBehavior: ''
+    LaunchSpecifications:
+      - BlockDeviceMappings:
+          - DeviceName: ''
+            Ebs:
+              DeleteOnTermination: true
+              Encrypted: true
+              Iops: 0
+              SnapshotId: ''
+              VolumeSize: 0
+              VolumeType: ''
+            NoDevice: ''
+            VirtualName: ''
+        EbsOptimized: true
+        IamInstanceProfile:
+          Arn: ''
+        ImageId: ''
+        InstanceType: ''
+        KernelId: ''
+        KeyName: ''
+        Monitoring:
+          Enabled: true
+        NetworkInterfaces:
+          - AssociatePublicIpAddress: true
+            DeleteOnTermination: true
+            Description: ''
+            DeviceIndex: 0
+            Groups:
+              - ''
+            Ipv6AddressCount: 0
+            Ipv6Addresses:
+              - Ipv6Address: ''
+            NetworkInterfaceId: ''
+            PrivateIpAddresses:
+              - Primary: true
+                PrivateIpAddress: ''
+            SecondaryPrivateIpAddressCount: 0
+            SubnetId: ''
+        Placement:
+          AvailabilityZone: ''
+          GroupName: ''
+          Tenancy: ''
+        RamdiskId: ''
+        SecurityGroups:
+          - GroupId: ''
+        SpotPrice: ''
+        SubnetId: ''
+        TagSpecifications:
+          - ResourceType: ''
+            Tags:
+              - Key: ''
+                Value: ''
+        UserData: ''
+        WeightedCapacity: 0
+    LaunchTemplateConfigs:
+      - LaunchTemplateSpecification:
+          LaunchTemplateId: ''
+          LaunchTemplateName: ''
+          Version: ''
+        Overrides:
+          - AvailabilityZone: ''
+            InstanceType: ''
+            SpotPrice: ''
+            SubnetId: ''
+            WeightedCapacity: 0
+    LoadBalancersConfig:
+      ClassicLoadBalancersConfig:
+        ClassicLoadBalancers:
+          - Name: ''
+      TargetGroupsConfig:
+        TargetGroups:
+          - Arn: ''
+    ReplaceUnhealthyInstances: true
+    SpotPrice: ''
+    TargetCapacity: 0
+    TerminateInstancesWithExpiration: true
+    Type: ''
+    ValidFrom: ''
+    ValidUntil: ''
+Type: AWS::EC2::SpotFleet

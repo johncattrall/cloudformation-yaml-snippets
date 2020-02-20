@@ -1,0 +1,7 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  DestinationCidrBlock: ''
+  VpnConnectionId: ''
+Type: AWS::EC2::VPNConnectionRoute

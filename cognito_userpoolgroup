@@ -1,0 +1,10 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Description: ''
+  GroupName: ''
+  Precedence: 0
+  RoleArn: ''
+  UserPoolId: ''
+Type: AWS::Cognito::UserPoolGroup

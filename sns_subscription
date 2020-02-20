@@ -1,0 +1,13 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  DeliveryPolicy: {}
+  Endpoint: ''
+  FilterPolicy: {}
+  Protocol: ''
+  RawMessageDelivery: true
+  RedrivePolicy: {}
+  Region: ''
+  TopicArn: ''
+Type: AWS::SNS::Subscription

@@ -1,0 +1,7 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Ipv6CidrBlock: ''
+  SubnetId: ''
+Type: AWS::EC2::SubnetCidrBlock

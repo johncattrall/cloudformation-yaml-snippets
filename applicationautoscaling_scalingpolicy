@@ -1,0 +1,36 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  PolicyName: ''
+  PolicyType: ''
+  ResourceId: ''
+  ScalableDimension: ''
+  ScalingTargetId: ''
+  ServiceNamespace: ''
+  StepScalingPolicyConfiguration:
+    AdjustmentType: ''
+    Cooldown: 0
+    MetricAggregationType: ''
+    MinAdjustmentMagnitude: 0
+    StepAdjustments:
+      - MetricIntervalLowerBound: 0
+        MetricIntervalUpperBound: 0
+        ScalingAdjustment: 0
+  TargetTrackingScalingPolicyConfiguration:
+    CustomizedMetricSpecification:
+      Dimensions:
+        - Name: ''
+          Value: ''
+      MetricName: ''
+      Namespace: ''
+      Statistic: ''
+      Unit: ''
+    DisableScaleIn: true
+    PredefinedMetricSpecification:
+      PredefinedMetricType: ''
+      ResourceLabel: ''
+    ScaleInCooldown: 0
+    ScaleOutCooldown: 0
+    TargetValue: 0
+Type: AWS::ApplicationAutoScaling::ScalingPolicy

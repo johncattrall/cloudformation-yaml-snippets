@@ -1,0 +1,24 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  AcceleratorTypes:
+    - ''
+  AdditionalCodeRepositories:
+    - ''
+  DefaultCodeRepository: ''
+  DirectInternetAccess: ''
+  InstanceType: ''
+  KmsKeyId: ''
+  LifecycleConfigName: ''
+  NotebookInstanceName: ''
+  RoleArn: ''
+  RootAccess: ''
+  SecurityGroupIds:
+    - ''
+  SubnetId: ''
+  Tags:
+    - Key: ''
+      Value: ''
+  VolumeSizeInGB: 0
+Type: AWS::SageMaker::NotebookInstance

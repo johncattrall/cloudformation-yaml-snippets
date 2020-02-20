@@ -1,0 +1,12 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Description: ''
+  Family: ''
+  Parameters:
+    Key: ''
+  Tags:
+    - Key: ''
+      Value: ''
+Type: AWS::RDS::DBParameterGroup

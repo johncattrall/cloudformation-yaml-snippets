@@ -1,0 +1,51 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Description: ''
+  EventBusName: ''
+  EventPattern: {}
+  Name: ''
+  RoleArn: ''
+  ScheduleExpression: ''
+  State: ''
+  Targets:
+    - Arn: ''
+      BatchParameters:
+        ArrayProperties:
+          Size: 0
+        JobDefinition: ''
+        JobName: ''
+        RetryStrategy:
+          Attempts: 0
+      EcsParameters:
+        Group: ''
+        LaunchType: ''
+        NetworkConfiguration:
+          AwsVpcConfiguration:
+            AssignPublicIp: ''
+            SecurityGroups:
+              - ''
+            Subnets:
+              - ''
+        PlatformVersion: ''
+        TaskCount: 0
+        TaskDefinitionArn: ''
+      Id: ''
+      Input: ''
+      InputPath: ''
+      InputTransformer:
+        InputPathsMap:
+          Key: ''
+        InputTemplate: ''
+      KinesisParameters:
+        PartitionKeyPath: ''
+      RoleArn: ''
+      RunCommandParameters:
+        RunCommandTargets:
+          - Key: ''
+            Values:
+              - ''
+      SqsParameters:
+        MessageGroupId: ''
+Type: AWS::Events::Rule

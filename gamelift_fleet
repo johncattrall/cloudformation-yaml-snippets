@@ -1,0 +1,41 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  BuildId: ''
+  CertificateConfiguration:
+    CertificateType: ''
+  Description: ''
+  DesiredEC2Instances: 0
+  EC2InboundPermissions:
+    - FromPort: 0
+      IpRange: ''
+      Protocol: ''
+      ToPort: 0
+  EC2InstanceType: ''
+  FleetType: ''
+  InstanceRoleARN: ''
+  LogPaths:
+    - ''
+  MaxSize: 0
+  MetricGroups:
+    - ''
+  MinSize: 0
+  Name: ''
+  NewGameSessionProtectionPolicy: ''
+  PeerVpcAwsAccountId: ''
+  PeerVpcId: ''
+  ResourceCreationLimitPolicy:
+    NewGameSessionsPerCreator: 0
+    PolicyPeriodInMinutes: 0
+  RuntimeConfiguration:
+    GameSessionActivationTimeoutSeconds: 0
+    MaxConcurrentGameSessionActivations: 0
+    ServerProcesses:
+      - ConcurrentExecutions: 0
+        LaunchPath: ''
+        Parameters: ''
+  ScriptId: ''
+  ServerLaunchParameters: ''
+  ServerLaunchPath: ''
+Type: AWS::GameLift::Fleet

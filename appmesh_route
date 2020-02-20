@@ -1,0 +1,106 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  MeshName: ''
+  RouteName: ''
+  Spec:
+    GrpcRoute:
+      Action:
+        WeightedTargets:
+          - VirtualNode: ''
+            Weight: 0
+      Match:
+        Metadata:
+          - Invert: true
+            Match:
+              Exact: ''
+              Prefix: ''
+              Range:
+                End: 0
+                Start: 0
+              Regex: ''
+              Suffix: ''
+            Name: ''
+        MethodName: ''
+        ServiceName: ''
+      RetryPolicy:
+        GrpcRetryEvents:
+          - ''
+        HttpRetryEvents:
+          - ''
+        MaxRetries: 0
+        PerRetryTimeout:
+          Unit: ''
+          Value: 0
+        TcpRetryEvents:
+          - ''
+    Http2Route:
+      Action:
+        WeightedTargets:
+          - VirtualNode: ''
+            Weight: 0
+      Match:
+        Headers:
+          - Invert: true
+            Match:
+              Exact: ''
+              Prefix: ''
+              Range:
+                End: 0
+                Start: 0
+              Regex: ''
+              Suffix: ''
+            Name: ''
+        Method: ''
+        Prefix: ''
+        Scheme: ''
+      RetryPolicy:
+        HttpRetryEvents:
+          - ''
+        MaxRetries: 0
+        PerRetryTimeout:
+          Unit: ''
+          Value: 0
+        TcpRetryEvents:
+          - ''
+    HttpRoute:
+      Action:
+        WeightedTargets:
+          - VirtualNode: ''
+            Weight: 0
+      Match:
+        Headers:
+          - Invert: true
+            Match:
+              Exact: ''
+              Prefix: ''
+              Range:
+                End: 0
+                Start: 0
+              Regex: ''
+              Suffix: ''
+            Name: ''
+        Method: ''
+        Prefix: ''
+        Scheme: ''
+      RetryPolicy:
+        HttpRetryEvents:
+          - ''
+        MaxRetries: 0
+        PerRetryTimeout:
+          Unit: ''
+          Value: 0
+        TcpRetryEvents:
+          - ''
+    Priority: 0
+    TcpRoute:
+      Action:
+        WeightedTargets:
+          - VirtualNode: ''
+            Weight: 0
+  Tags:
+    - Key: ''
+      Value: ''
+  VirtualRouterName: ''
+Type: AWS::AppMesh::Route

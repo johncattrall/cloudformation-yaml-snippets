@@ -1,0 +1,19 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Description: ''
+  DestinationCidrBlock: ''
+  DestinationPortRange:
+    FromPort: 0
+    ToPort: 0
+  Protocol: 0
+  RuleAction: ''
+  RuleNumber: 0
+  SourceCidrBlock: ''
+  SourcePortRange:
+    FromPort: 0
+    ToPort: 0
+  TrafficDirection: ''
+  TrafficMirrorFilterId: ''
+Type: AWS::EC2::TrafficMirrorFilterRule

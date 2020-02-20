@@ -1,0 +1,19 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  ApiId: ''
+  ConnectionType: ''
+  ContentHandlingStrategy: ''
+  CredentialsArn: ''
+  Description: ''
+  IntegrationMethod: ''
+  IntegrationType: ''
+  IntegrationUri: ''
+  PassthroughBehavior: ''
+  PayloadFormatVersion: ''
+  RequestParameters: {}
+  RequestTemplates: {}
+  TemplateSelectionExpression: ''
+  TimeoutInMillis: 0
+Type: AWS::ApiGatewayV2::Integration

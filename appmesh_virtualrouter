@@ -1,0 +1,15 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  MeshName: ''
+  Spec:
+    Listeners:
+      - PortMapping:
+          Port: 0
+          Protocol: ''
+  Tags:
+    - Key: ''
+      Value: ''
+  VirtualRouterName: ''
+Type: AWS::AppMesh::VirtualRouter

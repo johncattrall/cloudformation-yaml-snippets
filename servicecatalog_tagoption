@@ -1,0 +1,8 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Active: true
+  Key: ''
+  Value: ''
+Type: AWS::ServiceCatalog::TagOption

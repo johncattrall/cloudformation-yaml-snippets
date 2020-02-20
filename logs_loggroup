@@ -1,0 +1,7 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  LogGroupName: ''
+  RetentionInDays: 0
+Type: AWS::Logs::LogGroup

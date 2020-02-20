@@ -1,0 +1,12 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  ReplicationSubnetGroupDescription: ''
+  ReplicationSubnetGroupIdentifier: ''
+  SubnetIds:
+    - ''
+  Tags:
+    - Key: ''
+      Value: ''
+Type: AWS::DMS::ReplicationSubnetGroup

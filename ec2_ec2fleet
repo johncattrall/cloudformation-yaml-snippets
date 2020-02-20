@@ -1,0 +1,39 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  ExcessCapacityTerminationPolicy: ''
+  LaunchTemplateConfigs:
+    - LaunchTemplateSpecification:
+        LaunchTemplateId: ''
+        LaunchTemplateName: ''
+        Version: ''
+      Overrides:
+        - AvailabilityZone: ''
+          InstanceType: ''
+          MaxPrice: ''
+          Priority: 0
+          SubnetId: ''
+          WeightedCapacity: 0
+  OnDemandOptions:
+    AllocationStrategy: ''
+  ReplaceUnhealthyInstances: true
+  SpotOptions:
+    AllocationStrategy: ''
+    InstanceInterruptionBehavior: ''
+    InstancePoolsToUseCount: 0
+  TagSpecifications:
+    - ResourceType: ''
+      Tags:
+        - Key: ''
+          Value: ''
+  TargetCapacitySpecification:
+    DefaultTargetCapacityType: ''
+    OnDemandTargetCapacity: 0
+    SpotTargetCapacity: 0
+    TotalTargetCapacity: 0
+  TerminateInstancesWithExpiration: true
+  Type: ''
+  ValidFrom: ''
+  ValidUntil: ''
+Type: AWS::EC2::EC2Fleet

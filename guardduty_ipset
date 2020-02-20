@@ -1,0 +1,10 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Activate: true
+  DetectorId: ''
+  Format: ''
+  Location: ''
+  Name: ''
+Type: AWS::GuardDuty::IPSet

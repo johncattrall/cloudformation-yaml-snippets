@@ -1,0 +1,40 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  ApprovalRules:
+    PatchRules:
+      - ApproveAfterDays: 0
+        ComplianceLevel: ''
+        EnableNonSecurity: true
+        PatchFilterGroup:
+          PatchFilters:
+            - Key: ''
+              Values:
+                - ''
+  ApprovedPatches:
+    - ''
+  ApprovedPatchesComplianceLevel: ''
+  ApprovedPatchesEnableNonSecurity: true
+  Description: ''
+  GlobalFilters:
+    PatchFilters:
+      - Key: ''
+        Values:
+          - ''
+  Name: ''
+  OperatingSystem: ''
+  PatchGroups:
+    - ''
+  RejectedPatches:
+    - ''
+  RejectedPatchesAction: ''
+  Sources:
+    - Configuration: ''
+      Name: ''
+      Products:
+        - ''
+  Tags:
+    - Key: ''
+      Value: ''
+Type: AWS::SSM::PatchBaseline

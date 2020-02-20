@@ -1,0 +1,8 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  ApiId: ''
+  Description: ''
+  StageName: ''
+Type: AWS::ApiGatewayV2::Deployment

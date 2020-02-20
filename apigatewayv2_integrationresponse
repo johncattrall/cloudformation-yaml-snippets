@@ -1,0 +1,12 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  ApiId: ''
+  ContentHandlingStrategy: ''
+  IntegrationId: ''
+  IntegrationResponseKey: ''
+  ResponseParameters: {}
+  ResponseTemplates: {}
+  TemplateSelectionExpression: ''
+Type: AWS::ApiGatewayV2::IntegrationResponse

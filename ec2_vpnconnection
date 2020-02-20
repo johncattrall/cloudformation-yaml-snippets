@@ -1,0 +1,16 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  CustomerGatewayId: ''
+  StaticRoutesOnly: true
+  Tags:
+    - Key: ''
+      Value: ''
+  TransitGatewayId: ''
+  Type: ''
+  VpnGatewayId: ''
+  VpnTunnelOptionsSpecifications:
+    - PreSharedKey: ''
+      TunnelInsideCidr: ''
+Type: AWS::EC2::VPNConnection

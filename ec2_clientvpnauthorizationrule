@@ -1,0 +1,10 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  AccessGroupId: ''
+  AuthorizeAllGroups: true
+  ClientVpnEndpointId: ''
+  Description: ''
+  TargetNetworkCidr: ''
+Type: AWS::EC2::ClientVpnAuthorizationRule

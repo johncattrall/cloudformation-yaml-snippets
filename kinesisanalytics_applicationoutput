@@ -1,0 +1,19 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  ApplicationName: ''
+  Output:
+    DestinationSchema:
+      RecordFormatType: ''
+    KinesisFirehoseOutput:
+      ResourceARN: ''
+      RoleARN: ''
+    KinesisStreamsOutput:
+      ResourceARN: ''
+      RoleARN: ''
+    LambdaOutput:
+      ResourceARN: ''
+      RoleARN: ''
+    Name: ''
+Type: AWS::KinesisAnalytics::ApplicationOutput

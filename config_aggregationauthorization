@@ -1,0 +1,7 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  AuthorizedAccountId: ''
+  AuthorizedAwsRegion: ''
+Type: AWS::Config::AggregationAuthorization

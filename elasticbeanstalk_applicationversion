@@ -1,0 +1,10 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  ApplicationName: ''
+  Description: ''
+  SourceBundle:
+    S3Bucket: ''
+    S3Key: ''
+Type: AWS::ElasticBeanstalk::ApplicationVersion

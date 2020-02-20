@@ -1,0 +1,9 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Ec2VolumeId: ''
+  MountPoint: ''
+  Name: ''
+  StackId: ''
+Type: AWS::OpsWorks::Volume

@@ -1,0 +1,14 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  InitialVersion:
+    Loggers:
+      - Component: ''
+        Id: ''
+        Level: ''
+        Space: 0
+        Type: ''
+  Name: ''
+  Tags: {}
+Type: AWS::Greengrass::LoggerDefinition

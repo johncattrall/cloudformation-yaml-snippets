@@ -1,0 +1,8 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Description: ''
+  DocumentationVersion: ''
+  RestApiId: ''
+Type: AWS::ApiGateway::DocumentationVersion

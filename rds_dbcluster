@@ -1,0 +1,47 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  AssociatedRoles:
+    - FeatureName: ''
+      RoleArn: ''
+  AvailabilityZones:
+    - ''
+  BacktrackWindow: 0
+  BackupRetentionPeriod: 0
+  DBClusterIdentifier: ''
+  DBClusterParameterGroupName: ''
+  DBSubnetGroupName: ''
+  DatabaseName: ''
+  DeletionProtection: true
+  EnableCloudwatchLogsExports:
+    - ''
+  EnableHttpEndpoint: true
+  EnableIAMDatabaseAuthentication: true
+  Engine: ''
+  EngineMode: ''
+  EngineVersion: ''
+  KmsKeyId: ''
+  MasterUserPassword: ''
+  MasterUsername: ''
+  Port: 0
+  PreferredBackupWindow: ''
+  PreferredMaintenanceWindow: ''
+  ReplicationSourceIdentifier: ''
+  RestoreType: ''
+  ScalingConfiguration:
+    AutoPause: true
+    MaxCapacity: 0
+    MinCapacity: 0
+    SecondsUntilAutoPause: 0
+  SnapshotIdentifier: ''
+  SourceDBClusterIdentifier: ''
+  SourceRegion: ''
+  StorageEncrypted: true
+  Tags:
+    - Key: ''
+      Value: ''
+  UseLatestRestorableTime: true
+  VpcSecurityGroupIds:
+    - ''
+Type: AWS::RDS::DBCluster

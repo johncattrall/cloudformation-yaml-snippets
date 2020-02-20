@@ -1,0 +1,20 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Description: ''
+  DnsConfig:
+    DnsRecords:
+      - TTL: 0
+        Type: ''
+    NamespaceId: ''
+    RoutingPolicy: ''
+  HealthCheckConfig:
+    FailureThreshold: 0
+    ResourcePath: ''
+    Type: ''
+  HealthCheckCustomConfig:
+    FailureThreshold: 0
+  Name: ''
+  NamespaceId: ''
+Type: AWS::ServiceDiscovery::Service

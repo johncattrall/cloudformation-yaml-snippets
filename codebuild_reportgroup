@@ -1,0 +1,15 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  ExportConfig:
+    ExportConfigType: ''
+    S3Destination:
+      Bucket: ''
+      EncryptionDisabled: true
+      EncryptionKey: ''
+      Packaging: ''
+      Path: ''
+  Name: ''
+  Type: ''
+Type: AWS::CodeBuild::ReportGroup

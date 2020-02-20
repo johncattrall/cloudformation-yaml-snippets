@@ -1,0 +1,15 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Description: ''
+  Groups:
+    - ''
+  ManagedPolicyName: ''
+  Path: ''
+  PolicyDocument: {}
+  Roles:
+    - ''
+  Users:
+    - ''
+Type: AWS::IAM::ManagedPolicy

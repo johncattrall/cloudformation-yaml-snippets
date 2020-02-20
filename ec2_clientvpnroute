@@ -1,0 +1,9 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  ClientVpnEndpointId: ''
+  Description: ''
+  DestinationCidrBlock: ''
+  TargetVpcSubnetId: ''
+Type: AWS::EC2::ClientVpnRoute

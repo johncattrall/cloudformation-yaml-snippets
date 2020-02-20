@@ -1,0 +1,222 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  DeliveryStreamName: ''
+  DeliveryStreamType: ''
+  ElasticsearchDestinationConfiguration:
+    BufferingHints:
+      IntervalInSeconds: 0
+      SizeInMBs: 0
+    CloudWatchLoggingOptions:
+      Enabled: true
+      LogGroupName: ''
+      LogStreamName: ''
+    DomainARN: ''
+    IndexName: ''
+    IndexRotationPeriod: ''
+    ProcessingConfiguration:
+      Enabled: true
+      Processors:
+        - Parameters:
+            - ParameterName: ''
+              ParameterValue: ''
+          Type: ''
+    RetryOptions:
+      DurationInSeconds: 0
+    RoleARN: ''
+    S3BackupMode: ''
+    S3Configuration:
+      BucketARN: ''
+      BufferingHints:
+        IntervalInSeconds: 0
+        SizeInMBs: 0
+      CloudWatchLoggingOptions:
+        Enabled: true
+        LogGroupName: ''
+        LogStreamName: ''
+      CompressionFormat: ''
+      EncryptionConfiguration:
+        KMSEncryptionConfig:
+          AWSKMSKeyARN: ''
+        NoEncryptionConfig: ''
+      ErrorOutputPrefix: ''
+      Prefix: ''
+      RoleARN: ''
+    TypeName: ''
+  ExtendedS3DestinationConfiguration:
+    BucketARN: ''
+    BufferingHints:
+      IntervalInSeconds: 0
+      SizeInMBs: 0
+    CloudWatchLoggingOptions:
+      Enabled: true
+      LogGroupName: ''
+      LogStreamName: ''
+    CompressionFormat: ''
+    DataFormatConversionConfiguration:
+      Enabled: true
+      InputFormatConfiguration:
+        Deserializer:
+          HiveJsonSerDe:
+            TimestampFormats:
+              - ''
+          OpenXJsonSerDe:
+            CaseInsensitive: true
+            ColumnToJsonKeyMappings:
+              Key: ''
+            ConvertDotsInJsonKeysToUnderscores: true
+      OutputFormatConfiguration:
+        Serializer:
+          OrcSerDe:
+            BlockSizeBytes: 0
+            BloomFilterColumns:
+              - ''
+            BloomFilterFalsePositiveProbability: 0
+            Compression: ''
+            DictionaryKeyThreshold: 0
+            EnablePadding: true
+            FormatVersion: ''
+            PaddingTolerance: 0
+            RowIndexStride: 0
+            StripeSizeBytes: 0
+          ParquetSerDe:
+            BlockSizeBytes: 0
+            Compression: ''
+            EnableDictionaryCompression: true
+            MaxPaddingBytes: 0
+            PageSizeBytes: 0
+            WriterVersion: ''
+      SchemaConfiguration:
+        CatalogId: ''
+        DatabaseName: ''
+        Region: ''
+        RoleARN: ''
+        TableName: ''
+        VersionId: ''
+    EncryptionConfiguration:
+      KMSEncryptionConfig:
+        AWSKMSKeyARN: ''
+      NoEncryptionConfig: ''
+    ErrorOutputPrefix: ''
+    Prefix: ''
+    ProcessingConfiguration:
+      Enabled: true
+      Processors:
+        - Parameters:
+            - ParameterName: ''
+              ParameterValue: ''
+          Type: ''
+    RoleARN: ''
+    S3BackupConfiguration:
+      BucketARN: ''
+      BufferingHints:
+        IntervalInSeconds: 0
+        SizeInMBs: 0
+      CloudWatchLoggingOptions:
+        Enabled: true
+        LogGroupName: ''
+        LogStreamName: ''
+      CompressionFormat: ''
+      EncryptionConfiguration:
+        KMSEncryptionConfig:
+          AWSKMSKeyARN: ''
+        NoEncryptionConfig: ''
+      ErrorOutputPrefix: ''
+      Prefix: ''
+      RoleARN: ''
+    S3BackupMode: ''
+  KinesisStreamSourceConfiguration:
+    KinesisStreamARN: ''
+    RoleARN: ''
+  RedshiftDestinationConfiguration:
+    CloudWatchLoggingOptions:
+      Enabled: true
+      LogGroupName: ''
+      LogStreamName: ''
+    ClusterJDBCURL: ''
+    CopyCommand:
+      CopyOptions: ''
+      DataTableColumns: ''
+      DataTableName: ''
+    Password: ''
+    ProcessingConfiguration:
+      Enabled: true
+      Processors:
+        - Parameters:
+            - ParameterName: ''
+              ParameterValue: ''
+          Type: ''
+    RoleARN: ''
+    S3Configuration:
+      BucketARN: ''
+      BufferingHints:
+        IntervalInSeconds: 0
+        SizeInMBs: 0
+      CloudWatchLoggingOptions:
+        Enabled: true
+        LogGroupName: ''
+        LogStreamName: ''
+      CompressionFormat: ''
+      EncryptionConfiguration:
+        KMSEncryptionConfig:
+          AWSKMSKeyARN: ''
+        NoEncryptionConfig: ''
+      ErrorOutputPrefix: ''
+      Prefix: ''
+      RoleARN: ''
+    Username: ''
+  S3DestinationConfiguration:
+    BucketARN: ''
+    BufferingHints:
+      IntervalInSeconds: 0
+      SizeInMBs: 0
+    CloudWatchLoggingOptions:
+      Enabled: true
+      LogGroupName: ''
+      LogStreamName: ''
+    CompressionFormat: ''
+    EncryptionConfiguration:
+      KMSEncryptionConfig:
+        AWSKMSKeyARN: ''
+      NoEncryptionConfig: ''
+    ErrorOutputPrefix: ''
+    Prefix: ''
+    RoleARN: ''
+  SplunkDestinationConfiguration:
+    CloudWatchLoggingOptions:
+      Enabled: true
+      LogGroupName: ''
+      LogStreamName: ''
+    HECAcknowledgmentTimeoutInSeconds: 0
+    HECEndpoint: ''
+    HECEndpointType: ''
+    HECToken: ''
+    ProcessingConfiguration:
+      Enabled: true
+      Processors:
+        - Parameters:
+            - ParameterName: ''
+              ParameterValue: ''
+          Type: ''
+    RetryOptions:
+      DurationInSeconds: 0
+    S3BackupMode: ''
+    S3Configuration:
+      BucketARN: ''
+      BufferingHints:
+        IntervalInSeconds: 0
+        SizeInMBs: 0
+      CloudWatchLoggingOptions:
+        Enabled: true
+        LogGroupName: ''
+        LogStreamName: ''
+      CompressionFormat: ''
+      EncryptionConfiguration:
+        KMSEncryptionConfig:
+          AWSKMSKeyARN: ''
+        NoEncryptionConfig: ''
+      ErrorOutputPrefix: ''
+      Prefix: ''
+      RoleARN: ''
+Type: AWS::KinesisFirehose::DeliveryStream

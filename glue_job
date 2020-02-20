@@ -1,0 +1,30 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  AllocatedCapacity: 0
+  Command:
+    Name: ''
+    PythonVersion: ''
+    ScriptLocation: ''
+  Connections:
+    Connections:
+      - ''
+  DefaultArguments: {}
+  Description: ''
+  ExecutionProperty:
+    MaxConcurrentRuns: 0
+  GlueVersion: ''
+  LogUri: ''
+  MaxCapacity: 0
+  MaxRetries: 0
+  Name: ''
+  NotificationProperty:
+    NotifyDelayAfter: 0
+  NumberOfWorkers: 0
+  Role: ''
+  SecurityConfiguration: ''
+  Tags: {}
+  Timeout: 0
+  WorkerType: ''
+Type: AWS::Glue::Job

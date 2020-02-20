@@ -1,0 +1,9 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Description: ''
+  Name: ''
+  TargetArns:
+    - ''
+Type: AWS::ApiGateway::VpcLink

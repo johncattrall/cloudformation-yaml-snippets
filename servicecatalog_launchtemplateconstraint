@@ -1,0 +1,10 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  AcceptLanguage: ''
+  Description: ''
+  PortfolioId: ''
+  ProductId: ''
+  Rules: ''
+Type: AWS::ServiceCatalog::LaunchTemplateConstraint

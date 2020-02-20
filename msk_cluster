@@ -1,0 +1,39 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  BrokerNodeGroupInfo:
+    BrokerAZDistribution: ''
+    ClientSubnets:
+      - ''
+    InstanceType: ''
+    SecurityGroups:
+      - ''
+    StorageInfo:
+      EBSStorageInfo:
+        VolumeSize: 0
+  ClientAuthentication:
+    Tls:
+      CertificateAuthorityArnList:
+        - ''
+  ClusterName: ''
+  ConfigurationInfo:
+    Arn: ''
+    Revision: 0
+  EncryptionInfo:
+    EncryptionAtRest:
+      DataVolumeKMSKeyId: ''
+    EncryptionInTransit:
+      ClientBroker: ''
+      InCluster: true
+  EnhancedMonitoring: ''
+  KafkaVersion: ''
+  NumberOfBrokerNodes: 0
+  OpenMonitoring:
+    Prometheus:
+      JmxExporter:
+        EnabledInBroker: true
+      NodeExporter:
+        EnabledInBroker: true
+  Tags: {}
+Type: AWS::MSK::Cluster

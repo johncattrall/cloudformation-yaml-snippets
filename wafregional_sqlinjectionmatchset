@@ -1,0 +1,11 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Name: ''
+  SqlInjectionMatchTuples:
+    - FieldToMatch:
+        Data: ''
+        Type: ''
+      TextTransformation: ''
+Type: AWS::WAFRegional::SqlInjectionMatchSet

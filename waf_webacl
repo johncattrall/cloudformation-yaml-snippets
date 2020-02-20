@@ -1,0 +1,14 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  DefaultAction:
+    Type: ''
+  MetricName: ''
+  Name: ''
+  Rules:
+    - Action:
+        Type: ''
+      Priority: 0
+      RuleId: ''
+Type: AWS::WAF::WebACL

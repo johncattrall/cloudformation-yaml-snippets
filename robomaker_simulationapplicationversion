@@ -1,0 +1,7 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Application: ''
+  CurrentRevisionId: ''
+Type: AWS::RoboMaker::SimulationApplicationVersion

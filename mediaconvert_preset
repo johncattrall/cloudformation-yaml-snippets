@@ -1,0 +1,10 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Category: ''
+  Description: ''
+  Name: ''
+  SettingsJson: {}
+  Tags: {}
+Type: AWS::MediaConvert::Preset

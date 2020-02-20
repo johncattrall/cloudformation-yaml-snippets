@@ -1,0 +1,12 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  InitialVersion:
+    Connectors:
+      - ConnectorArn: ''
+        Id: ''
+        Parameters: {}
+  Name: ''
+  Tags: {}
+Type: AWS::Greengrass::ConnectorDefinition

@@ -1,0 +1,9 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  CIDRIP: ''
+  ClusterSecurityGroupName: ''
+  EC2SecurityGroupName: ''
+  EC2SecurityGroupOwnerId: ''
+Type: AWS::Redshift::ClusterSecurityGroupIngress

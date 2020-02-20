@@ -1,0 +1,26 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  ApplicationName: ''
+  ReferenceDataSource:
+    ReferenceSchema:
+      RecordColumns:
+        - Mapping: ''
+          Name: ''
+          SqlType: ''
+      RecordEncoding: ''
+      RecordFormat:
+        MappingParameters:
+          CSVMappingParameters:
+            RecordColumnDelimiter: ''
+            RecordRowDelimiter: ''
+          JSONMappingParameters:
+            RecordRowPath: ''
+        RecordFormatType: ''
+    S3ReferenceDataSource:
+      BucketARN: ''
+      FileKey: ''
+      ReferenceRoleARN: ''
+    TableName: ''
+Type: AWS::KinesisAnalytics::ApplicationReferenceDataSource

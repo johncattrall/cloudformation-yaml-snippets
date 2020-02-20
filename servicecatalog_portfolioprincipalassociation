@@ -1,0 +1,9 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  AcceptLanguage: ''
+  PortfolioId: ''
+  PrincipalARN: ''
+  PrincipalType: ''
+Type: AWS::ServiceCatalog::PortfolioPrincipalAssociation

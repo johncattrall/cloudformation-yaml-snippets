@@ -1,0 +1,14 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  AssignIpv6AddressOnCreation: true
+  AvailabilityZone: ''
+  CidrBlock: ''
+  Ipv6CidrBlock: ''
+  MapPublicIpOnLaunch: true
+  Tags:
+    - Key: ''
+      Value: ''
+  VpcId: ''
+Type: AWS::EC2::Subnet

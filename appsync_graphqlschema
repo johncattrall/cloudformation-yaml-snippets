@@ -1,0 +1,8 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  ApiId: ''
+  Definition: ''
+  DefinitionS3Location: ''
+Type: AWS::AppSync::GraphQLSchema

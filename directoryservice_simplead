@@ -1,0 +1,16 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  CreateAlias: true
+  Description: ''
+  EnableSso: true
+  Name: ''
+  Password: ''
+  ShortName: ''
+  Size: ''
+  VpcSettings:
+    SubnetIds:
+      - ''
+    VpcId: ''
+Type: AWS::DirectoryService::SimpleAD

@@ -1,0 +1,18 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  AllowMajorVersionUpgrade: true
+  AutoMinorVersionUpgrade: true
+  AvailabilityZone: ''
+  DBClusterIdentifier: ''
+  DBInstanceClass: ''
+  DBInstanceIdentifier: ''
+  DBParameterGroupName: ''
+  DBSnapshotIdentifier: ''
+  DBSubnetGroupName: ''
+  PreferredMaintenanceWindow: ''
+  Tags:
+    - Key: ''
+      Value: ''
+Type: AWS::Neptune::DBInstance

@@ -1,0 +1,9 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Tags:
+    - Key: ''
+      Value: ''
+  TransitGatewayId: ''
+Type: AWS::EC2::TransitGatewayRouteTable

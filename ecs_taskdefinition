@@ -1,0 +1,147 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  ContainerDefinitions:
+    - Command:
+        - ''
+      Cpu: 0
+      DependsOn:
+        - Condition: ''
+          ContainerName: ''
+      DisableNetworking: true
+      DnsSearchDomains:
+        - ''
+      DnsServers:
+        - ''
+      DockerLabels:
+        Key: ''
+      DockerSecurityOptions:
+        - ''
+      EntryPoint:
+        - ''
+      Environment:
+        - Name: ''
+          Value: ''
+      Essential: true
+      ExtraHosts:
+        - Hostname: ''
+          IpAddress: ''
+      FirelensConfiguration:
+        Options:
+          Key: ''
+        Type: ''
+      HealthCheck:
+        Command:
+          - ''
+        Interval: 0
+        Retries: 0
+        StartPeriod: 0
+        Timeout: 0
+      Hostname: ''
+      Image: ''
+      Interactive: true
+      Links:
+        - ''
+      LinuxParameters:
+        Capabilities:
+          Add:
+            - ''
+          Drop:
+            - ''
+        Devices:
+          - ContainerPath: ''
+            HostPath: ''
+            Permissions:
+              - ''
+        InitProcessEnabled: true
+        MaxSwap: 0
+        SharedMemorySize: 0
+        Swappiness: 0
+        Tmpfs:
+          - ContainerPath: ''
+            MountOptions:
+              - ''
+            Size: 0
+      LogConfiguration:
+        LogDriver: ''
+        Options:
+          Key: ''
+        SecretOptions:
+          - Name: ''
+            ValueFrom: ''
+      Memory: 0
+      MemoryReservation: 0
+      MountPoints:
+        - ContainerPath: ''
+          ReadOnly: true
+          SourceVolume: ''
+      Name: ''
+      PortMappings:
+        - ContainerPort: 0
+          HostPort: 0
+          Protocol: ''
+      Privileged: true
+      PseudoTerminal: true
+      ReadonlyRootFilesystem: true
+      RepositoryCredentials:
+        CredentialsParameter: ''
+      ResourceRequirements:
+        - Type: ''
+          Value: ''
+      Secrets:
+        - Name: ''
+          ValueFrom: ''
+      StartTimeout: 0
+      StopTimeout: 0
+      SystemControls:
+        - Namespace: ''
+          Value: ''
+      Ulimits:
+        - HardLimit: 0
+          Name: ''
+          SoftLimit: 0
+      User: ''
+      VolumesFrom:
+        - ReadOnly: true
+          SourceContainer: ''
+      WorkingDirectory: ''
+  Cpu: ''
+  ExecutionRoleArn: ''
+  Family: ''
+  InferenceAccelerators:
+    - DeviceName: ''
+      DevicePolicy: ''
+      DeviceType: ''
+  IpcMode: ''
+  Memory: ''
+  NetworkMode: ''
+  PidMode: ''
+  PlacementConstraints:
+    - Expression: ''
+      Type: ''
+  ProxyConfiguration:
+    ContainerName: ''
+    ProxyConfigurationProperties:
+      - Name: ''
+        Value: ''
+    Type: ''
+  RequiresCompatibilities:
+    - ''
+  Tags:
+    - Key: ''
+      Value: ''
+  TaskRoleArn: ''
+  Volumes:
+    - DockerVolumeConfiguration:
+        Autoprovision: true
+        Driver: ''
+        DriverOpts:
+          Key: ''
+        Labels:
+          Key: ''
+        Scope: ''
+      Host:
+        SourcePath: ''
+      Name: ''
+Type: AWS::ECS::TaskDefinition

@@ -1,0 +1,10 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  FileSystemId: ''
+  IpAddress: ''
+  SecurityGroups:
+    - ''
+  SubnetId: ''
+Type: AWS::EFS::MountTarget

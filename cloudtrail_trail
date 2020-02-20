@@ -1,0 +1,26 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  CloudWatchLogsLogGroupArn: ''
+  CloudWatchLogsRoleArn: ''
+  EnableLogFileValidation: true
+  EventSelectors:
+    - DataResources:
+        - Type: ''
+          Values:
+            - ''
+      IncludeManagementEvents: true
+      ReadWriteType: ''
+  IncludeGlobalServiceEvents: true
+  IsLogging: true
+  IsMultiRegionTrail: true
+  KMSKeyId: ''
+  S3BucketName: ''
+  S3KeyPrefix: ''
+  SnsTopicName: ''
+  Tags:
+    - Key: ''
+      Value: ''
+  TrailName: ''
+Type: AWS::CloudTrail::Trail

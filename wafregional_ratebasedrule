@@ -1,0 +1,13 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  MatchPredicates:
+    - DataId: ''
+      Negated: true
+      Type: ''
+  MetricName: ''
+  Name: ''
+  RateKey: ''
+  RateLimit: 0
+Type: AWS::WAFRegional::RateBasedRule

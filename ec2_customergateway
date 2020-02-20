@@ -1,0 +1,11 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  BgpAsn: 0
+  IpAddress: ''
+  Tags:
+    - Key: ''
+      Value: ''
+  Type: ''
+Type: AWS::EC2::CustomerGateway

@@ -1,0 +1,31 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Cluster: ''
+  ExternalId: ''
+  LaunchType: ''
+  LoadBalancers:
+    - ContainerName: ''
+      ContainerPort: 0
+      LoadBalancerName: ''
+      TargetGroupArn: ''
+  NetworkConfiguration:
+    AwsVpcConfiguration:
+      AssignPublicIp: ''
+      SecurityGroups:
+        - ''
+      Subnets:
+        - ''
+  PlatformVersion: ''
+  Scale:
+    Unit: ''
+    Value: 0
+  Service: ''
+  ServiceRegistries:
+    - ContainerName: ''
+      ContainerPort: 0
+      Port: 0
+      RegistryArn: ''
+  TaskDefinition: ''
+Type: AWS::ECS::TaskSet

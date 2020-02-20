@@ -1,0 +1,47 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  Cluster: ''
+  DeploymentConfiguration:
+    MaximumPercent: 0
+    MinimumHealthyPercent: 0
+  DeploymentController:
+    Type: ''
+  DesiredCount: 0
+  EnableECSManagedTags: true
+  HealthCheckGracePeriodSeconds: 0
+  LaunchType: ''
+  LoadBalancers:
+    - ContainerName: ''
+      ContainerPort: 0
+      LoadBalancerName: ''
+      TargetGroupArn: ''
+  NetworkConfiguration:
+    AwsvpcConfiguration:
+      AssignPublicIp: ''
+      SecurityGroups:
+        - ''
+      Subnets:
+        - ''
+  PlacementConstraints:
+    - Expression: ''
+      Type: ''
+  PlacementStrategies:
+    - Field: ''
+      Type: ''
+  PlatformVersion: ''
+  PropagateTags: ''
+  Role: ''
+  SchedulingStrategy: ''
+  ServiceName: ''
+  ServiceRegistries:
+    - ContainerName: ''
+      ContainerPort: 0
+      Port: 0
+      RegistryArn: ''
+  Tags:
+    - Key: ''
+      Value: ''
+  TaskDefinition: ''
+Type: AWS::ECS::Service

@@ -1,0 +1,35 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  InitialVersion:
+    DefaultConfig:
+      Execution:
+        IsolationMode: ''
+        RunAs:
+          Gid: 0
+          Uid: 0
+    Functions:
+      - FunctionArn: ''
+        FunctionConfiguration:
+          EncodingType: ''
+          Environment:
+            AccessSysfs: true
+            Execution:
+              IsolationMode: ''
+              RunAs:
+                Gid: 0
+                Uid: 0
+            ResourceAccessPolicies:
+              - Permission: ''
+                ResourceId: ''
+            Variables: {}
+          ExecArgs: ''
+          Executable: ''
+          MemorySize: 0
+          Pinned: true
+          Timeout: 0
+        Id: ''
+  Name: ''
+  Tags: {}
+Type: AWS::Greengrass::FunctionDefinition

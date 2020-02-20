@@ -1,0 +1,21 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  AcceptanceRequired: true
+  AcceptanceTimeoutSeconds: 0
+  AdditionalPlayerCount: 0
+  BackfillMode: ''
+  CustomEventData: ''
+  Description: ''
+  GameProperties:
+    - Key: ''
+      Value: ''
+  GameSessionData: ''
+  GameSessionQueueArns:
+    - ''
+  Name: ''
+  NotificationTarget: ''
+  RequestTimeoutSeconds: 0
+  RuleSetName: ''
+Type: AWS::GameLift::MatchmakingConfiguration

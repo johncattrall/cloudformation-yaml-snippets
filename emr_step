@@ -1,0 +1,16 @@
+#contributor: johncattrall github.com/johncattrall
+#
+#
+Properties:
+  ActionOnFailure: ''
+  HadoopJarStep:
+    Args:
+      - ''
+    Jar: ''
+    MainClass: ''
+    StepProperties:
+      - Key: ''
+        Value: ''
+  JobFlowId: ''
+  Name: ''
+Type: AWS::EMR::Step
